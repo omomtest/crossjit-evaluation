@@ -1,0 +1,58 @@
+{
+  "repositories": {
+    "baseline-cpython": {
+      "commit": "76f22853410d3ded872cbfe1430852cf8c048962",
+      "requested_ref": "76f22853410d3ded872cbfe1430852cf8c048962",
+      "submodules": {},
+      "url": "https://github.com/python/cpython.git"
+    },
+    "baseline-numpy": {
+      "commit": "52630673b5282cbe3ee7304d1cbe13a565541a4d",
+      "requested_ref": "52630673b5282cbe3ee7304d1cbe13a565541a4d",
+      "submodules": {
+        "doc/source/_static/scipy-mathjax": "36f4c898f2255e0c98eb6949cd67381552d5ffea",
+        "numpy/_core/src/common/pythoncapi-compat": "8636bccf29adfa23463f810b3c2830f7cff1e933",
+        "numpy/_core/src/highway": "ee36c837129310be19c17c9108c6dc3f6ae06942",
+        "numpy/_core/src/npysort/x86-simd-sort": "5adb33411f3cea8bdbafa9d91bd75bc4bf19c7dd",
+        "numpy/_core/src/umath/svml": "3a713b13018325451c1b939d3914ceff5ec68e19",
+        "numpy/fft/pocketfft": "33ae5dc94c9cdc7f1c78346504a85de87cadaa12",
+        "vendored-meson/meson": "5d5a3d478da115c812be77afa651db2492d52171"
+      },
+      "url": "https://github.com/numpy/numpy.git"
+    },
+    "cpython": {
+      "commit": "a3151783e4919cc0b3a11586186de010b36bacf3",
+      "requested_ref": "main",
+      "submodules": {},
+      "url": "https://github.com/omomtest/crossjit-cpython.git"
+    },
+    "crossjit-generator": {
+      "commit": "88f28733fb11dcc9549ed1952057e97307d4c0a6",
+      "requested_ref": "main",
+      "submodules": {},
+      "url": "https://github.com/omomtest/crossjit-generator.git"
+    },
+    "npbench": {
+      "commit": "f2d7f27d87ba4881991e62c18a607aa6ba52b260",
+      "requested_ref": "f2d7f27d87ba4881991e62c18a607aa6ba52b260",
+      "submodules": {},
+      "url": "https://github.com/omomtest/crossjit-npbench.git"
+    },
+    "numpy": {
+      "commit": "b1c009f3be6871cb783333a47294ce132d50e898",
+      "requested_ref": "main",
+      "submodules": {
+        "doc/source/_static/scipy-mathjax": "36f4c898f2255e0c98eb6949cd67381552d5ffea",
+        "numpy/_core/src/common/pythoncapi-compat": "8636bccf29adfa23463f810b3c2830f7cff1e933",
+        "numpy/_core/src/highway": "ee36c837129310be19c17c9108c6dc3f6ae06942",
+        "numpy/_core/src/npysort/x86-simd-sort": "5adb33411f3cea8bdbafa9d91bd75bc4bf19c7dd",
+        "numpy/_core/src/umath/svml": "3a713b13018325451c1b939d3914ceff5ec68e19",
+        "numpy/fft/pocketfft": "33ae5dc94c9cdc7f1c78346504a85de87cadaa12",
+        "vendored-meson/meson": "5d5a3d478da115c812be77afa651db2492d52171"
+      },
+      "url": "https://github.com/omomtest/crossjit-numpy.git"
+    }
+  },
+  "schema_version": 1,
+  "status": "final_main_release"
+}

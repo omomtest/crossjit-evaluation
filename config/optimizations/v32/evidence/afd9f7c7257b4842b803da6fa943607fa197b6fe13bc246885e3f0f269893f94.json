@@ -1,0 +1,212 @@
+{
+  "configuration": {
+    "benchmark_identity_used_for_selection": false,
+    "formal_npbench_evaluation": false,
+    "independent_processes": 3,
+    "max_cv": 0.15,
+    "samples_per_process": 7,
+    "scalar_kind": "legacy",
+    "scalar_pattern": "python",
+    "speedup_threshold": 1.1
+  },
+  "method": "generic_signature_microbenchmark",
+  "rows": [
+    {
+      "baseline_cv": 0.0024682228910182344,
+      "baseline_median_ns": 89272.33,
+      "correct": true,
+      "element_count": 261360,
+      "execution_specialization_hash": "732456821daf7183a47349d366895c970d1bfeaabf083f0401daebe5e17dddd5",
+      "execution_validation": {
+        "baseline": [
+          {
+            "entry_ordinary_iterations_per_call": 0,
+            "execution_evidence": {
+              "exec_error": 0,
+              "exec_hit": 0,
+              "exec_miss": 0,
+              "generated_exec_hit": 0,
+              "generic_fallback_hit": 0,
+              "output_allocations": 0,
+              "regions_executed": 0
+            },
+            "expected_executions": 700,
+            "expected_region_nodes": 1,
+            "independent_process_index": 0,
+            "observed_region_nodes": 0,
+            "timed_iterations": 700
+          },
+          {
+            "entry_ordinary_iterations_per_call": 0,
+            "execution_evidence": {
+              "exec_error": 0,
+              "exec_hit": 0,
+              "exec_miss": 0,
+              "generated_exec_hit": 0,
+              "generic_fallback_hit": 0,
+              "output_allocations": 0,
+              "regions_executed": 0
+            },
+            "expected_executions": 700,
+            "expected_region_nodes": 1,
+            "independent_process_index": 2,
+            "observed_region_nodes": 0,
+            "timed_iterations": 700
+          },
+          {
+            "entry_ordinary_iterations_per_call": 0,
+            "execution_evidence": {
+              "exec_error": 0,
+              "exec_hit": 0,
+              "exec_miss": 0,
+              "generated_exec_hit": 0,
+              "generic_fallback_hit": 0,
+              "output_allocations": 0,
+              "regions_executed": 0
+            },
+            "expected_executions": 700,
+            "expected_region_nodes": 1,
+            "independent_process_index": 1,
+            "observed_region_nodes": 0,
+            "timed_iterations": 700
+          }
+        ],
+        "generated": [
+          {
+            "entry_ordinary_iterations_per_call": 1,
+            "execution_evidence": {
+              "exec_error": 0,
+              "exec_hit": 693,
+              "exec_miss": 0,
+              "generated_exec_hit": 693,
+              "generic_fallback_hit": 0,
+              "output_allocations": 693,
+              "regions_executed": 693
+            },
+            "expected_executions": 693,
+            "expected_region_nodes": 1,
+            "independent_process_index": 2,
+            "observed_region_nodes": 1,
+            "timed_iterations": 700
+          },
+          {
+            "entry_ordinary_iterations_per_call": 1,
+            "execution_evidence": {
+              "exec_error": 0,
+              "exec_hit": 693,
+              "exec_miss": 0,
+              "generated_exec_hit": 693,
+              "generic_fallback_hit": 0,
+              "output_allocations": 693,
+              "regions_executed": 693
+            },
+            "expected_executions": 693,
+            "expected_region_nodes": 1,
+            "independent_process_index": 0,
+            "observed_region_nodes": 1,
+            "timed_iterations": 700
+          },
+          {
+            "entry_ordinary_iterations_per_call": 1,
+            "execution_evidence": {
+              "exec_error": 0,
+              "exec_hit": 693,
+              "exec_miss": 0,
+              "generated_exec_hit": 693,
+              "generic_fallback_hit": 0,
+              "output_allocations": 693,
+              "regions_executed": 693
+            },
+            "expected_executions": 693,
+            "expected_region_nodes": 1,
+            "independent_process_index": 1,
+            "observed_region_nodes": 1,
+            "timed_iterations": 700
+          }
+        ],
+        "generic": [
+          {
+            "entry_ordinary_iterations_per_call": 1,
+            "execution_evidence": {
+              "exec_error": 0,
+              "exec_hit": 693,
+              "exec_miss": 0,
+              "generated_exec_hit": 0,
+              "generic_fallback_hit": 693,
+              "output_allocations": 693,
+              "regions_executed": 693
+            },
+            "expected_executions": 693,
+            "expected_region_nodes": 1,
+            "independent_process_index": 2,
+            "observed_region_nodes": 1,
+            "timed_iterations": 700
+          },
+          {
+            "entry_ordinary_iterations_per_call": 1,
+            "execution_evidence": {
+              "exec_error": 0,
+              "exec_hit": 693,
+              "exec_miss": 0,
+              "generated_exec_hit": 0,
+              "generic_fallback_hit": 693,
+              "output_allocations": 693,
+              "regions_executed": 693
+            },
+            "expected_executions": 693,
+            "expected_region_nodes": 1,
+            "independent_process_index": 0,
+            "observed_region_nodes": 1,
+            "timed_iterations": 700
+          },
+          {
+            "entry_ordinary_iterations_per_call": 1,
+            "execution_evidence": {
+              "exec_error": 0,
+              "exec_hit": 693,
+              "exec_miss": 0,
+              "generated_exec_hit": 0,
+              "generic_fallback_hit": 693,
+              "output_allocations": 693,
+              "regions_executed": 693
+            },
+            "expected_executions": 693,
+            "expected_region_nodes": 1,
+            "independent_process_index": 1,
+            "observed_region_nodes": 1,
+            "timed_iterations": 700
+          }
+        ]
+      },
+      "generated_cv": 0.005161412888270693,
+      "generated_median_ns": 61925.1,
+      "generated_speedup": 1.441617857702289,
+      "generated_vs_generic": 5.596553901406699,
+      "generic_cv": 0.0018165235832803472,
+      "generic_median_ns": 346567.16,
+      "generic_speedup": 0.2575902748546631,
+      "inner_extent": 3960,
+      "outer_count": 66,
+      "process_medians_ns": {
+        "baseline": [
+          89537.4,
+          89272.33,
+          89099.81
+        ],
+        "generated": [
+          62366.87,
+          61744.78,
+          61925.1
+        ],
+        "generic": [
+          346135.48,
+          347376.06,
+          346567.16
+        ]
+      },
+      "profiled_source": "observed",
+      "structural_signature_hash": "c5391c0a66439917f77d62a210515e9cd93d80a54fdc20d21d3a3629542bd503"
+    }
+  ],
+  "schema_version": 1
+}

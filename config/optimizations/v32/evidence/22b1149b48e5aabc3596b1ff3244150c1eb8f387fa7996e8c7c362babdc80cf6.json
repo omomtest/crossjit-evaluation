@@ -1,0 +1,85 @@
+{
+  "configuration": {
+    "benchmark_identity_used_for_selection": false,
+    "formal_npbench_evaluation": false,
+    "independent_processes": 3,
+    "max_cv": 0.15,
+    "samples_per_process": 7,
+    "scalar_kind": "numpy",
+    "speedup_threshold": 1.1
+  },
+  "method": "generic_signature_microbenchmark",
+  "rows": [
+    {
+      "baseline_cv": 0.03841226924371516,
+      "baseline_median_ns": 1597.52,
+      "correct": true,
+      "element_count": 3481,
+      "execution_specialization_hash": "612dbfe3bec6d64fc43217c8f133669ef453c1d66d0c72afa0367a208f808d62",
+      "generated_cv": 0.005089564059826041,
+      "generated_median_ns": 669.05,
+      "generated_speedup": 2.3877438158583066,
+      "generated_vs_generic": 8.795366564531799,
+      "generic_cv": 0.015605667730179238,
+      "generic_median_ns": 5884.54,
+      "generic_speedup": 0.2714774646786325,
+      "inner_extent": 59,
+      "outer_count": 59,
+      "process_medians_ns": {
+        "baseline": [
+          1550.46,
+          1672.83,
+          1597.52
+        ],
+        "generated": [
+          669.72,
+          669.05,
+          663.53
+        ],
+        "generic": [
+          6033.58,
+          5864.14,
+          5884.54
+        ]
+      },
+      "profiled_source": "observed",
+      "structural_signature_hash": "6ad8411e2584984770861280166c9bb5a66ddb2bb360e850f5822a4425dbc379"
+    },
+    {
+      "baseline_cv": 0.042119919544517874,
+      "baseline_median_ns": 1658.78,
+      "correct": true,
+      "element_count": 3600,
+      "execution_specialization_hash": "612dbfe3bec6d64fc43217c8f133669ef453c1d66d0c72afa0367a208f808d62",
+      "generated_cv": 0.00548824305575206,
+      "generated_median_ns": 632.63,
+      "generated_speedup": 2.62203815816512,
+      "generated_vs_generic": 9.523971357665618,
+      "generic_cv": 0.01852700079399492,
+      "generic_median_ns": 6025.15,
+      "generic_speedup": 0.2753093283984631,
+      "inner_extent": 60,
+      "outer_count": 60,
+      "process_medians_ns": {
+        "baseline": [
+          1602.41,
+          1742.04,
+          1658.78
+        ],
+        "generated": [
+          638.07,
+          632.63,
+          631.59
+        ],
+        "generic": [
+          6209.34,
+          6004.91,
+          6025.15
+        ]
+      },
+      "profiled_source": "observed",
+      "structural_signature_hash": "6ad8411e2584984770861280166c9bb5a66ddb2bb360e850f5822a4425dbc379"
+    }
+  ],
+  "schema_version": 1
+}

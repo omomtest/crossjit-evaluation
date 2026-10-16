@@ -1,0 +1,393 @@
+{
+  "workload": "symm",
+  "provider": {
+    "allocation_time_ns": 0,
+    "candidate_records_dropped": 0,
+    "candidates": [
+      {
+        "dtype_class": 2,
+        "element_count": 0,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 1,
+        "operand_count": 3,
+        "prepare_decision": 2,
+        "profitability_score": 0,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 11,
+        "result_count": 1,
+        "unique_guard_count": 0
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 1,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 1,
+        "operand_count": 3,
+        "prepare_decision": 2,
+        "profitability_score": 1,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 11,
+        "result_count": 1,
+        "unique_guard_count": 0
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 50,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 50,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 50,
+        "eliminable_materialization_count": 3,
+        "guard_count": 5,
+        "internal_value_count": 3,
+        "layout_class": 1,
+        "operand_count": 5,
+        "prepare_decision": 2,
+        "profitability_score": 150,
+        "profitability_threshold": 0,
+        "region_length": 4,
+        "rejection_reason": 11,
+        "result_count": 1,
+        "unique_guard_count": 0
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 50,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 1,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 100,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      }
+    ],
+    "diagnostics_enabled": true,
+    "dtype_histogram": [
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    "exec_error": 0,
+    "exec_hit": 8638,
+    "exec_miss": 0,
+    "execution_lower_time_ns": 0,
+    "execution_plans_destroyed": 0,
+    "execution_plans_lowered": 2,
+    "fixed_fast_path_hit": 0,
+    "fixed_fast_plans_built": 0,
+    "fixed_generic_path_hit": 8638,
+    "fixed_generic_plans_built": 2,
+    "generated_exec_hit": 0,
+    "generated_registry_hit": 0,
+    "generated_registry_miss": 2,
+    "generic_fallback_hit": 8638,
+    "guard_checks": 103656,
+    "guard_error": 0,
+    "guard_hit": 8638,
+    "guard_lower_time_ns": 0,
+    "guard_metadata_reads": 90699,
+    "guard_miss": 0,
+    "guard_plans_destroyed": 0,
+    "guard_plans_lowered": 2,
+    "guard_time_ns": 0,
+    "internal_allocations": 0,
+    "kernel_time_ns": 0,
+    "last_candidate": {
+      "dtype_class": 2,
+      "element_count": 50,
+      "eliminable_materialization_count": 2,
+      "guard_count": 4,
+      "internal_value_count": 2,
+      "layout_class": 1,
+      "operand_count": 4,
+      "prepare_decision": 1,
+      "profitability_score": 100,
+      "profitability_threshold": 0,
+      "region_length": 3,
+      "rejection_reason": 0,
+      "result_count": 1,
+      "unique_guard_count": 4
+    },
+    "layout_histogram": [
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "nodes_recognized": 11,
+    "observed_signature_records_dropped": 0,
+    "observed_signatures": [
+      {
+        "accepted_count": 1,
+        "access_kinds": [
+          2,
+          1
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          4319,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 4319,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 4319,
+        "inner_extent": 50,
+        "input_count": 2,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 1,
+        "layout_class": 1,
+        "max_elements": 50,
+        "min_elements": 50,
+        "node_count": 1,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 2,
+            "output": 2,
+            "right": 1
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 1,
+        "prepare_element_buckets": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 1,
+        "sample_operand_strides": [
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "scalar_mask": 1
+      },
+      {
+        "accepted_count": 1,
+        "access_kinds": [
+          1,
+          2,
+          2,
+          1
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          4319,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 4319,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 4319,
+        "inner_extent": 50,
+        "input_count": 4,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 1,
+        "layout_class": 1,
+        "max_elements": 50,
+        "min_elements": 50,
+        "node_count": 3,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 2,
+            "output": 4,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 2,
+            "output": 5,
+            "right": 3
+          },
+          {
+            "left": 4,
+            "op": 0,
+            "output": 6,
+            "right": 5
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 1,
+        "prepare_element_buckets": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 6,
+        "sample_operand_strides": [
+          [
+            8,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "scalar_mask": 6
+      }
+    ],
+    "output_allocations": 8638,
+    "prepare_time_ns": 0,
+    "region_length_histogram": [
+      0,
+      1,
+      2,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "region_time_ns": 0,
+    "regions_executed": 8638,
+    "regions_prepare_called": 5,
+    "regions_provider_accepted": 2,
+    "regions_rejected_other": 0,
+    "regions_rejected_unprofitable": 0,
+    "regions_rejected_unsupported_contract": 0,
+    "regions_rejected_unsupported_node": 3,
+    "rejection_histogram": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0
+    ],
+    "timing_enabled": false,
+    "unsupported_node_records_dropped": 0,
+    "unsupported_nodes": [
+      {
+        "dtype_class": 2,
+        "inplace": 1,
+        "max_elements": 1,
+        "min_elements": 0,
+        "node_index": 1,
+        "occurrence_count": 2,
+        "refined_layout_class": 4,
+        "region_length": 2,
+        "scalar_mask": 1,
+        "semantic_id": 1
+      },
+      {
+        "dtype_class": 2,
+        "inplace": 1,
+        "max_elements": 50,
+        "min_elements": 50,
+        "node_index": 3,
+        "occurrence_count": 1,
+        "refined_layout_class": 4,
+        "region_length": 4,
+        "scalar_mask": 6,
+        "semantic_id": 1
+      }
+    ]
+  },
+  "diagnostic_source": "/workspace/crossjit-workspace/results/v3-single-opportunities/symm.diagnostic.json",
+  "correct": true
+}

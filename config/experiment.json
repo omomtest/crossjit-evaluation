@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "baseline_python": "/opt/crossjit/baseline-venv/bin/python3",
+  "candidate_python": "/opt/crossjit/candidate-venv/bin/python3",
+  "npbench": "/opt/crossjit/sources/npbench",
+  "source_root": "/opt/crossjit/sources",
+  "build_manifest": "/opt/crossjit/build-manifest.json",
+  "warmup": 300,
+  "jit_stress": 1,
+  "warmup_protocol": null,
+  "repeat": 100,
+  "trials": 10,
+  "blas_threads": 6,
+  "cpu_affinity": null,
+  "seed": 20261002,
+  "preset": "S",
+  "timeout": 1800,
+  "memory_budget_mb": 1024,
+  "stability": {
+    "min_trials": 10,
+    "max_time_cv": 0.10,
+    "max_speedup_cv": 0.10,
+    "max_ratio": 1.20,
+    "max_relative_mad": 0.10,
+    "max_relative_iqr": 0.10,
+    "max_relative_ci_width": 0.20
+  }
+}

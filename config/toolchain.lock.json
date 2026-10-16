@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "base_image": "ubuntu:24.04@sha256:a853f94d226358a79c740cfc7bce0c289748f3fe3488d921d038ccd752c61b60",
+  "ubuntu_snapshot": "20261001T000000Z",
+  "llvm_major": 21,
+  "llvm_package_version": "1:21.1.8~++20251221032922+2078da43e25a-1~exp1~20251221153059.70",
+  "gcc_major": 13,
+  "configure_flags": ["--enable-experimental-jit"],
+  "cflags": "-O3 -fno-strict-aliasing",
+  "numpy_flags": ["-Dbuildtype=release", "-Db_ndebug=if-release", "-Dblas=openblas", "-Dlapack=openblas", "-Dallow-noblas=false", "-Dcpu-baseline=min", "-Dcpu-dispatch=max"]
+}

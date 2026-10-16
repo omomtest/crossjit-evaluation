@@ -1,0 +1,120 @@
+{
+  "schema_version": 2,
+  "scope": "Original process records, diagnostics, logs and protocol metadata for RQ1\u2013RQ4",
+  "derivatives": "Generated locally under results/; retained historical derivatives under ignored data/derived/",
+  "arrays": "Generated input arrays and computed reference-value arrays are excluded. Original input metadata, seeds, validation outcomes and measurement records are retained. Full original archives remain in the private local backup.",
+  "privacy": "Personal paths, host/account identifiers and tar ownership metadata are redacted. Numerical observations are unchanged.",
+  "archives": [
+    {
+      "path": "rq1/intel.tar.gz",
+      "original_archive_sha256": "7aaa07abd4f37a0a6ec4dc225a7fb65b1b1fdf4006d9f9e504e668f3cfe5d683",
+      "files": 4983,
+      "redacted_files": 0,
+      "raw_bytes": 55711370,
+      "bytes": 5707604,
+      "sha256": "c808b9fc56670969eeca5f0557aff983f8e4aa07893ec2607fd4f67bb25eb621",
+      "member_manifest": "rq1/intel.tar.gz.manifest.json",
+      "member_manifest_sha256": "728d4e747022c809e340c177a6f7a9127f870e3277caeef964e6842899e55baa"
+    },
+    {
+      "path": "rq1/apple-m4.tar.gz",
+      "original_archive_sha256": "6e2061a1d814c961d43d97e26d6b57f86fb7085e8a7ef56667875aa7c7e3ac95",
+      "files": 4983,
+      "redacted_files": 0,
+      "raw_bytes": 55782379,
+      "bytes": 5421975,
+      "sha256": "b15ed18b16ecb2b37bd70e13f9c338f4f4d577df62de5794da92a000ef768ac8",
+      "member_manifest": "rq1/apple-m4.tar.gz.manifest.json",
+      "member_manifest_sha256": "37579dbd0540cfac758324c022388bf62d91330d9ab84a8c7643aefe0403333c"
+    },
+    {
+      "path": "rq1/amd-9700x.tar.gz",
+      "original_archive_sha256": "a8d5e1277c38913983794f4a9ca8505c264bd26f2f98e2dcd7dd079e1a70f138",
+      "files": 4983,
+      "redacted_files": 0,
+      "raw_bytes": 55795781,
+      "bytes": 5907920,
+      "sha256": "81b359c5a76413a53e608d283d694d9a6ba42a42eb698859a5f0347183db73e7",
+      "member_manifest": "rq1/amd-9700x.tar.gz.manifest.json",
+      "member_manifest_sha256": "cd15a7a4df73a7bb41eec9df04c92e554b042fb62f8a33c5d6df60eb1af8d294"
+    },
+    {
+      "path": "rq2/full-diagnostics.tar.gz",
+      "original_archive_sha256": "854cae947721570117ab5194ff4763a7c03d5bc636497b0f9700f496eb0e68dc",
+      "files": 1803,
+      "redacted_files": 1167,
+      "raw_bytes": 49303823,
+      "bytes": 3800137,
+      "sha256": "2b0079be747746cfb78768a8f0905bcfe09934330367ad96554c6285a2837c3f",
+      "member_manifest": "rq2/full-diagnostics.tar.gz.manifest.json",
+      "member_manifest_sha256": "3469a2ae2d388520c39af5f68283f171be1ce241a86c14aa0ab1f9b078420372"
+    },
+    {
+      "path": "rq2/adi-fragment.tar.gz",
+      "original_archive_sha256": "854cae947721570117ab5194ff4763a7c03d5bc636497b0f9700f496eb0e68dc",
+      "files": 559,
+      "redacted_files": 367,
+      "raw_bytes": 7631011,
+      "bytes": 722746,
+      "sha256": "40c3e5c54c14c50972c1c7ec16d067f583898aca47aeeb6863a58c465b7ee724",
+      "member_manifest": "rq2/adi-fragment.tar.gz.manifest.json",
+      "member_manifest_sha256": "1ca51ddf4a1dac90cd50db8556bae4a99bb25820c8729face80f7c2317e5f042"
+    },
+    {
+      "path": "rq3/scope-ablation.tar.gz",
+      "original_archive_sha256": "854cae947721570117ab5194ff4763a7c03d5bc636497b0f9700f496eb0e68dc",
+      "files": 9753,
+      "redacted_files": 6467,
+      "raw_bytes": 152367465,
+      "bytes": 13510668,
+      "sha256": "9b1200469f80216989d81193a181e07535338eb5426e47f878cde2e9419b180e",
+      "member_manifest": "rq3/scope-ablation.tar.gz.manifest.json",
+      "member_manifest_sha256": "11f13d1b229d32cff31ada640486db13b1ebd8506eddbf09cad3a1cc06d0ec82"
+    },
+    {
+      "path": "rq3/storage-replay.tar.gz",
+      "original_archive_sha256": "854cae947721570117ab5194ff4763a7c03d5bc636497b0f9700f496eb0e68dc",
+      "files": 7,
+      "redacted_files": 1,
+      "raw_bytes": 185210,
+      "bytes": 26434,
+      "sha256": "7ccaee719917a6964f8541544fefde640463a1564407945af974037cace51944",
+      "member_manifest": "rq3/storage-replay.tar.gz.manifest.json",
+      "member_manifest_sha256": "7e386448b628ebf2296a54726b16556d80ab99c4603a04f83d8cf36c18125b06"
+    },
+    {
+      "path": "rq4/callbacks.tar.gz",
+      "original_archive_sha256": "854cae947721570117ab5194ff4763a7c03d5bc636497b0f9700f496eb0e68dc",
+      "files": 857,
+      "redacted_files": 569,
+      "raw_bytes": 21805008,
+      "bytes": 1592467,
+      "sha256": "bf4edc534748ba4ec7dbdac4dd53db7204245fe6838dbaa80d821933ba910852",
+      "member_manifest": "rq4/callbacks.tar.gz.manifest.json",
+      "member_manifest_sha256": "ddd552fdec2056c525196e3f3b8292463216c6c2bc3d095e953efdfa1cfe66f3"
+    },
+    {
+      "path": "rq4/inactive.tar.gz",
+      "original_archive_sha256": "854cae947721570117ab5194ff4763a7c03d5bc636497b0f9700f496eb0e68dc",
+      "files": 3389,
+      "redacted_files": 2245,
+      "raw_bytes": 34671192,
+      "bytes": 3137511,
+      "sha256": "b8bc127403aefa883585af05bd54541eeb9cb500cc11e7d1fef837a3771854f1",
+      "member_manifest": "rq4/inactive.tar.gz.manifest.json",
+      "member_manifest_sha256": "e8c717a0e534088cacca5c15d3accf2da1eda428fbd095c0e6cf4e85d31c0c90"
+    },
+    {
+      "path": "rq2/adi-allocation.tar.gz",
+      "original_archive_sha256": "e66b8b749aebfd8e28d58c216900fef8e5cd7b3affa61d578ff98cc719f154ec",
+      "files": 181,
+      "redacted_files": 91,
+      "raw_bytes": 9037222,
+      "bytes": 307118,
+      "sha256": "06c3bfcdeec381316701ba576f351e1b60290d25acbcbb3669b4e32dbfe7b885",
+      "member_manifest": "rq2/adi-allocation.tar.gz.manifest.json",
+      "member_manifest_sha256": "ecf40b0584eec75a25c42c221d84aaee8b2d6514413b17b15b3d80b1a834c359"
+    }
+  ],
+  "source_versions": "Source commit, branch and source-lock records are omitted from the uploaded measurement data. New Docker runs resolve each implementation main once and share that candidate build across RQ1\u2013RQ4."
+}

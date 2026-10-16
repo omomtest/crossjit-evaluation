@@ -1,0 +1,12 @@
+pip==26.1.1
+setuptools==80.0.0
+meson==1.11.1
+meson-python==0.20.0
+ninja==1.13.0
+Cython==3.2.6
+packaging==26.2
+pyproject-metadata==0.11.0
+pytest==9.1.1
+iniconfig==2.1.0
+pluggy==1.6.0
+Pygments==2.19.2

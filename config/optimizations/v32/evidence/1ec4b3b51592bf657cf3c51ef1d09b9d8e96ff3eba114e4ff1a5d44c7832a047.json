@@ -1,0 +1,85 @@
+{
+  "configuration": {
+    "benchmark_identity_used_for_selection": false,
+    "formal_npbench_evaluation": false,
+    "independent_processes": 3,
+    "max_cv": 0.15,
+    "samples_per_process": 7,
+    "scalar_kind": "numpy",
+    "speedup_threshold": 1.1
+  },
+  "method": "generic_signature_microbenchmark",
+  "rows": [
+    {
+      "baseline_cv": 0.004684139725106983,
+      "baseline_median_ns": 815.3083333333333,
+      "correct": true,
+      "element_count": 625,
+      "execution_specialization_hash": "fc335417a580d9147802ed8cc53dda9eb26a1e9c0c2b1100f81164a6e5206be4",
+      "generated_cv": 0.01328604290826921,
+      "generated_median_ns": 296.18541666666664,
+      "generated_speedup": 2.7526957353572157,
+      "generated_vs_generic": 4.604977175052227,
+      "generic_cv": 0.004946292429771809,
+      "generic_median_ns": 1363.9270833333333,
+      "generic_speedup": 0.5977653375287352,
+      "inner_extent": 25,
+      "outer_count": 25,
+      "process_medians_ns": {
+        "baseline": [
+          812.375,
+          819.9541666666667,
+          815.3083333333333
+        ],
+        "generated": [
+          295.5208333333333,
+          296.18541666666664,
+          302.68958333333336
+        ],
+        "generic": [
+          1363.9270833333333,
+          1374.0375,
+          1361.2125
+        ]
+      },
+      "profiled_source": "observed",
+      "structural_signature_hash": "b374deea811d5a80429e5848ba95c4d43e342f51573d383db28be3e1b0c0fcd4"
+    },
+    {
+      "baseline_cv": 0.020093688608573256,
+      "baseline_median_ns": 1571.15,
+      "correct": true,
+      "element_count": 3481,
+      "execution_specialization_hash": "fc335417a580d9147802ed8cc53dda9eb26a1e9c0c2b1100f81164a6e5206be4",
+      "generated_cv": 0.000471380473718179,
+      "generated_median_ns": 891.35,
+      "generated_speedup": 1.762663375778314,
+      "generated_vs_generic": 7.63384753463847,
+      "generic_cv": 0.08649789224787725,
+      "generic_median_ns": 6804.43,
+      "generic_speedup": 0.23090104534839803,
+      "inner_extent": 59,
+      "outer_count": 59,
+      "process_medians_ns": {
+        "baseline": [
+          1570.04,
+          1571.15,
+          1625.89
+        ],
+        "generated": [
+          890.91,
+          891.35,
+          891.75
+        ],
+        "generic": [
+          6804.43,
+          6818.52,
+          5839.6
+        ]
+      },
+      "profiled_source": "observed",
+      "structural_signature_hash": "b374deea811d5a80429e5848ba95c4d43e342f51573d383db28be3e1b0c0fcd4"
+    }
+  ],
+  "schema_version": 1
+}

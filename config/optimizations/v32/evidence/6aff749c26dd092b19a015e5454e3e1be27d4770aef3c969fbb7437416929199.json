@@ -1,0 +1,50 @@
+{
+  "configuration": {
+    "benchmark_identity_used_for_selection": false,
+    "formal_npbench_evaluation": false,
+    "independent_processes": 3,
+    "max_cv": 0.15,
+    "samples_per_process": 7,
+    "scalar_kind": "numpy",
+    "speedup_threshold": 1.1
+  },
+  "method": "generic_signature_microbenchmark",
+  "rows": [
+    {
+      "baseline_cv": 0.006371835742901924,
+      "baseline_median_ns": 345.56219369894984,
+      "correct": true,
+      "element_count": 70,
+      "execution_specialization_hash": "363a7a29f783dc8c65cdcd1a8186e4c4ab6e2169acd501dab9e29230e379ce5d",
+      "generated_cv": 0.008331901009492673,
+      "generated_median_ns": 195.70081680280046,
+      "generated_speedup": 1.7657677640004867,
+      "generated_vs_generic": 4.865329164371114,
+      "generic_cv": 0.002662840192417309,
+      "generic_median_ns": 952.1488914819137,
+      "generic_speedup": 0.3629287360311062,
+      "inner_extent": 70,
+      "outer_count": 1,
+      "process_medians_ns": {
+        "baseline": [
+          345.56219369894984,
+          343.62287047841306,
+          348.0186697782964
+        ],
+        "generated": [
+          194.7992998833139,
+          197.9710618436406,
+          195.70081680280046
+        ],
+        "generic": [
+          950.2214702450408,
+          955.249008168028,
+          952.1488914819137
+        ]
+      },
+      "profiled_source": "observed",
+      "structural_signature_hash": "50001a95cfe354a3c66d29e5fe5f541c9032b14123d4a696084e8f8b566d3b9c"
+    }
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {"name": "separate_guards", "mechanism": "guard combining", "environment": {"NPY_CROSSJIT_DIAGNOSTIC_SEPARATE_GUARDS": "1"}, "source_symbol": "NPY_CROSSJIT_DIAGNOSTIC_SEPARATE_GUARDS", "invariant": "same_reached_inventory"},
+    {"name": "without_affine_coalesced", "mechanism": "affine/coalesced support", "python": null, "reason": "Supply an independently built, source-locked capability ablation."},
+    {"name": "shorter_regions", "mechanism": "shorter versus longer legal regions", "python": null, "reason": "No verified runtime region-length switch; provide a frozen ablation executable."},
+    {"name": "without_provider_first", "mechanism": "Provider-first discovery", "python": null, "reason": "No verified runtime switch; provide a frozen ablation executable."},
+    {"name": "without_one_node", "mechanism": "one-node admission", "python": null, "reason": "Provide an independently built capability/policy ablation executable."},
+    {"name": "alternate_policy", "mechanism": "measured policy", "python": null, "reason": "Provide an independently calibrated and rebuilt policy executable."}
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "configuration": {
+    "benchmark_identity_used_for_selection": false,
+    "contiguous_padding": "0,0",
+    "formal_npbench_evaluation": false,
+    "independent_processes": 3,
+    "max_cv": 0.15,
+    "prepared_operation": "mul",
+    "samples_per_process": 7,
+    "scalar_kind": "legacy",
+    "scalar_pattern": "numpy",
+    "speedup_threshold": 1.1
+  },
+  "method": "generic_signature_microbenchmark",
+  "rows": [
+    {
+      "baseline_cv": 0.011102679733201311,
+      "baseline_median_ns": 1814337.1,
+      "correct": true,
+      "element_count": 760000,
+      "execution_specialization_hash": "064a26f22ddc7d0e244d0f9476ed3af5249503a6e7d40aa3c7b6d26d7afc3ef3",
+      "execution_validation": {
+        "baseline": [
+          {
+            "entry_ordinary_iterations_per_call": 0,
+            "execution_evidence": {
+              "exec_error": 0,
+              "exec_hit": 0,
+              "exec_miss": 0,
+              "generated_exec_hit": 0,
+              "generic_fallback_hit": 0,
+              "output_allocations": 0,
+              "regions_executed": 0
+            },
+            "expected_executions": 70,
+            "expected_region_nodes": 2,
+            "independent_process_index": 0,
+            "observed_region_nodes": 0,
+            "observed_scalar_class_mask": 0,
+            "prepared_operation": "mul",
+            "prepared_scalar_values": 0,
+            "timed_iterations": 70
+          },
+          {
+            "entry_ordinary_iterations_per_call": 0,
+            "execution_evidence": {
+              "exec_error": 0,
+              "exec_hit": 0,
+              "exec_miss": 0,
+              "generated_exec_hit": 0,
+              "generic_fallback_hit": 0,
+              "output_allocations": 0,
+              "regions_executed": 0
+            },
+            "expected_executions": 70,
+            "expected_region_nodes": 2,
+            "independent_process_index": 2,
+            "observed_region_nodes": 0,
+            "observed_scalar_class_mask": 0,
+            "prepared_operation": "mul",
+            "prepared_scalar_values": 0,
+            "timed_iterations": 70
+          },
+          {
+            "entry_ordinary_iterations_per_call": 0,
+            "execution_evidence": {
+              "exec_error": 0,
+              "exec_hit": 0,
+              "exec_miss": 0,
+              "generated_exec_hit": 0,
+              "generic_fallback_hit": 0,
+              "output_allocations": 0,
+              "regions_executed": 0
+            },
+            "expected_executions": 70,
+            "expected_region_nodes": 2,
+            "independent_process_index": 1,
+            "observed_region_nodes": 0,
+            "observed_scalar_class_mask": 0,
+            "prepared_operation": "mul",
+            "prepared_scalar_values": 0,
+            "timed_iterations": 70
+          }
+        ],
+        "generated": [
+          {
+            "entry_ordinary_iterations_per_call": 1,
+            "execution_evidence": {
+              "exec_error": 0,
+              "exec_hit": 63,
+              "exec_miss": 0,
+              "generated_exec_hit": 63,
+              "generic_fallback_hit": 0,
+              "output_allocations": 63,
+              "regions_executed": 63
+            },
+            "expected_executions": 63,
+            "expected_region_nodes": 2,
+            "independent_process_index": 2,
+            "observed_region_nodes": 2,
+            "observed_scalar_class_mask": 2,
+            "prepared_operation": "mul",
+            "prepared_scalar_values": 0,
+            "timed_iterations": 70
+          },
+          {
+            "entry_ordinary_iterations_per_call": 1,
+            "execution_evidence": {
+              "exec_error": 0,
+              "exec_hit": 63,
+              "exec_miss": 0,
+              "generated_exec_hit": 63,
+              "generic_fallback_hit": 0,
+              "output_allocations": 63,
+              "regions_executed": 63
+            },
+            "expected_executions": 63,
+            "expected_region_nodes": 2,
+            "independent_process_index": 0,
+            "observed_region_nodes": 2,
+            "observed_scalar_class_mask": 2,
+            "prepared_operation": "mul",
+            "prepared_scalar_values": 0,
+            "timed_iterations": 70
+          },
+          {
+            "entry_ordinary_iterations_per_call": 1,
+            "execution_evidence": {
+              "exec_error": 0,
+              "exec_hit": 63,
+              "exec_miss": 0,
+              "generated_exec_hit": 63,
+              "generic_fallback_hit": 0,
+              "output_allocations": 63,
+              "regions_executed": 63
+            },
+            "expected_executions": 63,
+            "expected_region_nodes": 2,
+            "independent_process_index": 1,
+            "observed_region_nodes": 2,
+            "observed_scalar_class_mask": 2,
+            "prepared_operation": "mul",
+            "prepared_scalar_values": 0,
+            "timed_iterations": 70
+          }
+        ],
+        "generic": [
+          {
+            "entry_ordinary_iterations_per_call": 1,
+            "execution_evidence": {
+              "exec_error": 0,
+              "exec_hit": 63,
+              "exec_miss": 0,
+              "generated_exec_hit": 0,
+              "generic_fallback_hit": 63,
+              "output_allocations": 63,
+              "regions_executed": 63
+            },
+            "expected_executions": 63,
+            "expected_region_nodes": 2,
+            "independent_process_index": 2,
+            "observed_region_nodes": 2,
+            "observed_scalar_class_mask": 2,
+            "prepared_operation": "mul",
+            "prepared_scalar_values": 0,
+            "timed_iterations": 70
+          },
+          {
+            "entry_ordinary_iterations_per_call": 1,
+            "execution_evidence": {
+              "exec_error": 0,
+              "exec_hit": 63,
+              "exec_miss": 0,
+              "generated_exec_hit": 0,
+              "generic_fallback_hit": 63,
+              "output_allocations": 63,
+              "regions_executed": 63
+            },
+            "expected_executions": 63,
+            "expected_region_nodes": 2,
+            "independent_process_index": 0,
+            "observed_region_nodes": 2,
+            "observed_scalar_class_mask": 2,
+            "prepared_operation": "mul",
+            "prepared_scalar_values": 0,
+            "timed_iterations": 70
+          },
+          {
+            "entry_ordinary_iterations_per_call": 1,
+            "execution_evidence": {
+              "exec_error": 0,
+              "exec_hit": 63,
+              "exec_miss": 0,
+              "generated_exec_hit": 0,
+              "generic_fallback_hit": 63,
+              "output_allocations": 63,
+              "regions_executed": 63
+            },
+            "expected_executions": 63,
+            "expected_region_nodes": 2,
+            "independent_process_index": 1,
+            "observed_region_nodes": 2,
+            "observed_scalar_class_mask": 2,
+            "prepared_operation": "mul",
+            "prepared_scalar_values": 0,
+            "timed_iterations": 70
+          }
+        ]
+      },
+      "generated_cv": 0.0071474365072128655,
+      "generated_median_ns": 814377.5,
+      "generated_speedup": 2.227882155388625,
+      "generated_vs_generic": 2.3097826253795075,
+      "generic_cv": 0.010265944812056702,
+      "generic_median_ns": 1881035.0,
+      "generic_speedup": 0.9645419144247716,
+      "inner_extent": 950,
+      "outer_count": 800,
+      "process_medians_ns": {
+        "baseline": [
+          1838612.7,
+          1814337.1,
+          1798561.3
+        ],
+        "generated": [
+          808828.6,
+          814377.5,
+          820468.4
+        ],
+        "generic": [
+          1879928.9,
+          1914104.7,
+          1881035.0
+        ]
+      },
+      "profiled_source": "observed",
+      "structural_signature_hash": "be93e9a6b31c3a03defad96339eb72bb919ac864bc35911b17f88d5b2a7c96fb"
+    }
+  ],
+  "schema_version": 1
+}

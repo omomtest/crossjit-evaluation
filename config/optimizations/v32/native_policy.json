@@ -1,0 +1,2239 @@
+{
+  "backend_version": "native-region-v3",
+  "records": [
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|11|4|2|1|2|16,16,128,128,|a:11:4:16,1048576;16,65536;128,512;128,4;|a:11:4:16,8192;16,512;128,4;1,4;|n:1:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|11|4|2|1|2|16,16,128,128,|a:11:4:16,1048576;16,65536;128,512;128,4;|a:11:4:16,8192;16,512;128,4;1,4;|n:3:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|4|1|1|1|16,16,128,128,|a:11:4:16,1048576;16,65536;128,512;128,4;|n:18:0:0:1|b:3|v:0:11:0:4:16,1048576;16,65536;128,512;128,4;|h:0:1:0:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|4|2|2|3|16,16,128,128,|a:11:4:16,1048576;16,65536;128,512;128,4;|a:11:4:16,8192;16,512;128,4;1,4;|n:1:0:1:2|n:18:2:2:3|b:3|u:1:0:2|v:0:11:0:4:16,1048576;16,65536;128,512;128,4;|l:0:1|v:1:11:0:4:16,1048576;16,65536;128,512;128,4;|h:1:1:0:0:"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|4|3|1|3|16,16,128,1,|a:11:4:16,1048576;16,65536;128,512;128,4;|c:1:1:-1,|c:3:1:1,|n:21:0:1:3|r:0:1:1:3,|b:3|v:0:11:0:4:16,8192;16,512;128,4;1,4;|h:0:1:0:2:4:axis,8:keepdims,"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|4|3|1|3|16,16,128,1,|a:11:4:16,1048576;16,65536;128,512;128,4;|c:1:1:-1,|c:3:1:1,|n:22:0:1:3|r:0:1:1:3,|b:3|v:0:11:0:4:16,8192;16,512;128,4;1,4;|h:0:1:0:2:4:axis,8:keepdims,"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|2|3|2|4|1000,1100,|s:2|a:12:2:1000,9600;1200,8;|a:12:2:1200,8800;1100,8;|n:2:0:1:3|n:11:3:2:4|b:3|v:0:12:0:2:1000,9600;1200,8;|l:0:1|v:1:12:0:2:1000,8800;1100,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|2|4|3|6|1000,1100,|a:12:2:1000,9600;1200,8;|a:12:2:1200,8800;1100,8;|s:2|a:12:2:1000,8800;1100,8;|n:11:0:1:4|n:2:2:3:5|n:0:4:5:6|b:3|u:2:1:2|v:0:12:0:2:1000,8800;1100,8;|v:1:12:0:2:1000,8800;1100,8;|l:1:1|v:2:12:0:2:1000,8800;1100,8;|l:2:1"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|2|5|4|8|1000,1100,|s:2|a:12:2:1000,9600;1200,8;|a:12:2:1200,8800;1100,8;|s:2|a:12:2:1000,8800;1100,8;|n:2:0:1:5|n:11:5:2:6|n:2:3:4:7|n:0:6:7:8|b:3|u:3:2:2|v:0:12:0:2:1000,9600;1200,8;|l:0:1|v:1:12:0:2:1000,8800;1100,8;|v:2:12:0:2:1000,8800;1100,8;|l:2:1|v:3:12:0:2:1000,8800;1100,8;|l:3:1"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|2|3|2|4|800,850,|s:2|a:12:2:800,7200;900,8;|a:12:2:900,6800;850,8;|n:2:0:1:3|n:11:3:2:4|b:3|v:0:12:0:2:800,7200;900,8;|l:0:1|v:1:12:0:2:800,6800;850,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|2|3|2|4|800,950,|a:12:2:800,7200;900,8;|a:12:2:900,6800;850,8;|a:12:2:850,7600;950,8;|n:11:0:1:3|n:11:3:2:4|b:3|v:0:12:0:2:800,6800;850,8;|v:1:12:0:2:800,7600;950,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|2|4|3|6|800,950,|a:12:2:800,6800;850,8;|a:12:2:850,7600;950,8;|s:2|a:12:2:800,7600;950,8;|n:11:0:1:4|n:2:2:3:5|n:0:4:5:6|b:3|u:2:1:2|v:0:12:0:2:800,7600;950,8;|v:1:12:0:2:800,7600;950,8;|l:1:1|v:2:12:0:2:800,7600;950,8;|l:2:1"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|2|4|3|6|800,950,|s:2|a:12:2:800,7200;900,8;|a:12:2:900,6800;850,8;|a:12:2:850,7600;950,8;|n:2:0:1:4|n:11:4:2:5|n:11:5:3:6|b:3|v:0:12:0:2:800,7200;900,8;|l:0:1|v:1:12:0:2:800,6800;850,8;|v:2:12:0:2:800,7600;950,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|2|5|4|8|800,950,|a:12:2:800,7200;900,8;|a:12:2:900,6800;850,8;|a:12:2:850,7600;950,8;|s:2|a:12:2:800,7600;950,8;|n:11:0:1:5|n:11:5:2:6|n:2:3:4:7|n:0:6:7:8|b:3|u:3:2:2|v:0:12:0:2:800,6800;850,8;|v:1:12:0:2:800,7600;950,8;|v:2:12:0:2:800,7600;950,8;|l:2:1|v:3:12:0:2:800,7600;950,8;|l:3:1"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|2|6|5|10|800,950,|s:2|a:12:2:800,7200;900,8;|a:12:2:900,6800;850,8;|a:12:2:850,7600;950,8;|s:2|a:12:2:800,7600;950,8;|n:2:0:1:6|n:11:6:2:7|n:11:7:3:8|n:2:4:5:9|n:0:8:9:10|b:3|u:4:3:2|v:0:12:0:2:800,7200;900,8;|l:0:1|v:1:12:0:2:800,6800;850,8;|v:2:12:0:2:800,7600;950,8;|v:3:12:0:2:800,7600;950,8;|l:3:1|v:4:12:0:2:800,7600;950,8;|l:4:1"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|1|1|1||s:2|n:17:0:0:1|b:3|v:0:12:1:0:|h:0:1:0:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|2|1|2||a:12:1:0,8;|a:12:1:0,8;|n:23:0:1:2|b:3|v:0:12:1:0:|h:0:2:0:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|2|1|2||a:12:1:74,8;|a:12:1:74,8;|n:23:0:1:2|b:3|v:0:12:1:0:|h:0:2:0:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|2|1|2||a:12:1:9,8;|a:12:1:9,8;|n:23:0:1:2|b:3|v:0:12:1:0:|h:0:2:0:0:"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|1000,1000,|a:12:2:1000,8000;1000,8;|a:12:2:1000,8000;1000,8;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|2|1|2||a:12:1:0,520;|a:12:1:0,640;|n:23:0:1:2|b:3|v:0:12:1:0:|h:0:2:0:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|2|1|2||a:12:1:64,520;|a:12:1:64,640;|n:23:0:1:2|b:3|v:0:12:1:0:|h:0:2:0:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|48,|a:12:1:48,8;|a:12:1:48,8;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|1000,|a:12:1:1000,8;|a:12:1:1000,8;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|1000,|s:2|a:12:1:1000,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|1000,1000,|s:2|a:12:2:1000,8000;1000,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|2|1|2|1000,|a:12:1:1000,8;|a:12:2:1000,8000;1000,8;|n:11:0:1:2|b:3|v:0:12:0:1:1000,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|2|1|2|1000,|a:12:2:1000,8000;1000,8;|a:12:1:1000,8;|n:11:0:1:2|b:3|v:0:12:0:1:1000,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|3|2|4|1000,|a:12:1:1000,8;|a:12:2:1000,8000;1000,8;|a:12:1:1000,8;|n:11:0:1:3|n:0:3:2:4|b:3|u:1:0:2|v:0:12:0:1:1000,8;|v:1:12:0:1:1000,8;|l:1:1"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|3|2|4|1000,|s:2|a:12:1:1000,8;|a:12:2:1000,8000;1000,8;|n:2:0:1:3|n:11:3:2:4|b:3|v:0:12:0:1:1000,8;|l:0:1|v:1:12:0:1:1000,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|3|2|4|1000,|s:2|a:12:2:1000,8000;1000,8;|a:12:1:1000,8;|n:2:0:1:3|n:11:3:2:4|b:3|v:0:12:0:2:1000,8000;1000,8;|l:0:1|v:1:12:0:1:1000,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|4|3|6|1000,|s:2|a:12:1:1000,8;|a:12:2:1000,8000;1000,8;|a:12:1:1000,8;|n:2:0:1:4|n:11:4:2:5|n:0:5:3:6|b:3|u:2:1:2|v:0:12:0:1:1000,8;|l:0:1|v:1:12:0:1:1000,8;|v:2:12:0:1:1000,8;|l:2:1"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|2000,|a:12:1:2000,8;|a:12:1:2000,8;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|2000,2000,|s:2|a:12:2:2000,16000;2000,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|2|1|2|2000,|a:12:2:2000,16000;2000,8;|a:12:1:2000,8;|n:11:0:1:2|b:3|v:0:12:0:1:2000,8;"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|3|2|4|2000,|a:12:2:2000,16000;2000,8;|a:12:1:2000,8;|a:12:1:2000,8;|n:11:0:1:3|n:0:2:3:4|b:3|u:1:0:2|v:0:12:0:1:2000,8;|v:1:12:0:1:2000,8;|l:1:1"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|3|2|4|2000,|s:2|a:12:2:2000,16000;2000,8;|a:12:1:2000,8;|n:2:0:1:3|n:11:3:2:4|b:3|v:0:12:0:2:2000,16000;2000,8;|l:0:1|v:1:12:0:1:2000,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|4|3|6|2000,|s:2|a:12:2:2000,16000;2000,8;|a:12:1:2000,8;|a:12:1:2000,8;|n:2:0:1:4|n:11:4:2:5|n:0:3:5:6|b:3|u:2:1:2|v:0:12:0:2:2000,16000;2000,8;|l:0:1|v:1:12:0:1:2000,8;|v:2:12:0:1:2000,8;|l:2:1"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|4|4|7|2000,|a:12:2:2000,16000;2000,8;|a:12:1:2000,8;|s:2|a:12:2:2000,16000;2000,8;|n:11:0:1:4|n:2:2:3:5|n:11:5:1:6|n:0:4:6:7|b:3|u:3:2:2|v:0:12:0:1:2000,8;|v:1:12:0:2:2000,16000;2000,8;|l:1:1|v:2:12:0:1:2000,8;|v:3:12:0:1:2000,8;|l:3:1"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|5|5|9|2000,|s:2|a:12:2:2000,16000;2000,8;|a:12:1:2000,8;|s:2|a:12:2:2000,16000;2000,8;|n:2:0:1:5|n:11:5:2:6|n:2:3:4:7|n:11:7:2:8|n:0:6:8:9|b:3|u:4:3:2|v:0:12:0:2:2000,16000;2000,8;|l:0:1|v:1:12:0:1:2000,8;|v:2:12:0:2:2000,16000;2000,8;|l:2:1|v:3:12:0:1:2000,8;|v:4:12:0:1:2000,8;|l:4:1"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|3|2|4|3198,|a:12:1:3198,8;|a:12:1:3198,8;|s:1|n:0:0:1:3|n:2:2:3:4|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|3198,|a:12:1:3198,8;|a:12:1:3198,8;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|3198,|s:1|a:12:1:3198,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|3|2|4|148,148,|a:12:2:148,1184;148,8;|a:12:2:148,1200;148,8;|s:1|n:0:0:1:3|n:2:2:3:4|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|148,148,|a:12:2:148,1184;148,8;|a:12:2:148,1200;148,8;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|148,148,|a:12:2:148,1200;148,8;|a:12:2:148,1200;148,8;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|148,148,|s:1|a:12:2:148,1184;148,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|4|3|6|50,|a:12:1:50,8;|s:2|s:2|a:12:1:50,8;|n:2:0:1:4|n:2:2:3:5|n:0:4:5:6|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|0,|s:2|a:12:1:0,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|1,|s:2|a:12:1:1,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|24,|s:2|a:12:1:24,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|50,|s:2|a:12:1:50,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|2|1|2||a:12:1:0,400;|a:12:1:0,8;|n:11:0:1:2|b:3|v:0:12:1:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|2|1|2||a:12:1:1,400;|a:12:1:1,8;|n:11:0:1:2|b:3|v:0:12:1:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|2|1|2||a:12:1:24,400;|a:12:1:24,8;|n:11:0:1:2|b:3|v:0:12:1:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|7|2|3|2|4|2000,2000,|a:7:2:2000,16000;2000,8;|a:7:2:2000,16000;2000,8;|s:7|n:0:0:1:3|n:0:3:2:4|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|7|2|3|2|4|2000,2000,|a:7:2:2000,16000;2000,8;|s:7|a:7:2:2000,16000;2000,8;|n:2:0:1:3|n:0:2:3:4|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|7|2|4|3|6|2000,2000,|a:7:2:2000,16000;2000,8;|s:7|a:7:2:2000,16000;2000,8;|s:7|n:2:0:1:4|n:0:2:4:5|n:0:5:3:6|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|7|2|4|3|6|2000,2000,|a:7:2:2000,16000;2000,8;|s:7|a:7:2:2000,16000;2000,8;|s:7|n:2:0:1:4|n:2:2:3:5|n:0:4:5:6|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|7|2|5|4|8|2000,2000,|a:7:2:2000,16000;2000,8;|s:7|a:7:2:2000,16000;2000,8;|s:7|s:7|n:2:0:1:5|n:2:2:3:6|n:0:5:6:7|n:0:7:4:8|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|7|2|2|1|2|2000,2000,|a:7:2:2000,16000;2000,8;|a:7:2:2000,16000;2000,8;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|7|2|2|1|2|2000,2000,|a:7:2:2000,16000;2000,8;|s:7|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|7|2|2|1|2|2000,2000,|a:7:2:2000,16000;2000,8;|s:7|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|2|1|2|4000,|a:12:2:4000,40000;5000,8;|a:12:1:5000,8;|n:11:0:1:2|b:3|v:0:12:0:1:4000,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|2|1|2|5000,|a:12:1:4000,8;|a:12:2:4000,40000;5000,8;|n:11:0:1:2|b:3|v:0:12:0:1:5000,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|2|2|3|5000,|a:12:2:4000,40000;5000,8;|a:12:1:5000,8;|n:11:0:1:2|n:11:2:0:3|b:3|v:0:12:0:1:4000,8;|v:1:12:0:1:5000,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|2|1|2|4000,|a:12:1:5000,8;|a:12:2:5000,32000;4000,8;|n:11:0:1:2|b:3|v:0:12:0:1:4000,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|2|1|2|5000,|a:12:2:5000,32000;4000,8;|a:12:1:4000,8;|n:11:0:1:2|b:3|v:0:12:0:1:5000,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|2|1|2|5500,|a:12:1:5500,8;|a:12:2:5500,44000;5500,8;|n:11:0:1:2|b:3|v:0:12:0:1:5500,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|2|1|2|5500,|a:12:2:5500,44000;5500,8;|a:12:1:5500,8;|n:11:0:1:2|b:3|v:0:12:0:1:5500,8;"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|2|1|2||a:12:1:0,8;|a:12:1:0,480;|n:11:0:1:2|b:3|v:0:12:1:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|2|1|2||a:12:1:1,8;|a:12:1:1,480;|n:11:0:1:2|b:3|v:0:12:1:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|2|1|2||a:12:1:15,8;|a:12:1:15,480;|n:11:0:1:2|b:3|v:0:12:1:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|2|1|2||a:12:1:9,8;|a:12:1:9,480;|n:11:0:1:2|b:3|v:0:12:1:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|2|1|2||a:12:1:0,8;|a:12:1:0,8;|n:11:0:1:2|b:3|v:0:12:1:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|2|1|2||a:12:1:4,8;|a:12:1:4,8;|n:11:0:1:2|b:3|v:0:12:1:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|2|1|2||a:12:1:64,8;|a:12:1:64,8;|n:11:0:1:2|b:3|v:0:12:1:0:"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|2|2|1|2|800,1000,|a:12:2:800,6800;850,8;|a:12:2:850,8000;1000,8;|n:11:0:1:2|b:3|v:0:12:0:2:800,8000;1000,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|2|2|1|2|800,850,|a:12:2:800,7200;900,8;|a:12:2:900,6800;850,8;|n:11:0:1:2|b:3|v:0:12:0:2:800,6800;850,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|2|2|1|2|800,950,|a:12:2:800,8000;1000,8;|a:12:2:1000,7600;950,8;|n:11:0:1:2|b:3|v:0:12:0:2:800,7600;950,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|2|3|2|4|800,1000,|a:12:2:800,7200;900,8;|a:12:2:900,6800;850,8;|a:12:2:850,8000;1000,8;|n:11:0:1:3|n:11:3:2:4|b:3|v:0:12:0:2:800,6800;850,8;|v:1:12:0:2:800,8000;1000,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|2|3|2|4|800,950,|a:12:2:800,6800;850,8;|a:12:2:850,8000;1000,8;|a:12:2:1000,7600;950,8;|n:11:0:1:3|n:11:3:2:4|b:3|v:0:12:0:2:800,8000;1000,8;|v:1:12:0:2:800,7600;950,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|2|4|3|6|800,950,|a:12:2:800,7200;900,8;|a:12:2:900,6800;850,8;|a:12:2:850,8000;1000,8;|a:12:2:1000,7600;950,8;|n:11:0:1:4|n:11:4:2:5|n:11:5:3:6|b:3|v:0:12:0:2:800,6800;850,8;|v:1:12:0:2:800,8000;1000,8;|v:2:12:0:2:800,7600;950,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|4|2|1|2|60,60,1,128,|a:12:4:60,61440;60,1024;1,1024;128,8;|a:12:2:128,1024;128,8;|n:11:0:1:2|b:3|v:0:12:0:4:60,61440;60,1024;1,1024;128,8;"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|3|2|4|1,|a:12:1:1,8;|s:2|a:12:1:1,8;|n:2:0:1:3|n:0:2:3:4|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|3|2|4|100000,|a:12:1:100000,8;|a:12:1:100000,8;|a:12:1:100000,8;|n:2:0:1:3|n:0:2:3:4|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|3|2|4|100000,|a:12:1:100000,8;|a:12:1:100000,8;|s:3|n:1:0:1:3|n:3:3:2:4|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|3|2|4|15,|a:12:1:15,8;|s:2|a:12:1:15,8;|n:2:0:1:3|n:0:2:3:4|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|3|2|4|2,|a:12:1:2,8;|s:2|a:12:1:2,8;|n:2:0:1:3|n:0:2:3:4|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|3|2|4|4,|a:12:1:4,8;|s:2|a:12:1:4,8;|n:2:0:1:3|n:0:2:3:4|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|3|2|4|59,|a:12:1:59,488;|s:1|s:1|n:2:0:1:3|n:3:3:2:4|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|3|2|4|59,|a:12:1:59,8;|a:12:1:59,8;|s:1|n:0:0:1:3|n:2:2:3:4|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|3|2|4|59,|a:12:1:59,8;|s:1|a:12:1:59,8;|n:3:0:1:3|n:0:2:3:4|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|3|2|4|59,|a:12:1:59,8;|s:1|s:3|n:3:0:1:3|n:2:2:3:4|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|3|2|4|6,|a:12:1:6,8;|s:2|a:12:1:6,8;|n:2:0:1:3|n:0:2:3:4|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|3|2|4|8,|a:12:1:8,8;|s:2|a:12:1:8,8;|n:2:0:1:3|n:0:2:3:4|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|4|3|6|59,|a:12:1:59,8;|a:12:1:59,488;|s:1|a:12:1:59,8;|n:0:0:1:4|n:2:2:4:5|n:0:3:5:6|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|4|3|6|59,|a:12:1:59,8;|a:12:1:59,8;|s:1|a:12:1:59,8;|n:0:0:1:4|n:2:2:4:5|n:0:3:5:6|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|4|3|6|59,|a:12:1:59,8;|s:1|a:12:1:59,8;|s:1|n:3:0:1:4|n:0:2:4:5|n:2:3:5:6|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|4|3|6|59,|a:12:1:59,8;|s:1|s:3|a:12:1:59,8;|n:3:0:1:4|n:2:2:4:5|n:1:3:5:6|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|4|3|6|59,|s:1|a:12:1:59,8;|a:12:1:59,8;|s:1|n:2:0:1:4|n:0:2:4:5|n:2:3:5:6|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|5|4|8|59,|a:12:1:59,8;|a:12:1:59,488;|s:1|a:12:1:59,8;|s:1|n:0:0:1:5|n:2:2:5:6|n:0:3:6:7|n:2:4:7:8|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|5|4|8|59,|s:1|a:12:1:59,8;|a:12:1:59,8;|s:1|a:12:1:59,8;|n:2:0:1:5|n:0:2:5:6|n:2:3:6:7|n:0:4:7:8|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|1|6|5|10|59,|a:12:1:59,8;|a:12:1:59,488;|s:1|a:12:1:59,8;|s:1|a:12:1:59,8;|n:0:0:1:6|n:2:2:6:7|n:0:3:7:8|n:2:4:8:9|n:0:5:9:10|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|3|2|4|199,219,|a:12:2:199,1752;219,8;|a:12:2:199,1760;219,8;|s:1|n:1:0:1:3|n:2:2:3:4|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|3|2|4|200,219,|a:12:2:200,1760;219,8;|a:12:2:200,1760;219,8;|s:1|n:1:0:1:3|n:2:2:3:4|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|3|2|4|25,3,|a:12:2:25,24;3,8;|s:1|s:1|n:2:0:1:3|n:3:3:2:4|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|3|2|4|400,200,|a:12:2:400,1600;200,8;|a:12:2:400,1600;200,8;|s:3|n:0:0:1:3|n:2:2:3:4|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|3|2|4|59,59,|a:12:2:59,472;59,8;|a:12:2:59,472;59,8;|s:1|n:0:0:1:3|n:2:2:3:4|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|3|2|4|59,59,|a:12:2:59,472;59,8;|a:12:2:59,488;59,8;|s:1|n:0:0:1:3|n:2:2:3:4|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|3|2|4|59,59,|a:12:2:59,472;59,8;|s:1|a:12:2:59,472;59,8;|n:3:0:1:3|n:0:2:3:4|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|3|2|4|59,59,|a:12:2:59,472;59,8;|s:1|s:3|n:3:0:1:3|n:2:2:3:4|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|3|2|4|59,59,|a:12:2:59,488;59,8;|s:1|s:1|n:2:0:1:3|n:3:3:2:4|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|4|3|6|59,59,|a:12:2:59,472;59,8;|a:12:2:59,472;59,8;|s:1|a:12:2:59,472;59,8;|n:0:0:1:4|n:2:2:4:5|n:0:3:5:6|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|4|3|6|59,59,|a:12:2:59,472;59,8;|a:12:2:59,488;59,8;|s:1|a:12:2:59,472;59,8;|n:0:0:1:4|n:2:2:4:5|n:0:3:5:6|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|4|3|6|59,59,|a:12:2:59,472;59,8;|s:1|a:12:2:59,472;59,8;|s:1|n:3:0:1:4|n:0:2:4:5|n:2:3:5:6|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|4|3|6|59,59,|a:12:2:59,472;59,8;|s:1|s:3|a:12:2:59,472;59,8;|n:3:0:1:4|n:2:2:4:5|n:1:3:5:6|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|4|3|6|59,59,|a:12:2:59,488;59,8;|a:12:2:59,488;59,8;|a:12:2:59,472;59,8;|a:12:2:59,472;59,8;|n:1:0:1:4|n:2:2:4:5|n:1:3:5:6|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|4|3|6|59,59,|a:12:2:59,488;59,8;|a:12:2:59,488;59,8;|a:12:2:59,472;59,8;|a:12:2:59,488;59,8;|n:1:0:1:4|n:2:2:4:5|n:1:3:5:6|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|4|3|6|59,59,|a:12:2:59,488;59,8;|a:12:2:59,488;59,8;|s:1|a:12:2:59,472;59,8;|n:1:0:1:4|n:2:2:4:5|n:1:3:5:6|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|4|3|6|59,59,|s:1|a:12:2:59,472;59,8;|a:12:2:59,472;59,8;|s:1|n:2:0:1:4|n:0:2:4:5|n:2:3:5:6|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|4|3|6|60,60,|a:12:2:60,19200;60,320;|a:12:2:60,19200;60,320;|a:12:2:60,480;60,8;|a:12:2:60,480;60,8;|n:1:0:1:4|n:2:2:4:5|n:1:3:5:6|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|5|4|8|59,59,|a:12:2:59,472;59,8;|a:12:2:59,488;59,8;|s:1|a:12:2:59,472;59,8;|s:1|n:0:0:1:5|n:2:2:5:6|n:0:3:6:7|n:2:4:7:8|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|5|4|8|59,59,|s:1|a:12:2:59,472;59,8;|a:12:2:59,472;59,8;|s:1|a:12:2:59,472;59,8;|n:2:0:1:5|n:0:2:5:6|n:2:3:6:7|n:0:4:7:8|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|2|6|5|10|59,59,|a:12:2:59,472;59,8;|a:12:2:59,488;59,8;|s:1|a:12:2:59,472;59,8;|s:1|a:12:2:59,472;59,8;|n:0:0:1:6|n:2:2:6:7|n:0:3:7:8|n:2:4:8:9|n:0:5:9:10|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|3|3|2|4|23,23,23,|a:12:3:23,4232;23,184;23,8;|a:12:3:23,5000;23,200;23,8;|s:1|n:0:0:1:3|n:2:2:3:4|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|3|3|2|4|23,23,23,|s:1|a:12:3:23,5000;23,200;23,8;|a:12:3:23,5000;23,200;23,8;|n:2:0:1:3|n:1:2:3:4|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|3|3|2|4|64,65,60,|a:12:3:64,32640;65,480;60,8;|a:12:3:64,32640;65,480;60,8;|a:12:3:64,31200;65,480;60,8;|n:1:0:1:3|n:2:2:3:4|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|3|3|2|4|65,64,60,|a:12:3:65,32640;64,480;60,8;|a:12:3:65,32640;64,480;60,8;|a:12:3:65,30720;64,480;60,8;|n:1:0:1:3|n:2:2:3:4|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E1|12|3|4|3|6|23,23,23,|a:12:3:23,4232;23,184;23,8;|a:12:3:23,5000;23,200;23,8;|s:1|a:12:3:23,4232;23,184;23,8;|n:0:0:1:4|n:2:2:4:5|n:0:3:5:6|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|11|2|2|1|2|4,10,|a:11:2:4,40;10,4;|a:11:1:10,4;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|11|2|2|1|2|4,120,|a:11:2:4,480;120,4;|a:11:1:120,4;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|11|2|2|1|2|4,84,|a:11:2:4,336;84,4;|a:11:1:84,4;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|11|2|2|1|2|8,2000,|a:11:2:8,8000;2000,4;|a:11:1:2000,4;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|11|2|2|1|2|8,2000,|a:11:2:8,8000;2000,4;|a:11:2:8,4;1,4;|n:1:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|11|2|2|1|2|8,2000,|a:11:2:8,8000;2000,4;|a:11:2:8,4;1,4;|n:3:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|11|2|2|1|2|8,30000,|a:11:2:8,120000;30000,4;|a:11:1:30000,4;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|11|4|2|1|2|1,14,14,8,|a:11:4:1,6272;14,448;14,32;8,4;|s:1|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|11|4|2|1|2|4,8,8,16,|a:11:4:4,4096;8,512;8,64;16,4;|a:11:1:16,4;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|11|4|2|1|2|8,14,14,8,|a:11:4:8,6272;14,448;14,32;8,4;|a:11:4:1,6272;14,448;14,32;8,4;|n:1:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|11|4|2|1|2|8,14,14,8,|a:11:4:8,6272;14,448;14,32;8,4;|a:11:4:1,6272;14,448;14,32;8,4;|n:3:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|11|4|2|1|2|8,31,31,16,|a:11:4:8,61504;31,1984;31,64;16,4;|a:11:1:16,4;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|11|5|2|1|2|4,5,5,1,6,|a:11:5:4,3136;5,112;5,4;1,4;1,0;|a:11:5:1,0;5,120;5,24;1,24;6,4;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|11|5|2|1|2|8,1,1,32,8,|a:11:5:8,25088;1,1792;1,128;32,4;1,0;|a:11:5:1,0;1,1024;1,1024;32,32;8,4;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|11|5|2|1|2|8,1,1,8,32,|a:11:5:8,6272;1,448;1,32;8,4;1,0;|a:11:5:1,0;1,1024;1,1024;8,128;32,4;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|11|5|2|1|2|8,2,2,3,16,|a:11:5:8,12288;2,384;2,12;3,4;1,0;|a:11:5:1,0;2,384;2,192;3,64;16,4;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|1,|a:12:1:1,280;|s:2|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|1,|a:12:1:1,8;|a:12:1:1,8;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|1,|a:12:1:1,8;|s:2|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|1,|s:2|a:12:1:1,-8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|1,|s:2|a:12:1:1,400;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|100000,|a:12:1:100000,8;|a:12:1:100000,8;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|100000,|a:12:1:100000,8;|a:12:1:100000,8;|n:1:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|100000,|a:12:1:100000,8;|a:12:1:100000,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|100000,|a:12:1:100000,8;|s:3|n:3:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|100000,|s:3|a:12:1:100000,8;|n:1:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|100000,|s:3|a:12:1:100000,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|129,|s:2|a:12:1:129,-8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|15,|a:12:1:15,280;|s:2|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|15,|a:12:1:15,8;|a:12:1:15,8;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|15,|a:12:1:15,8;|s:2|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|2,|a:12:1:2,280;|s:2|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|2,|a:12:1:2,8;|a:12:1:2,8;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|2,|a:12:1:2,8;|s:2|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|2,|s:2|a:12:1:2,400;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|200,|s:2|a:12:1:200,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|3,|a:12:1:3,8;|s:2|n:3:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|31,|a:12:1:31,280;|s:2|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|31,|a:12:1:31,8;|s:2|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|372,|a:12:1:372,8;|s:2|n:3:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|4,|a:12:1:4,280;|s:2|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|4,|a:12:1:4,8;|s:2|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|400,|s:2|a:12:1:400,1600;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|436,|a:12:1:436,8;|s:2|n:3:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|48,|a:12:1:48,280;|s:2|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|500,|a:12:1:500,8;|s:2|n:3:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|500,|s:2|a:12:1:500,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|59,|a:12:1:59,488;|a:12:1:59,488;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|59,|a:12:1:59,488;|a:12:1:59,488;|n:1:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|59,|a:12:1:59,488;|s:1|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|59,|a:12:1:59,8;|a:12:1:59,8;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|59,|a:12:1:59,8;|a:12:1:59,8;|n:1:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|59,|a:12:1:59,8;|s:1|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|59,|a:12:1:59,8;|s:1|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|59,|a:12:1:59,8;|s:1|n:3:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|59,|s:1|a:12:1:59,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|6,|a:12:1:6,280;|s:2|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|600,|s:1|a:12:1:600,8;|n:3:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|65,|s:2|a:12:1:65,-8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|65,|s:2|a:12:1:65,400;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|70,|a:12:1:70,480;|s:2|n:3:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|98,|a:12:1:98,800;|a:12:1:98,800;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|98,|a:12:1:98,800;|a:12:1:98,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|98,|a:12:1:98,8;|a:12:1:98,800;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|98,|s:1|a:12:1:98,800;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|1|2|1|2|98,|s:1|a:12:1:98,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|199,219,|a:12:2:199,1752;219,8;|a:12:2:199,1760;219,8;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|199,219,|a:12:2:199,1752;219,8;|a:12:2:199,1760;219,8;|n:1:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|199,219,|a:12:2:199,1760;219,8;|a:12:2:199,1760;219,8;|n:1:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|199,219,|s:1|a:12:2:199,1752;219,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|200,219,|a:12:2:200,1760;219,8;|a:12:2:200,1760;219,8;|n:1:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|200,219,|s:1|a:12:2:200,1752;219,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|2000,2000,|a:12:2:2000,16000;2000,8;|s:2|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|25,25,|a:12:2:1,8;25,24;|a:12:2:25,24;1,8;|n:1:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|25,25,|a:12:2:25,200;25,8;|a:12:2:25,200;25,8;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|25,25,|a:12:2:25,200;25,8;|s:1|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|25,3,|a:12:2:25,24;3,8;|s:1|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|25,3,|a:12:2:25,24;3,8;|s:1|n:3:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|25,3,|a:12:2:25,8;1,8;|a:12:2:25,24;3,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|400,200,|a:12:2:400,1600;200,8;|a:12:2:400,1600;200,8;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|400,200,|s:3|a:12:2:400,1600;200,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|59,59,|a:12:2:59,472;59,8;|s:1|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|59,59,|a:12:2:59,472;59,8;|s:1|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|59,59,|a:12:2:59,472;59,8;|s:1|n:3:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|59,59,|a:12:2:59,488;59,8;|s:1|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|60,60,|a:12:2:60,480;60,8;|s:1|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|60,60,|s:1|a:12:2:60,19200;60,320;|n:1:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|60,60,|s:1|a:12:2:60,19200;60,320;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|60,60,|s:1|a:12:2:60,480;60,8;|n:1:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|2|2|1|2|60,60,|s:1|a:12:2:60,480;60,8;|n:3:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|3|2|1|2|23,23,23,|a:12:3:23,4232;23,184;23,8;|a:12:3:23,5000;23,200;23,8;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|3|2|1|2|23,23,23,|a:12:3:23,5000;23,200;23,8;|a:12:3:23,4232;23,184;23,8;|n:1:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|3|2|1|2|23,23,23,|s:1|a:12:3:23,4232;23,184;23,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|3|2|1|2|23,23,23,|s:1|a:12:3:23,5000;23,200;23,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|3|2|1|2|64,64,60,|a:12:3:64,30720;64,480;60,8;|a:12:3:64,30720;64,480;60,8;|n:1:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|3|2|1|2|64,64,60,|a:12:3:64,30720;64,480;60,8;|a:12:3:64,31200;64,480;60,8;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|3|2|1|2|64,65,60,|a:12:3:64,31200;65,480;60,8;|a:12:3:64,31200;65,480;60,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|3|2|1|2|64,65,60,|a:12:3:64,31680;65,480;60,8;|a:12:3:64,31680;65,480;60,8;|n:1:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|3|2|1|2|64,65,60,|a:12:3:64,32640;65,480;60,8;|a:12:3:64,32640;65,480;60,8;|n:1:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|3|2|1|2|65,64,60,|a:12:3:65,30720;64,480;60,8;|a:12:3:65,30720;64,480;60,8;|n:2:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|3|2|1|2|65,64,60,|a:12:3:65,31680;64,480;60,8;|a:12:3:65,31680;64,480;60,8;|n:1:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|3|2|1|2|65,64,60,|a:12:3:65,32640;64,480;60,8;|a:12:3:65,32640;64,480;60,8;|n:1:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|3|2|1|2|66,66,60,|a:12:3:66,31680;66,480;60,8;|a:12:3:66,32640;66,480;60,8;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "E2|12|3|2|1|2|66,66,60,|a:12:3:66,32640;66,480;60,8;|a:12:3:66,32640;66,480;60,8;|n:0:0:1:2|b:3"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|2|1|2|4,10,|a:11:2:4,336;84,4;|a:11:2:84,40;10,4;|n:11:0:1:2|b:3|v:0:11:0:2:4,40;10,4;"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|2|1|2|4,120,|a:11:2:4,1024;256,4;|a:11:2:256,480;120,4;|n:11:0:1:2|b:3|v:0:11:0:2:4,480;120,4;"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|2|1|2|4,16,|a:11:4:4,4096;2,512;2,64;16,4;|c:4:2:1,2,|n:22:0:1:2|r:0:0:2:1,2,|b:3|v:0:11:0:2:4,64;16,4;|h:0:1:0:1:4:axis,"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|2|1|2|4,6,|a:11:4:4,13824;2,576;2,24;6,4;|c:4:2:1,2,|n:22:0:1:2|r:0:0:2:1,2,|b:3|v:0:11:0:2:4,24;6,4;|h:0:1:0:1:4:axis,"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|2|1|2|4,6,|a:11:5:4,600;5,120;5,24;1,24;6,4;|c:4:3:1,2,3,|n:21:0:1:2|r:0:0:3:1,2,3,|b:3|v:0:11:0:2:4,24;6,4;|h:0:1:0:1:4:axis,"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|2|1|2|4,84,|a:11:2:4,480;120,4;|a:11:2:120,336;84,4;|n:11:0:1:2|b:3|v:0:11:0:2:4,336;84,4;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|2|1|2|8,16,|a:11:5:8,768;2,384;2,192;3,64;16,4;|c:4:3:1,2,3,|n:21:0:1:2|r:0:0:3:1,2,3,|b:3|v:0:11:0:2:8,64;16,4;|h:0:1:0:1:4:axis,"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|2|1|2|8,2000,|a:11:2:8,120000;30000,4;|a:11:2:30000,8000;2000,4;|n:11:0:1:2|b:3|v:0:11:0:2:8,8000;2000,4;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|2|1|2|8,2000,|a:11:2:8,8000;2000,4;|a:11:2:2000,8000;2000,4;|n:11:0:1:2|b:3|v:0:11:0:2:8,8000;2000,4;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|2|1|2|8,30000,|a:11:2:8,120000;30000,4;|s:3|n:7:0:1:2|b:3|v:0:11:0:2:8,120000;30000,4;|l:0:1|h:0:2:0:0:"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|2|1|2|8,30000,|a:11:2:8,12;3,4;|a:11:2:3,120000;30000,4;|n:11:0:1:2|b:3|v:0:11:0:2:8,120000;30000,4;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|2|1|2|8,32,|a:11:5:8,1024;1,1024;1,1024;8,128;32,4;|c:4:3:1,2,3,|n:21:0:1:2|r:0:0:3:1,2,3,|b:3|v:0:11:0:2:8,128;32,4;|h:0:1:0:1:4:axis,"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|2|1|2|8,8,|a:11:5:8,1024;1,1024;1,1024;32,32;8,4;|c:4:3:1,2,3,|n:21:0:1:2|r:0:0:3:1,2,3,|b:3|v:0:11:0:2:8,32;8,4;|h:0:1:0:1:4:axis,"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|3|2|4|4,10,|a:11:2:4,336;84,4;|a:11:2:84,40;10,4;|a:11:1:10,4;|n:11:0:1:3|n:0:3:2:4|b:3|u:1:0:2|v:0:11:0:2:4,40;10,4;|v:1:11:0:2:4,40;10,4;|l:1:1"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|3|2|4|4,120,|a:11:2:4,1024;256,4;|a:11:2:256,480;120,4;|a:11:1:120,4;|n:11:0:1:3|n:0:3:2:4|b:3|u:1:0:2|v:0:11:0:2:4,480;120,4;|v:1:11:0:2:4,480;120,4;|l:1:1"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|3|2|4|4,6,|a:11:5:4,3136;5,112;5,4;1,4;1,0;|a:11:5:1,0;5,120;5,24;1,24;6,4;|c:4:3:1,2,3,|n:2:0:1:3|n:21:3:2:4|r:1:0:3:1,2,3,|b:3|v:0:11:0:5:4,600;5,120;5,24;1,24;6,4;|l:0:1|v:1:11:0:2:4,24;6,4;|h:1:1:0:1:4:axis,"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|3|2|4|4,84,|a:11:2:4,480;120,4;|a:11:2:120,336;84,4;|a:11:1:84,4;|n:11:0:1:3|n:0:3:2:4|b:3|u:1:0:2|v:0:11:0:2:4,336;84,4;|v:1:11:0:2:4,336;84,4;|l:1:1"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|3|2|4|8,16,|a:11:5:8,12288;2,384;2,12;3,4;1,0;|a:11:5:1,0;2,384;2,192;3,64;16,4;|c:4:3:1,2,3,|n:2:0:1:3|n:21:3:2:4|r:1:0:3:1,2,3,|b:3|v:0:11:0:5:8,768;2,384;2,192;3,64;16,4;|l:0:1|v:1:11:0:2:8,64;16,4;|h:1:1:0:1:4:axis,"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|3|2|4|8,2000,|a:11:2:8,120000;30000,4;|a:11:2:30000,8000;2000,4;|a:11:1:2000,4;|n:11:0:1:3|n:0:3:2:4|b:3|u:1:0:2|v:0:11:0:2:8,8000;2000,4;|v:1:11:0:2:8,8000;2000,4;|l:1:1"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|3|2|4|8,2000,|a:11:2:8,8000;2000,4;|a:11:2:2000,8000;2000,4;|a:11:1:2000,4;|n:11:0:1:3|n:0:3:2:4|b:3|u:1:0:2|v:0:11:0:2:8,8000;2000,4;|v:1:11:0:2:8,8000;2000,4;|l:1:1"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|3|2|4|8,30000,|a:11:2:8,12;3,4;|a:11:2:3,120000;30000,4;|a:11:1:30000,4;|n:11:0:1:3|n:0:3:2:4|b:3|u:1:0:2|v:0:11:0:2:8,120000;30000,4;|v:1:11:0:2:8,120000;30000,4;|l:1:1"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|3|2|4|8,32,|a:11:5:8,6272;1,448;1,32;8,4;1,0;|a:11:5:1,0;1,1024;1,1024;8,128;32,4;|c:4:3:1,2,3,|n:2:0:1:3|n:21:3:2:4|r:1:0:3:1,2,3,|b:3|v:0:11:0:5:8,1024;1,1024;1,1024;8,128;32,4;|l:0:1|v:1:11:0:2:8,128;32,4;|h:1:1:0:1:4:axis,"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|2|3|2|4|8,8,|a:11:5:8,25088;1,1792;1,128;32,4;1,0;|a:11:5:1,0;1,1024;1,1024;32,32;8,4;|c:4:3:1,2,3,|n:2:0:1:3|n:21:3:2:4|r:1:0:3:1,2,3,|b:3|v:0:11:0:5:8,1024;1,1024;1,1024;32,32;8,4;|l:0:1|v:1:11:0:2:8,32;8,4;|h:1:1:0:1:4:axis,"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|4|1|1|1|1,14,14,8,|a:11:4:1,6272;14,448;14,32;8,4;|n:17:0:0:1|b:3|v:0:11:0:4:1,6272;14,448;14,32;8,4;|h:0:1:0:0:"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|4|2|1|2|4,24,24,6,|a:11:4:4,13824;24,576;24,24;6,4;|s:3|n:7:0:1:2|b:3|v:0:11:0:4:4,13824;24,576;24,24;6,4;|l:0:1|h:0:2:0:0:"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|4|2|1|2|4,8,8,16,|a:11:4:4,4096;8,512;8,64;16,4;|s:3|n:7:0:1:2|b:3|v:0:11:0:4:4,4096;8,512;8,64;16,4;|l:0:1|h:0:2:0:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|4|2|1|2|8,14,14,8,|a:11:4:8,6272;14,448;14,32;8,4;|s:3|n:7:0:1:2|b:3|v:0:11:0:4:8,6272;14,448;14,32;8,4;|l:0:1|h:0:2:0:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|4|2|2|3|1,14,14,8,|a:11:4:1,6272;14,448;14,32;8,4;|s:1|n:0:0:1:2|n:17:2:2:3|b:3|u:1:0:2|v:0:11:0:4:1,6272;14,448;14,32;8,4;|l:0:1|v:1:11:0:4:1,6272;14,448;14,32;8,4;|h:1:1:0:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|4|2|2|3|8,14,14,8,|a:11:4:1,6272;14,448;14,32;8,4;|a:11:4:8,6272;14,448;14,32;8,4;|n:17:0:0:2|n:3:1:2:3|b:3|v:0:11:0:4:1,6272;14,448;14,32;8,4;|v:1:11:0:4:8,6272;14,448;14,32;8,4;|l:1:1|h:0:1:0:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|11|4|3|3|5|8,14,14,8,|a:11:4:1,6272;14,448;14,32;8,4;|s:1|a:11:4:8,6272;14,448;14,32;8,4;|n:0:0:1:3|n:17:3:3:4|n:3:2:4:5|b:3|v:0:11:0:4:1,6272;14,448;14,32;8,4;|l:0:1|v:1:11:0:4:1,6272;14,448;14,32;8,4;|v:2:11:0:4:8,6272;14,448;14,32;8,4;|l:2:1|h:1:1:0:0:"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|1|1|1||a:12:2:25,200;25,8;|n:21:0:0:1|r:0:0:2:0,1,|b:3|v:0:12:1:0:|h:0:1:0:0:"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|1|1|1||a:12:2:61,488;61,8;|n:21:0:0:1|r:0:0:2:0,1,|b:3|v:0:12:1:0:|h:0:1:0:0:"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|1|1|1||s:2|n:18:0:0:1|b:3|v:0:12:1:0:|h:0:1:0:0:"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|1|1|1||s:2|n:19:0:0:1|b:3|v:0:12:1:0:|h:0:1:0:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|2|1|2||a:12:1:65,-8;|a:12:1:65,8;|n:23:0:1:2|b:3|v:0:12:1:0:|h:0:2:0:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|0|2|1|2||a:12:1:70,480;|a:12:1:70,480;|n:23:0:1:2|b:3|v:0:12:1:0:|h:0:2:0:0:"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|2|1|2|435,|a:12:1:600,4000;|a:12:2:600,4000;435,8;|n:11:0:1:2|b:3|v:0:12:0:1:435,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|2|1|2|436,|a:12:1:600,4000;|a:12:2:600,4000;436,8;|n:11:0:1:2|b:3|v:0:12:0:1:436,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|2|1|2|499,|a:12:1:600,4000;|a:12:2:600,4000;499,8;|n:11:0:1:2|b:3|v:0:12:0:1:499,8;"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|1|2|1|2|500,|a:12:1:600,4000;|a:12:2:600,4000;500,8;|n:11:0:1:2|b:3|v:0:12:0:1:500,8;"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|2|2|2|3|25,25,|a:12:2:25,200;25,8;|a:12:2:25,200;25,8;|n:0:0:1:2|n:17:2:2:3|b:3|u:1:0:2|v:0:12:0:2:25,200;25,8;|l:0:1|v:1:12:0:2:25,200;25,8;|h:1:1:0:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|12|2|4|3|6|25,1,|a:12:2:25,200;25,8;|a:12:2:25,200;25,8;|s:1|a:12:2:25,8;1,8;|n:2:0:1:4|n:2:2:4:5|n:11:5:3:6|b:3|v:0:12:0:2:25,200;25,8;|l:0:1|v:1:12:0:2:25,200;25,8;|l:1:1|v:2:12:0:2:25,8;1,8;"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|5|2|2|1|2|200,200,|a:5:1:200,800;|a:5:1:200,4;|n:12:0:1:2|b:3|v:0:5:0:2:200,800;200,4;|l:0:1|h:0:2:1:0:"
+    },
+    {
+      "decision": "REJECT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|5|2|2|1|2|200,200,|a:5:2:200,800;200,4;|a:5:2:200,800;200,4;|n:6:0:1:2|b:3|v:0:5:0:2:200,800;200,4;|l:0:1|h:0:2:0:0:"
+    },
+    {
+      "decision": "ACCEPT",
+      "evidence": {
+        "path": "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json",
+        "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2"
+      },
+      "key": "S1|5|2|3|2|4|200,200,|a:5:1:200,800;|a:5:1:200,4;|a:5:2:200,800;200,4;|n:12:0:1:3|n:6:2:3:4|b:3|u:1:0:2|v:0:5:0:2:200,800;200,4;|l:0:1|v:1:5:0:2:200,800;200,4;|l:1:1|h:0:2:1:0:|h:1:2:0:0:"
+    }
+  ],
+  "schema_version": 2,
+  "selection_basis": "complete-region-original-and-existing"
+}

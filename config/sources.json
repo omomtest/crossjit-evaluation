@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "repositories": {
+    "cpython": {
+      "url": "https://github.com/omomtest/crossjit-cpython.git",
+      "ref": "main"
+    },
+    "numpy": {
+      "url": "https://github.com/omomtest/crossjit-numpy.git",
+      "ref": "main"
+    },
+    "crossjit-generator": {
+      "url": "https://github.com/omomtest/crossjit-generator.git",
+      "ref": "main"
+    },
+    "baseline-cpython": {
+      "url": "https://github.com/python/cpython.git",
+      "ref": "76f22853410d3ded872cbfe1430852cf8c048962",
+      "fixed": true
+    },
+    "baseline-numpy": {
+      "url": "https://github.com/numpy/numpy.git",
+      "ref": "52630673b5282cbe3ee7304d1cbe13a565541a4d",
+      "fixed": true
+    },
+    "npbench": {
+      "url": "https://github.com/omomtest/crossjit-npbench.git",
+      "ref": "f2d7f27d87ba4881991e62c18a607aa6ba52b260",
+      "fixed": true
+    }
+  }
+}

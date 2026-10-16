@@ -1,0 +1,120 @@
+{
+  "configuration": {
+    "benchmark_identity_used_for_selection": false,
+    "formal_npbench_evaluation": false,
+    "independent_processes": 3,
+    "max_cv": 0.15,
+    "samples_per_process": 7,
+    "scalar_kind": "numpy",
+    "speedup_threshold": 1.1
+  },
+  "method": "generic_signature_microbenchmark",
+  "rows": [
+    {
+      "baseline_cv": 0.0050655437894845294,
+      "baseline_median_ns": 257.3348578895786,
+      "correct": true,
+      "element_count": 98,
+      "execution_specialization_hash": "835055515e6f098481dfb116e96ba746850cf6c8a6aa6839439a59ac8d817cce",
+      "generated_cv": 0.0043845905475363165,
+      "generated_median_ns": 240.88206468474354,
+      "generated_speedup": 1.068302275747959,
+      "generated_vs_generic": 4.496780318441967,
+      "generic_cv": 0.00023886883024782198,
+      "generic_median_ns": 1083.1937275400196,
+      "generic_speedup": 0.2375704837896332,
+      "inner_extent": 98,
+      "outer_count": 1,
+      "process_medians_ns": {
+        "baseline": [
+          259.21790264619403,
+          257.3348578895786,
+          256.7095720352826
+        ],
+        "generated": [
+          242.06533812479583,
+          239.9575302188827,
+          240.88206468474354
+        ],
+        "generic": [
+          1083.1937275400196,
+          1083.2610258085592,
+          1082.783077425678
+        ]
+      },
+      "profiled_source": "observed",
+      "structural_signature_hash": "e2dfa91d86995493df562687ad0e5c228028b269e27798d98b0a412b160b73c6"
+    },
+    {
+      "baseline_cv": 0.005659376653416044,
+      "baseline_median_ns": 258.2074485462267,
+      "correct": true,
+      "element_count": 98,
+      "execution_specialization_hash": "ccf0ef1f64bd52f5b802f4e6b4203de220df87af7f6edd0d9a16f735c44243c3",
+      "generated_cv": 0.004386397727958752,
+      "generated_median_ns": 241.7559621038876,
+      "generated_speedup": 1.0680499719600278,
+      "generated_vs_generic": 4.553194192009622,
+      "generic_cv": 0.0004828963568096505,
+      "generic_median_ns": 1100.7618425351193,
+      "generic_speedup": 0.2345715835784785,
+      "inner_extent": 98,
+      "outer_count": 1,
+      "process_medians_ns": {
+        "baseline": [
+          259.0757922247632,
+          258.2074485462267,
+          256.2286834367854
+        ],
+        "generated": [
+          241.7559621038876,
+          241.2528585429598,
+          243.29140803658936
+        ],
+        "generic": [
+          1100.3417183926822,
+          1100.7618425351193,
+          1101.3975824893826
+        ]
+      },
+      "profiled_source": "observed",
+      "structural_signature_hash": "7cca06e950c4defba3b30f4ad1c4f249c03210040f267e5631dd658e463f7068"
+    },
+    {
+      "baseline_cv": 0.0004202915048001454,
+      "baseline_median_ns": 256.92257432211693,
+      "correct": true,
+      "element_count": 98,
+      "execution_specialization_hash": "f9d97eee079c5656ac9baec8159dfd2e92668d57190599f399af02b9c76946cc",
+      "generated_cv": 0.013470281095592377,
+      "generated_median_ns": 243.4328650767723,
+      "generated_speedup": 1.0554144948386093,
+      "generated_vs_generic": 4.547968994079029,
+      "generic_cv": 0.0016386100189996163,
+      "generic_median_ns": 1107.125122508984,
+      "generic_speedup": 0.2320628166578634,
+      "inner_extent": 98,
+      "outer_count": 1,
+      "process_medians_ns": {
+        "baseline": [
+          257.0333224436459,
+          256.81737994119567,
+          256.92257432211693
+        ],
+        "generated": [
+          243.4328650767723,
+          248.98399215942501,
+          243.10846128716105
+        ],
+        "generic": [
+          1105.7611891538713,
+          1107.125122508984,
+          1109.3557660895133
+        ]
+      },
+      "profiled_source": "observed",
+      "structural_signature_hash": "7cca06e950c4defba3b30f4ad1c4f249c03210040f267e5631dd658e463f7068"
+    }
+  ],
+  "schema_version": 1
+}

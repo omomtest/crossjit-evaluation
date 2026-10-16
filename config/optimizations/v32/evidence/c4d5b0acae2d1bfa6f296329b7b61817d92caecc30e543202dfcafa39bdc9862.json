@@ -1,0 +1,5443 @@
+{
+  "workload": "channel_flow",
+  "provider": {
+    "allocation_time_ns": 0,
+    "candidate_records_dropped": 0,
+    "candidates": [
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 4,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 4,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 1,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 4,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 5,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 5,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 1,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 5,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 5,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 1,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 4,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 4,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 1,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 6962,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 4,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 4,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 4,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 1,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 6962,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 4,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 1,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 5,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 5,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 1,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 118,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 5,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 5,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 1,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 118,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 5,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 1,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 5,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 5,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 1,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 118,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 4,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 4,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 6962,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 4,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 4,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 6962,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 4,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 6962,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 4,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 4,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 4,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 4,
+        "guard_count": 6,
+        "internal_value_count": 4,
+        "layout_class": 4,
+        "operand_count": 6,
+        "prepare_decision": 1,
+        "profitability_score": 13924,
+        "profitability_threshold": 0,
+        "region_length": 5,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 6
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 4,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 4,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 6962,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 4,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 4,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 6962,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 4,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 6962,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 4,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 4,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 4,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 4,
+        "guard_count": 6,
+        "internal_value_count": 4,
+        "layout_class": 4,
+        "operand_count": 6,
+        "prepare_decision": 1,
+        "profitability_score": 13924,
+        "profitability_threshold": 0,
+        "region_length": 5,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 6
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 5,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 5,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 1,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 118,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 5,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 1,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 4,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 4,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 1,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 3481,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 4,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 3481,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 5,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 5,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 1,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 5,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 5,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 1,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 5,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 5,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 118,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 5,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 5,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 118,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 5,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 118,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 4,
+        "guard_count": 6,
+        "internal_value_count": 4,
+        "layout_class": 5,
+        "operand_count": 6,
+        "prepare_decision": 1,
+        "profitability_score": 236,
+        "profitability_threshold": 0,
+        "region_length": 5,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 6
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 5,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 118,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 5,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 118,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 5,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 118,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 4,
+        "guard_count": 6,
+        "internal_value_count": 4,
+        "layout_class": 5,
+        "operand_count": 6,
+        "prepare_decision": 1,
+        "profitability_score": 236,
+        "profitability_threshold": 0,
+        "region_length": 5,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 6
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 1,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 5,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 118,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 5,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 118,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 5,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 118,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 4,
+        "guard_count": 6,
+        "internal_value_count": 4,
+        "layout_class": 5,
+        "operand_count": 6,
+        "prepare_decision": 1,
+        "profitability_score": 236,
+        "profitability_threshold": 0,
+        "region_length": 5,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 6
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 0,
+        "guard_count": 2,
+        "internal_value_count": 0,
+        "layout_class": 5,
+        "operand_count": 2,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 1,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 2
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 5,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 118,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 5,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 118,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 2,
+        "guard_count": 4,
+        "internal_value_count": 2,
+        "layout_class": 5,
+        "operand_count": 4,
+        "prepare_decision": 1,
+        "profitability_score": 118,
+        "profitability_threshold": 0,
+        "region_length": 3,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 4
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 1,
+        "guard_count": 3,
+        "internal_value_count": 1,
+        "layout_class": 5,
+        "operand_count": 3,
+        "prepare_decision": 1,
+        "profitability_score": 59,
+        "profitability_threshold": 0,
+        "region_length": 2,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 3
+      },
+      {
+        "dtype_class": 2,
+        "element_count": 59,
+        "eliminable_materialization_count": 4,
+        "guard_count": 6,
+        "internal_value_count": 4,
+        "layout_class": 5,
+        "operand_count": 6,
+        "prepare_decision": 1,
+        "profitability_score": 236,
+        "profitability_threshold": 0,
+        "region_length": 5,
+        "rejection_reason": 0,
+        "result_count": 1,
+        "unique_guard_count": 6
+      }
+    ],
+    "diagnostics_enabled": true,
+    "dtype_histogram": [
+      0,
+      0,
+      128,
+      0,
+      0
+    ],
+    "exec_error": 0,
+    "exec_hit": 36662309,
+    "exec_miss": 0,
+    "execution_lower_time_ns": 0,
+    "execution_plans_destroyed": 0,
+    "execution_plans_lowered": 128,
+    "fixed_fast_path_hit": 12817918,
+    "fixed_fast_plans_built": 46,
+    "fixed_generic_path_hit": 23844391,
+    "fixed_generic_plans_built": 82,
+    "generated_exec_hit": 12817918,
+    "generated_registry_hit": 46,
+    "generated_registry_miss": 82,
+    "generic_fallback_hit": 23844391,
+    "guard_checks": 556708826,
+    "guard_error": 0,
+    "guard_hit": 36662309,
+    "guard_lower_time_ns": 0,
+    "guard_metadata_reads": 553488756,
+    "guard_miss": 0,
+    "guard_plans_destroyed": 0,
+    "guard_plans_lowered": 128,
+    "guard_time_ns": 0,
+    "internal_allocations": 0,
+    "kernel_time_ns": 0,
+    "last_candidate": {
+      "dtype_class": 2,
+      "element_count": 59,
+      "eliminable_materialization_count": 4,
+      "guard_count": 6,
+      "internal_value_count": 4,
+      "layout_class": 5,
+      "operand_count": 6,
+      "prepare_decision": 1,
+      "profitability_score": 236,
+      "profitability_threshold": 0,
+      "region_length": 5,
+      "rejection_reason": 0,
+      "result_count": 1,
+      "unique_guard_count": 6
+    },
+    "layout_histogram": [
+      0,
+      39,
+      0,
+      0,
+      30,
+      59
+    ],
+    "nodes_recognized": 261,
+    "observed_signature_records_dropped": 0,
+    "observed_signatures": [
+      {
+        "accepted_count": 4,
+        "access_kinds": [
+          1,
+          1
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2039382,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 2039382,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 2039382,
+        "inner_extent": 59,
+        "input_count": 2,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 2,
+        "layout_class": 4,
+        "max_elements": 3481,
+        "min_elements": 3481,
+        "node_count": 1,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 0,
+            "output": 2,
+            "right": 1
+          }
+        ],
+        "outer_count": 59,
+        "outer_shape_class": 1,
+        "prepare_count": 4,
+        "prepare_element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 2,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            488
+          ],
+          [
+            8,
+            488
+          ]
+        ],
+        "scalar_mask": 0
+      },
+      {
+        "accepted_count": 2,
+        "access_kinds": [
+          1,
+          2
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1019691,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 1019691,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 1019691,
+        "inner_extent": 59,
+        "input_count": 2,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 2,
+        "layout_class": 1,
+        "max_elements": 3481,
+        "min_elements": 3481,
+        "node_count": 1,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 2,
+            "output": 2,
+            "right": 1
+          }
+        ],
+        "outer_count": 59,
+        "outer_shape_class": 1,
+        "prepare_count": 2,
+        "prepare_element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            472
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "scalar_mask": 2
+      },
+      {
+        "accepted_count": 2,
+        "access_kinds": [
+          1,
+          2,
+          1
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1019691,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 1019691,
+        "generated_hit_count": 1019691,
+        "generic_fallback_count": 0,
+        "inner_extent": 59,
+        "input_count": 3,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 2,
+        "layout_class": 1,
+        "max_elements": 3481,
+        "min_elements": 3481,
+        "node_count": 2,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 2,
+            "output": 3,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 0,
+            "output": 4,
+            "right": 3
+          }
+        ],
+        "outer_count": 59,
+        "outer_shape_class": 1,
+        "prepare_count": 2,
+        "prepare_element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            472
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            472
+          ]
+        ],
+        "scalar_mask": 2
+      },
+      {
+        "accepted_count": 4,
+        "access_kinds": [
+          1,
+          2
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1423717,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 1423717,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 1423717,
+        "inner_extent": 59,
+        "input_count": 2,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 2,
+        "layout_class": 1,
+        "max_elements": 3481,
+        "min_elements": 3481,
+        "node_count": 1,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 3,
+            "output": 2,
+            "right": 1
+          }
+        ],
+        "outer_count": 59,
+        "outer_shape_class": 1,
+        "prepare_count": 4,
+        "prepare_element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            472
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "scalar_mask": 2
+      },
+      {
+        "accepted_count": 6,
+        "access_kinds": [
+          2,
+          1,
+          1
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1825367,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 1825367,
+        "generated_hit_count": 1825367,
+        "generic_fallback_count": 0,
+        "inner_extent": 59,
+        "input_count": 3,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 2,
+        "layout_class": 4,
+        "max_elements": 3481,
+        "min_elements": 3481,
+        "node_count": 2,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 2,
+            "output": 3,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 1,
+            "output": 4,
+            "right": 3
+          }
+        ],
+        "outer_count": 59,
+        "outer_shape_class": 1,
+        "prepare_count": 6,
+        "prepare_element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            488
+          ],
+          [
+            8,
+            472
+          ]
+        ],
+        "scalar_mask": 1
+      },
+      {
+        "accepted_count": 8,
+        "access_kinds": [
+          4,
+          4
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          4078764,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 4078764,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 4078764,
+        "inner_extent": 59,
+        "input_count": 2,
+        "iteration_descriptor_version": 2,
+        "iteration_rank_class": 1,
+        "layout_class": 5,
+        "max_elements": 59,
+        "min_elements": 59,
+        "node_count": 1,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 0,
+            "output": 2,
+            "right": 1
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 8,
+        "prepare_element_buckets": [
+          0,
+          0,
+          8,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 5,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            488,
+            0
+          ],
+          [
+            488,
+            0
+          ]
+        ],
+        "scalar_mask": 0
+      },
+      {
+        "accepted_count": 4,
+        "access_kinds": [
+          1,
+          2
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          2039382,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 2039382,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 2039382,
+        "inner_extent": 59,
+        "input_count": 2,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 1,
+        "layout_class": 1,
+        "max_elements": 59,
+        "min_elements": 59,
+        "node_count": 1,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 2,
+            "output": 2,
+            "right": 1
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 4,
+        "prepare_element_buckets": [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "scalar_mask": 2
+      },
+      {
+        "accepted_count": 4,
+        "access_kinds": [
+          1,
+          2,
+          1
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          2039382,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 2039382,
+        "generated_hit_count": 2039382,
+        "generic_fallback_count": 0,
+        "inner_extent": 59,
+        "input_count": 3,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 1,
+        "layout_class": 1,
+        "max_elements": 59,
+        "min_elements": 59,
+        "node_count": 2,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 2,
+            "output": 3,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 0,
+            "output": 4,
+            "right": 3
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 4,
+        "prepare_element_buckets": [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "scalar_mask": 2
+      },
+      {
+        "accepted_count": 8,
+        "access_kinds": [
+          1,
+          2
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          2843433,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 2843433,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 2843433,
+        "inner_extent": 59,
+        "input_count": 2,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 1,
+        "layout_class": 1,
+        "max_elements": 59,
+        "min_elements": 59,
+        "node_count": 1,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 3,
+            "output": 2,
+            "right": 1
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 8,
+        "prepare_element_buckets": [
+          0,
+          0,
+          8,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "scalar_mask": 2
+      },
+      {
+        "accepted_count": 4,
+        "access_kinds": [
+          2,
+          4,
+          1
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          2035381,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 2035381,
+        "generated_hit_count": 2035381,
+        "generic_fallback_count": 0,
+        "inner_extent": 59,
+        "input_count": 3,
+        "iteration_descriptor_version": 2,
+        "iteration_rank_class": 1,
+        "layout_class": 5,
+        "max_elements": 59,
+        "min_elements": 59,
+        "node_count": 2,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 2,
+            "output": 3,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 1,
+            "output": 4,
+            "right": 3
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 4,
+        "prepare_element_buckets": [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            0,
+            0
+          ],
+          [
+            488,
+            0
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "scalar_mask": 1
+      },
+      {
+        "accepted_count": 5,
+        "access_kinds": [
+          1,
+          1
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1010065,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 1010065,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 1010065,
+        "inner_extent": 59,
+        "input_count": 2,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 2,
+        "layout_class": 4,
+        "max_elements": 3481,
+        "min_elements": 3481,
+        "node_count": 1,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 1,
+            "output": 2,
+            "right": 1
+          }
+        ],
+        "outer_count": 59,
+        "outer_shape_class": 1,
+        "prepare_count": 5,
+        "prepare_element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 2,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            488
+          ],
+          [
+            8,
+            488
+          ]
+        ],
+        "scalar_mask": 0
+      },
+      {
+        "accepted_count": 1,
+        "access_kinds": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          202013,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 202013,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 202013,
+        "inner_extent": 59,
+        "input_count": 4,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 2,
+        "layout_class": 1,
+        "max_elements": 3481,
+        "min_elements": 3481,
+        "node_count": 3,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 3,
+            "output": 4,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 0,
+            "output": 5,
+            "right": 4
+          },
+          {
+            "left": 3,
+            "op": 2,
+            "output": 6,
+            "right": 5
+          }
+        ],
+        "outer_count": 59,
+        "outer_shape_class": 1,
+        "prepare_count": 1,
+        "prepare_element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            472
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            472
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "scalar_mask": 10
+      },
+      {
+        "accepted_count": 1,
+        "access_kinds": [
+          1,
+          1
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          202013,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 202013,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 202013,
+        "inner_extent": 59,
+        "input_count": 2,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 2,
+        "layout_class": 1,
+        "max_elements": 3481,
+        "min_elements": 3481,
+        "node_count": 1,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 1,
+            "output": 2,
+            "right": 1
+          }
+        ],
+        "outer_count": 59,
+        "outer_shape_class": 1,
+        "prepare_count": 1,
+        "prepare_element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 1,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            472
+          ],
+          [
+            8,
+            472
+          ]
+        ],
+        "scalar_mask": 0
+      },
+      {
+        "accepted_count": 1,
+        "access_kinds": [
+          1,
+          1,
+          1
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          202013,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 202013,
+        "generated_hit_count": 202013,
+        "generic_fallback_count": 0,
+        "inner_extent": 59,
+        "input_count": 3,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 2,
+        "layout_class": 4,
+        "max_elements": 3481,
+        "min_elements": 3481,
+        "node_count": 2,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 1,
+            "output": 3,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 2,
+            "output": 4,
+            "right": 3
+          }
+        ],
+        "outer_count": 59,
+        "outer_shape_class": 1,
+        "prepare_count": 1,
+        "prepare_element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 2,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            488
+          ],
+          [
+            8,
+            488
+          ],
+          [
+            8,
+            472
+          ]
+        ],
+        "scalar_mask": 0
+      },
+      {
+        "accepted_count": 1,
+        "access_kinds": [
+          1,
+          2,
+          2,
+          1
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          202013,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 202013,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 202013,
+        "inner_extent": 59,
+        "input_count": 4,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 2,
+        "layout_class": 1,
+        "max_elements": 3481,
+        "min_elements": 3481,
+        "node_count": 3,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 3,
+            "output": 4,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 2,
+            "output": 5,
+            "right": 4
+          },
+          {
+            "left": 3,
+            "op": 1,
+            "output": 6,
+            "right": 5
+          }
+        ],
+        "outer_count": 59,
+        "outer_shape_class": 1,
+        "prepare_count": 1,
+        "prepare_element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            472
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            472
+          ]
+        ],
+        "scalar_mask": 6
+      },
+      {
+        "accepted_count": 1,
+        "access_kinds": [
+          1,
+          1,
+          2
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          202013,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 202013,
+        "generated_hit_count": 202013,
+        "generic_fallback_count": 0,
+        "inner_extent": 59,
+        "input_count": 3,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 2,
+        "layout_class": 1,
+        "max_elements": 3481,
+        "min_elements": 3481,
+        "node_count": 2,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 1,
+            "output": 3,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 2,
+            "output": 4,
+            "right": 3
+          }
+        ],
+        "outer_count": 59,
+        "outer_shape_class": 1,
+        "prepare_count": 1,
+        "prepare_element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            472
+          ],
+          [
+            8,
+            472
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "scalar_mask": 4
+      },
+      {
+        "accepted_count": 10,
+        "access_kinds": [
+          4,
+          4
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          2008127,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 2008127,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 2008127,
+        "inner_extent": 59,
+        "input_count": 2,
+        "iteration_descriptor_version": 2,
+        "iteration_rank_class": 1,
+        "layout_class": 5,
+        "max_elements": 59,
+        "min_elements": 59,
+        "node_count": 1,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 1,
+            "output": 2,
+            "right": 1
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 10,
+        "prepare_element_buckets": [
+          0,
+          0,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 5,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            488,
+            0
+          ],
+          [
+            488,
+            0
+          ]
+        ],
+        "scalar_mask": 0
+      },
+      {
+        "accepted_count": 2,
+        "access_kinds": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          404026,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 404026,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 404026,
+        "inner_extent": 59,
+        "input_count": 4,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 1,
+        "layout_class": 1,
+        "max_elements": 59,
+        "min_elements": 59,
+        "node_count": 3,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 3,
+            "output": 4,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 0,
+            "output": 5,
+            "right": 4
+          },
+          {
+            "left": 3,
+            "op": 2,
+            "output": 6,
+            "right": 5
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 2,
+        "prepare_element_buckets": [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "scalar_mask": 10
+      },
+      {
+        "accepted_count": 2,
+        "access_kinds": [
+          1,
+          1
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          400025,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 400025,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 400025,
+        "inner_extent": 59,
+        "input_count": 2,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 1,
+        "layout_class": 1,
+        "max_elements": 59,
+        "min_elements": 59,
+        "node_count": 1,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 1,
+            "output": 2,
+            "right": 1
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 2,
+        "prepare_element_buckets": [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 1,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            0
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "scalar_mask": 0
+      },
+      {
+        "accepted_count": 2,
+        "access_kinds": [
+          4,
+          4,
+          1
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          400025,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 400025,
+        "generated_hit_count": 400025,
+        "generic_fallback_count": 0,
+        "inner_extent": 59,
+        "input_count": 3,
+        "iteration_descriptor_version": 2,
+        "iteration_rank_class": 1,
+        "layout_class": 5,
+        "max_elements": 59,
+        "min_elements": 59,
+        "node_count": 2,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 1,
+            "output": 3,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 2,
+            "output": 4,
+            "right": 3
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 2,
+        "prepare_element_buckets": [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 5,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            488,
+            0
+          ],
+          [
+            488,
+            0
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "scalar_mask": 0
+      },
+      {
+        "accepted_count": 2,
+        "access_kinds": [
+          1,
+          2,
+          2,
+          1
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          400025,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 400025,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 400025,
+        "inner_extent": 59,
+        "input_count": 4,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 1,
+        "layout_class": 1,
+        "max_elements": 59,
+        "min_elements": 59,
+        "node_count": 3,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 3,
+            "output": 4,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 2,
+            "output": 5,
+            "right": 4
+          },
+          {
+            "left": 3,
+            "op": 1,
+            "output": 6,
+            "right": 5
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 2,
+        "prepare_element_buckets": [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "scalar_mask": 6
+      },
+      {
+        "accepted_count": 2,
+        "access_kinds": [
+          1,
+          1,
+          2
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          400025,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 400025,
+        "generated_hit_count": 400025,
+        "generic_fallback_count": 0,
+        "inner_extent": 59,
+        "input_count": 3,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 1,
+        "layout_class": 1,
+        "max_elements": 59,
+        "min_elements": 59,
+        "node_count": 2,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 1,
+            "output": 3,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 2,
+            "output": 4,
+            "right": 3
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 2,
+        "prepare_element_buckets": [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "scalar_mask": 4
+      },
+      {
+        "accepted_count": 2,
+        "access_kinds": [
+          1,
+          2
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          402838,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 402838,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 402838,
+        "inner_extent": 59,
+        "input_count": 2,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 2,
+        "layout_class": 4,
+        "max_elements": 3481,
+        "min_elements": 3481,
+        "node_count": 1,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 2,
+            "output": 2,
+            "right": 1
+          }
+        ],
+        "outer_count": 59,
+        "outer_shape_class": 1,
+        "prepare_count": 2,
+        "prepare_element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            488
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "scalar_mask": 2
+      },
+      {
+        "accepted_count": 4,
+        "access_kinds": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          805676,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 805676,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 805676,
+        "inner_extent": 59,
+        "input_count": 4,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 2,
+        "layout_class": 4,
+        "max_elements": 3481,
+        "min_elements": 3481,
+        "node_count": 3,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 1,
+            "output": 4,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 2,
+            "output": 5,
+            "right": 4
+          },
+          {
+            "left": 3,
+            "op": 1,
+            "output": 6,
+            "right": 5
+          }
+        ],
+        "outer_count": 59,
+        "outer_shape_class": 1,
+        "prepare_count": 4,
+        "prepare_element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 2,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            488
+          ],
+          [
+            8,
+            488
+          ],
+          [
+            8,
+            472
+          ],
+          [
+            8,
+            488
+          ]
+        ],
+        "scalar_mask": 0
+      },
+      {
+        "accepted_count": 2,
+        "access_kinds": [
+          1,
+          1,
+          2,
+          1
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          402838,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 402838,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 402838,
+        "inner_extent": 59,
+        "input_count": 4,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 2,
+        "layout_class": 4,
+        "max_elements": 3481,
+        "min_elements": 3481,
+        "node_count": 3,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 1,
+            "output": 4,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 2,
+            "output": 5,
+            "right": 4
+          },
+          {
+            "left": 3,
+            "op": 1,
+            "output": 6,
+            "right": 5
+          }
+        ],
+        "outer_count": 59,
+        "outer_shape_class": 1,
+        "prepare_count": 2,
+        "prepare_element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            488
+          ],
+          [
+            8,
+            488
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            472
+          ]
+        ],
+        "scalar_mask": 4
+      },
+      {
+        "accepted_count": 2,
+        "access_kinds": [
+          1,
+          1,
+          2
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          402838,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 402838,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 402838,
+        "inner_extent": 59,
+        "input_count": 3,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 2,
+        "layout_class": 4,
+        "max_elements": 3481,
+        "min_elements": 3481,
+        "node_count": 2,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 0,
+            "output": 3,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 2,
+            "output": 4,
+            "right": 3
+          }
+        ],
+        "outer_count": 59,
+        "outer_shape_class": 1,
+        "prepare_count": 2,
+        "prepare_element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            472
+          ],
+          [
+            8,
+            488
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "scalar_mask": 4
+      },
+      {
+        "accepted_count": 2,
+        "access_kinds": [
+          1,
+          1,
+          2,
+          1,
+          2,
+          1
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          402838,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 402838,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 402838,
+        "inner_extent": 59,
+        "input_count": 6,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 2,
+        "layout_class": 4,
+        "max_elements": 3481,
+        "min_elements": 3481,
+        "node_count": 5,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 0,
+            "output": 6,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 2,
+            "output": 7,
+            "right": 6
+          },
+          {
+            "left": 3,
+            "op": 0,
+            "output": 8,
+            "right": 7
+          },
+          {
+            "left": 4,
+            "op": 2,
+            "output": 9,
+            "right": 8
+          },
+          {
+            "left": 5,
+            "op": 0,
+            "output": 10,
+            "right": 9
+          }
+        ],
+        "outer_count": 59,
+        "outer_shape_class": 1,
+        "prepare_count": 2,
+        "prepare_element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            472
+          ],
+          [
+            8,
+            488
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            472
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            472
+          ]
+        ],
+        "scalar_mask": 20
+      },
+      {
+        "accepted_count": 1,
+        "access_kinds": [
+          1,
+          2
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          201419,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 201419,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 201419,
+        "inner_extent": 59,
+        "input_count": 2,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 2,
+        "layout_class": 1,
+        "max_elements": 3481,
+        "min_elements": 3481,
+        "node_count": 1,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 0,
+            "output": 2,
+            "right": 1
+          }
+        ],
+        "outer_count": 59,
+        "outer_shape_class": 1,
+        "prepare_count": 1,
+        "prepare_element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            472
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "scalar_mask": 2
+      },
+      {
+        "accepted_count": 2,
+        "access_kinds": [
+          1,
+          2,
+          2
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          402838,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 402838,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 402838,
+        "inner_extent": 59,
+        "input_count": 3,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 2,
+        "layout_class": 4,
+        "max_elements": 3481,
+        "min_elements": 3481,
+        "node_count": 2,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 2,
+            "output": 3,
+            "right": 1
+          },
+          {
+            "left": 3,
+            "op": 3,
+            "output": 4,
+            "right": 2
+          }
+        ],
+        "outer_count": 59,
+        "outer_shape_class": 1,
+        "prepare_count": 2,
+        "prepare_element_buckets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            488
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "scalar_mask": 6
+      },
+      {
+        "accepted_count": 3,
+        "access_kinds": [
+          4,
+          2
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          588253,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 588253,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 588253,
+        "inner_extent": 59,
+        "input_count": 2,
+        "iteration_descriptor_version": 2,
+        "iteration_rank_class": 1,
+        "layout_class": 5,
+        "max_elements": 59,
+        "min_elements": 59,
+        "node_count": 1,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 2,
+            "output": 2,
+            "right": 1
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 3,
+        "prepare_element_buckets": [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            488,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "scalar_mask": 2
+      },
+      {
+        "accepted_count": 4,
+        "access_kinds": [
+          4,
+          4,
+          1,
+          4
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          785671,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 785671,
+        "generated_hit_count": 785671,
+        "generic_fallback_count": 0,
+        "inner_extent": 59,
+        "input_count": 4,
+        "iteration_descriptor_version": 2,
+        "iteration_rank_class": 1,
+        "layout_class": 5,
+        "max_elements": 59,
+        "min_elements": 59,
+        "node_count": 3,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 1,
+            "output": 4,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 2,
+            "output": 5,
+            "right": 4
+          },
+          {
+            "left": 3,
+            "op": 1,
+            "output": 6,
+            "right": 5
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 4,
+        "prepare_element_buckets": [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 5,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            488,
+            0
+          ],
+          [
+            488,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            488,
+            0
+          ]
+        ],
+        "scalar_mask": 0
+      },
+      {
+        "accepted_count": 4,
+        "access_kinds": [
+          4,
+          4,
+          1,
+          1
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          781670,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 781670,
+        "generated_hit_count": 781670,
+        "generic_fallback_count": 0,
+        "inner_extent": 59,
+        "input_count": 4,
+        "iteration_descriptor_version": 2,
+        "iteration_rank_class": 1,
+        "layout_class": 5,
+        "max_elements": 59,
+        "min_elements": 59,
+        "node_count": 3,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 1,
+            "output": 4,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 2,
+            "output": 5,
+            "right": 4
+          },
+          {
+            "left": 3,
+            "op": 1,
+            "output": 6,
+            "right": 5
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 4,
+        "prepare_element_buckets": [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 5,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            488,
+            0
+          ],
+          [
+            488,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "scalar_mask": 0
+      },
+      {
+        "accepted_count": 4,
+        "access_kinds": [
+          4,
+          4,
+          2,
+          1
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          781670,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 781670,
+        "generated_hit_count": 781670,
+        "generic_fallback_count": 0,
+        "inner_extent": 59,
+        "input_count": 4,
+        "iteration_descriptor_version": 2,
+        "iteration_rank_class": 1,
+        "layout_class": 5,
+        "max_elements": 59,
+        "min_elements": 59,
+        "node_count": 3,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 1,
+            "output": 4,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 2,
+            "output": 5,
+            "right": 4
+          },
+          {
+            "left": 3,
+            "op": 1,
+            "output": 6,
+            "right": 5
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 4,
+        "prepare_element_buckets": [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            488,
+            0
+          ],
+          [
+            488,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "scalar_mask": 4
+      },
+      {
+        "accepted_count": 8,
+        "access_kinds": [
+          2,
+          4,
+          4
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          1563340,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 1563340,
+        "generated_hit_count": 1563340,
+        "generic_fallback_count": 0,
+        "inner_extent": 59,
+        "input_count": 3,
+        "iteration_descriptor_version": 2,
+        "iteration_rank_class": 1,
+        "layout_class": 5,
+        "max_elements": 59,
+        "min_elements": 59,
+        "node_count": 2,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 2,
+            "output": 3,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 1,
+            "output": 4,
+            "right": 3
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 8,
+        "prepare_element_buckets": [
+          0,
+          0,
+          8,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            0,
+            0
+          ],
+          [
+            488,
+            0
+          ],
+          [
+            488,
+            0
+          ]
+        ],
+        "scalar_mask": 1
+      },
+      {
+        "accepted_count": 4,
+        "access_kinds": [
+          1,
+          4,
+          2
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          781670,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 781670,
+        "generated_hit_count": 781670,
+        "generic_fallback_count": 0,
+        "inner_extent": 59,
+        "input_count": 3,
+        "iteration_descriptor_version": 2,
+        "iteration_rank_class": 1,
+        "layout_class": 5,
+        "max_elements": 59,
+        "min_elements": 59,
+        "node_count": 2,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 0,
+            "output": 3,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 2,
+            "output": 4,
+            "right": 3
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 4,
+        "prepare_element_buckets": [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            0
+          ],
+          [
+            488,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "scalar_mask": 4
+      },
+      {
+        "accepted_count": 4,
+        "access_kinds": [
+          1,
+          4,
+          2,
+          1,
+          2,
+          1
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          781670,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 781670,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 781670,
+        "inner_extent": 59,
+        "input_count": 6,
+        "iteration_descriptor_version": 2,
+        "iteration_rank_class": 1,
+        "layout_class": 5,
+        "max_elements": 59,
+        "min_elements": 59,
+        "node_count": 5,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 0,
+            "output": 6,
+            "right": 1
+          },
+          {
+            "left": 2,
+            "op": 2,
+            "output": 7,
+            "right": 6
+          },
+          {
+            "left": 3,
+            "op": 0,
+            "output": 8,
+            "right": 7
+          },
+          {
+            "left": 4,
+            "op": 2,
+            "output": 9,
+            "right": 8
+          },
+          {
+            "left": 5,
+            "op": 0,
+            "output": 10,
+            "right": 9
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 4,
+        "prepare_element_buckets": [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            0
+          ],
+          [
+            488,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "scalar_mask": 20
+      },
+      {
+        "accepted_count": 2,
+        "access_kinds": [
+          1,
+          2
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          394836,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 394836,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 394836,
+        "inner_extent": 59,
+        "input_count": 2,
+        "iteration_descriptor_version": 1,
+        "iteration_rank_class": 1,
+        "layout_class": 1,
+        "max_elements": 59,
+        "min_elements": 59,
+        "node_count": 1,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 0,
+            "output": 2,
+            "right": 1
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 2,
+        "prepare_element_buckets": [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            8,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "scalar_mask": 2
+      },
+      {
+        "accepted_count": 4,
+        "access_kinds": [
+          4,
+          2,
+          2
+        ],
+        "dtype_class": 2,
+        "element_buckets": [
+          0,
+          0,
+          785671,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_count": 785671,
+        "generated_hit_count": 0,
+        "generic_fallback_count": 785671,
+        "inner_extent": 59,
+        "input_count": 3,
+        "iteration_descriptor_version": 2,
+        "iteration_rank_class": 1,
+        "layout_class": 5,
+        "max_elements": 59,
+        "min_elements": 59,
+        "node_count": 2,
+        "nodes": [
+          {
+            "left": 0,
+            "op": 2,
+            "output": 3,
+            "right": 1
+          },
+          {
+            "left": 3,
+            "op": 3,
+            "output": 4,
+            "right": 2
+          }
+        ],
+        "outer_count": 1,
+        "outer_shape_class": 0,
+        "prepare_count": 4,
+        "prepare_element_buckets": [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "refined_layout_class": 4,
+        "sample_numpy_float64_scalar_mask": 0,
+        "sample_operand_strides": [
+          [
+            488,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "scalar_mask": 6
+      }
+    ],
+    "output_allocations": 36662309,
+    "prepare_time_ns": 0,
+    "region_length_histogram": [
+      0,
+      56,
+      42,
+      24,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "region_time_ns": 0,
+    "regions_executed": 36662309,
+    "regions_prepare_called": 128,
+    "regions_provider_accepted": 128,
+    "regions_rejected_other": 0,
+    "regions_rejected_unprofitable": 0,
+    "regions_rejected_unsupported_contract": 0,
+    "regions_rejected_unsupported_node": 0,
+    "rejection_histogram": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "timing_enabled": false,
+    "unsupported_node_records_dropped": 0,
+    "unsupported_nodes": []
+  },
+  "diagnostic_source": "/workspace/crossjit-workspace/results/v3-single-opportunities/channel_flow.diagnostic.json",
+  "correct": true
+}

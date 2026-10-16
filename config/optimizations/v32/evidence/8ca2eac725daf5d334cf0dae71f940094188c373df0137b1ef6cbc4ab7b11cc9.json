@@ -1,0 +1,190 @@
+{
+  "configuration": {
+    "benchmark_identity_used_for_selection": false,
+    "formal_npbench_evaluation": false,
+    "independent_processes": 3,
+    "max_cv": 0.15,
+    "samples_per_process": 7,
+    "scalar_kind": "numpy",
+    "speedup_threshold": 1.1
+  },
+  "method": "generic_signature_microbenchmark",
+  "rows": [
+    {
+      "baseline_cv": 0.01240417461250754,
+      "baseline_median_ns": 1636.9,
+      "correct": true,
+      "element_count": 3600,
+      "execution_specialization_hash": "21514762e4fe25c42ce7cc91025dcbfa315a46dc437f0ca421455609544307cd",
+      "generated_cv": 0.0008916035975937555,
+      "generated_median_ns": 638.75,
+      "generated_speedup": 2.5626614481409002,
+      "generated_vs_generic": 9.322160469667319,
+      "generic_cv": 0.0961292979370903,
+      "generic_median_ns": 5954.53,
+      "generic_speedup": 0.27489995012200796,
+      "inner_extent": 60,
+      "outer_count": 60,
+      "process_medians_ns": {
+        "baseline": [
+          1667.15,
+          1628.33,
+          1636.9
+        ],
+        "generated": [
+          638.92,
+          637.86,
+          638.75
+        ],
+        "generic": [
+          6966.53,
+          5892.9,
+          5954.53
+        ]
+      },
+      "profiled_source": "observed",
+      "structural_signature_hash": "6bfd7717ae865589192aa6c2f7ea2c5929552f477c737d3822eef47f5644fd44"
+    },
+    {
+      "baseline_cv": 0.009169002777755519,
+      "baseline_median_ns": 3600.77,
+      "correct": true,
+      "element_count": 3600,
+      "execution_specialization_hash": "78e03495558cc1a2f214cfadcf1e2672a572a2804dbabea012b0036cd778669b",
+      "generated_cv": 0.025468392806175105,
+      "generated_median_ns": 1058.34,
+      "generated_speedup": 3.402280930513824,
+      "generated_vs_generic": 44.34440727932423,
+      "generic_cv": 0.013765302010119686,
+      "generic_median_ns": 46931.46,
+      "generic_speedup": 0.07672401412613203,
+      "inner_extent": 60,
+      "outer_count": 60,
+      "process_medians_ns": {
+        "baseline": [
+          3657.9,
+          3600.77,
+          3600.07
+        ],
+        "generated": [
+          1058.22,
+          1105.66,
+          1058.34
+        ],
+        "generic": [
+          48024.88,
+          46866.83,
+          46931.46
+        ]
+      },
+      "profiled_source": "observed",
+      "structural_signature_hash": "d5692f3396d028dad9e4f3f2f08adbb9a1c9c09c00eb13c72c7760a98e81927a"
+    },
+    {
+      "baseline_cv": 0.10578794625498832,
+      "baseline_median_ns": 3588.33,
+      "correct": true,
+      "element_count": 3600,
+      "execution_specialization_hash": "8f7ac731175121178c00af54c91ba5bdedafc629347fc07d8d82d8962f4a1e6c",
+      "generated_cv": 0.022086112224180485,
+      "generated_median_ns": 1058.98,
+      "generated_speedup": 3.38847759164479,
+      "generated_vs_generic": 44.86403898090616,
+      "generic_cv": 0.015780367421108926,
+      "generic_median_ns": 47510.12,
+      "generic_speedup": 0.07552769809884714,
+      "inner_extent": 60,
+      "outer_count": 60,
+      "process_medians_ns": {
+        "baseline": [
+          3589.86,
+          3588.33,
+          2969.32
+        ],
+        "generated": [
+          1057.4,
+          1099.17,
+          1058.98
+        ],
+        "generic": [
+          46235.23,
+          47534.34,
+          47510.12
+        ]
+      },
+      "profiled_source": "observed",
+      "structural_signature_hash": "7cca06e950c4defba3b30f4ad1c4f249c03210040f267e5631dd658e463f7068"
+    },
+    {
+      "baseline_cv": 0.03173424864214057,
+      "baseline_median_ns": 1881.99,
+      "correct": true,
+      "element_count": 3600,
+      "execution_specialization_hash": "97b92105fa4d6ef489b228d8bd12a53bcd6b3dc3352b8c0dea260cc4462b6536",
+      "generated_cv": 0.006068573568687859,
+      "generated_median_ns": 950.99,
+      "generated_speedup": 1.9789797999978969,
+      "generated_vs_generic": 49.93268068013334,
+      "generic_cv": 0.015925615052742287,
+      "generic_median_ns": 47485.48,
+      "generic_speedup": 0.03963295727451844,
+      "inner_extent": 60,
+      "outer_count": 60,
+      "process_medians_ns": {
+        "baseline": [
+          1881.99,
+          1875.7,
+          1983.9
+        ],
+        "generated": [
+          959.22,
+          948.07,
+          950.99
+        ],
+        "generic": [
+          46207.66,
+          47485.48,
+          47525.82
+        ]
+      },
+      "profiled_source": "observed",
+      "structural_signature_hash": "c9cdb5483136efb77dc1c7f3981b2827c3aee25231e02d82c8269a13e85a611e"
+    },
+    {
+      "baseline_cv": 0.0020743163306007474,
+      "baseline_median_ns": 3001.81,
+      "correct": true,
+      "element_count": 3600,
+      "execution_specialization_hash": "9953d710daca3e33f995fb3ab33c771be22931c0c5ad7e6fca4a84d6cf7c4240",
+      "generated_cv": 0.027033138519371152,
+      "generated_median_ns": 1070.09,
+      "generated_speedup": 2.8051939556485905,
+      "generated_vs_generic": 43.93176274892767,
+      "generic_cv": 0.01928014490951829,
+      "generic_median_ns": 47010.94,
+      "generic_speedup": 0.0638534349664142,
+      "inner_extent": 60,
+      "outer_count": 60,
+      "process_medians_ns": {
+        "baseline": [
+          3004.81,
+          2992.85,
+          3001.81
+        ],
+        "generated": [
+          1064.0,
+          1117.52,
+          1070.09
+        ],
+        "generic": [
+          45475.56,
+          47045.97,
+          47010.94
+        ]
+      },
+      "profiled_source": "observed",
+      "structural_signature_hash": "e2dfa91d86995493df562687ad0e5c228028b269e27798d98b0a412b160b73c6"
+    }
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "shapes": ["1x16", "1x32", "1x64", "1x128", "1x256", "1x512", "1x1024", "1x2048", "1x4096", "1x8192", "1x16384", "1x32768", "1x65536", "16x16", "32x32", "64x64", "128x128"],
+  "affine_strides": [2, 100],
+  "scalar_kinds": ["python", "numpy", "integer"],
+  "processes": 3,
+  "samples": 7,
+  "target_elements": 300000,
+  "min_iterations": 100,
+  "max_iterations": 10000,
+  "speedup_threshold": 1.10,
+  "max_cv": 0.15,
+  "seed": 20261002,
+  "compiler_flags": ["-std=c11", "-O3", "-fno-strict-aliasing", "-fPIC"],
+  "budget_seconds": 14400
+}

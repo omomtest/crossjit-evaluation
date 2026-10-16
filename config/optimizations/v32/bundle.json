@@ -1,0 +1,728 @@
+{
+  "schema_version": 1,
+  "preset": "v32",
+  "purpose": "Reproduce the complete frozen execution-synthesis acceptance configuration; performance is measured again on each host.",
+  "measurement_origin": {
+    "cpu": "Intel Core i5-14600K",
+    "os": "Linux x86_64",
+    "compiler": "GCC 13.3.0",
+    "protocol": "NPBench S; stress1; W200/R100/T10; BLAS6; affinity 0,2,4,6,8,10",
+    "migration_after_GM_all": 1.130439207813598
+  },
+  "files": {
+    "profile.json": {
+      "sha256": "bfc0198af45060f7d2bd8526cc7f2bb317ce791238781e71eb9e051a092d2123",
+      "source_path": "results/v3-coverage-next-20261003/profile.json"
+    },
+    "production_selection.json": {
+      "sha256": "0f84184dafc560b234d8596eb20c2ad14b63f002d09264731f8292e0b5b005c5",
+      "source_path": "results/v3-coverage-next-20261003/npbench-final-policy/production_selection.json"
+    },
+    "execution_decision_db.json": {
+      "sha256": "01c2a10955332288281fa041b75686364e06bd2ab5ff81b83dd98a4962dce879",
+      "source_path": "results/v3-coverage-next-20261003/npbench-final-policy/execution_decision_db.json"
+    },
+    "native_policy.json": {
+      "sha256": "22339110026ff6c994f5a0aaf450c414eb72044b9fe683a8d82df984fc7077a4",
+      "source_path": "results/v3-region-native-20261004/plan-comparison-v31/native_policy.json"
+    },
+    "evidence/4c18f1c29e1eaf7b58cdc8998252bbba182c28f359eb6bb54205bb8858989c94.json": {
+      "sha256": "fa4e372aac3e4003a27472f6abc05f5f65df14761e2ede74faa3b5175feac74e",
+      "source_path": "results/v3-single-opportunities/adi.profile.json"
+    },
+    "evidence/c4d5b0acae2d1bfa6f296329b7b61817d92caecc30e543202dfcafa39bdc9862.json": {
+      "sha256": "dfebc718795069874b1b6302da95333ce15f64ec5e5dc2674d79948e7e2b0742",
+      "source_path": "results/v3-single-opportunities/channel_flow.profile.json"
+    },
+    "evidence/1c361f71d6b37b4394ded32c5b23b60a79120286252a5a84af79aa135325c303.json": {
+      "sha256": "84bc6fc560d498832b52c898fcb66d2e8434cf65bf2670b9f803987d441f5024",
+      "source_path": "results/v3-single-opportunities/deriche.profile.json"
+    },
+    "evidence/de6aa4e5a2f48b71f637628b16537ed684c4ded637dbce8c230c9b3f2db9fea0.json": {
+      "sha256": "bc15f474e8b1164dd69fac074cba8faf891b59f209ad9e58ad505b8b6005bae9",
+      "source_path": "results/v3-single-opportunities/gramschmidt.profile.json"
+    },
+    "evidence/7fe3bcaf7df3c9ff4d74c7d0be890b20d2656eb9abef93f74f9dd299d6a7f0ad.json": {
+      "sha256": "ac4df8eb07a18bb2de246d1305ef561264d53faddbc0ef3688b354291fdb2c96",
+      "source_path": "results/v3-single-opportunities/nbody.profile.json"
+    },
+    "evidence/9494eff8ac0cc0e040adfba210c4917c20622b7e7b3a16e020f3a12b94f88d12.json": {
+      "sha256": "c8b4418d3459a870c4d0be6f9376855f641b34e53c47336b9772a132e3a95e5b",
+      "source_path": "results/v3-single-opportunities/symm.profile.json"
+    },
+    "evidence/88b1b227e902a23d20a555e2bd22dda2297345e5fced180c93670741c1ebf9c2.json": {
+      "sha256": "5d1968427f3d3d5acc05cb28f4e58321121a4ab2a3baa1a2afc56dd41ad1a8c7",
+      "source_path": "results/v3-single-opportunities/syr2k.profile.json"
+    },
+    "evidence/4a193a95a79728c97496fbfd6304576c01c1ca01307c5b8041b5487f275c26a2.json": {
+      "sha256": "9616e967ca2f9720032a3cac5adba7e6a22333e4ead4df4426333e1febf8804f",
+      "source_path": "results/v3-single-opportunities/syrk.profile.json"
+    },
+    "evidence/5ddaf49d7c010cfbed124f39df74006fa7229dda3a8ff05113f108dde4541633.json": {
+      "sha256": "c615a8d9595bcf7d4e14bd2569628aa3ef70c9a36590b0938d2f7c9a2a12342c",
+      "source_path": "results/v3-single-opportunities/vadv.profile.json"
+    },
+    "evidence/1c928c3f3509384ad3a47cf50aae7ca4f16be18da3ed2a4b841a3f6a7d3644b0.json": {
+      "sha256": "d2e3ac63c5f2c0e4b19728b05cbc468b09f6d8a47a12124e58dbecb316cd7ef1",
+      "source_path": "results/v3-type-guards-opportunities/adi.profile.json"
+    },
+    "evidence/34d8c394805d72b1cc99569321aed2c567524e8ea8bca54117189b4e4aee7863.json": {
+      "sha256": "3bad207fbd2d8736e2cef0656b05238e969c2a635d0c28926804f99139f0210d",
+      "source_path": "results/v3-type-guards-opportunities/deriche.profile.json"
+    },
+    "evidence/28863d11c06e3e32bfbbcf2700b00f1fc442d9f40df8bce61cb5d5c1bc1d0b3f.json": {
+      "sha256": "3d1a7f79e263a82f9e83e941cc647b396efff009b7c83a610177a9e8f895a845",
+      "source_path": "results/v3-type-guards-opportunities/vadv.profile.json"
+    },
+    "evidence/947aea14beb7b5d3112a0b1d59d3ad27b644e44191e5199c6edde16e7e1a44a2.json": {
+      "sha256": "5fd6fdfc168917cb8c4695181f31bb8d1edb698c9bd61fca91338a5997b52040",
+      "source_path": "results/v3-type-guards-opportunities/nbody.profile.json"
+    },
+    "evidence/cc66326358b6428d5262356623e76ef732590ece411e8932b921ae356770aa36.json": {
+      "sha256": "cc66326358b6428d5262356623e76ef732590ece411e8932b921ae356770aa36",
+      "source_path": "results/v3-affine-gate-cells-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/7197313b7fcf8900848d232492175d823be0f8af313c1b21a0f00385977b9735.json": {
+      "sha256": "7197313b7fcf8900848d232492175d823be0f8af313c1b21a0f00385977b9735",
+      "source_path": "results/v3-affine-gate-cells-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/3fa16fc68a7c6f6e65a2f5f4a1636c4168bb62d7320363a01c5c070d34911f97.json": {
+      "sha256": "3fa16fc68a7c6f6e65a2f5f4a1636c4168bb62d7320363a01c5c070d34911f97",
+      "source_path": "numpy/numpy/_core/code_generators/crossjit_v3_long/execution_specialization_tuning.json"
+    },
+    "evidence/20ae4b290061b82bffe2bb3a9bb023128e0b3ba9e9febcd01851416812ef6a3e.json": {
+      "sha256": "20ae4b290061b82bffe2bb3a9bb023128e0b3ba9e9febcd01851416812ef6a3e",
+      "source_path": "results/v3-single-calibration/measurements-numpy-scalar/group00-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/19c0a1ff71594d3c85b7ccba500c2dba962da72cde4c9e5700003f86d5513aa1.json": {
+      "sha256": "19c0a1ff71594d3c85b7ccba500c2dba962da72cde4c9e5700003f86d5513aa1",
+      "source_path": "results/v3-single-calibration/measurements-numpy-scalar/group00-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/20116d250ca1bbf5b1742ed4aedd89e1e90b470806a79d9ca323e84f6cbbc2ba.json": {
+      "sha256": "20116d250ca1bbf5b1742ed4aedd89e1e90b470806a79d9ca323e84f6cbbc2ba",
+      "source_path": "results/v3-single-calibration/measurements-numpy-scalar/group01-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/302848f0919f2259db65bb7b39e30d201545224fc15e6644e0d6a46d78f4cad7.json": {
+      "sha256": "302848f0919f2259db65bb7b39e30d201545224fc15e6644e0d6a46d78f4cad7",
+      "source_path": "results/v3-single-calibration/measurements-numpy-scalar/group01-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/0db27e3109a4bd6aa1c1b50638e460c617d0525250a1b6178b95c99cbf166560.json": {
+      "sha256": "0db27e3109a4bd6aa1c1b50638e460c617d0525250a1b6178b95c99cbf166560",
+      "source_path": "results/v3-single-calibration/measurements-numpy-scalar/group02-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/6aff749c26dd092b19a015e5454e3e1be27d4770aef3c969fbb7437416929199.json": {
+      "sha256": "6aff749c26dd092b19a015e5454e3e1be27d4770aef3c969fbb7437416929199",
+      "source_path": "results/v3-single-calibration/measurements-numpy-scalar/group02-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/954da510546a2a9ef6e544470e4ee11ecc0363e21000d7e6f17f409ff00bed8d.json": {
+      "sha256": "954da510546a2a9ef6e544470e4ee11ecc0363e21000d7e6f17f409ff00bed8d",
+      "source_path": "results/v3-single-calibration/measurements-numpy-scalar/group03-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/9628331c3aefc3eb8c113d39ea1b2064bf1993771a4bca21702e48f56b239ad2.json": {
+      "sha256": "9628331c3aefc3eb8c113d39ea1b2064bf1993771a4bca21702e48f56b239ad2",
+      "source_path": "results/v3-single-calibration/measurements-numpy-scalar/group03-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/05b21b4c832b898919d320c32ef9c865999d820ff321dcf3b3c777d095c54be3.json": {
+      "sha256": "05b21b4c832b898919d320c32ef9c865999d820ff321dcf3b3c777d095c54be3",
+      "source_path": "results/v3-single-calibration/measurements-numpy-scalar/group04-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/3091f69f3e6c6d6db1f4016ac9ecfbc3fd98edeb76cc090cd966f2b413442589.json": {
+      "sha256": "3091f69f3e6c6d6db1f4016ac9ecfbc3fd98edeb76cc090cd966f2b413442589",
+      "source_path": "results/v3-single-calibration/measurements-numpy-scalar/group04-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/1ec4b3b51592bf657cf3c51ef1d09b9d8e96ff3eba114e4ff1a5d44c7832a047.json": {
+      "sha256": "1ec4b3b51592bf657cf3c51ef1d09b9d8e96ff3eba114e4ff1a5d44c7832a047",
+      "source_path": "results/v3-single-calibration/measurements-numpy-scalar/group05-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/2cfc87e63a5a6df258652cff8555900a2a5b1918ed49b4a02ac29dd048dac7a5.json": {
+      "sha256": "2cfc87e63a5a6df258652cff8555900a2a5b1918ed49b4a02ac29dd048dac7a5",
+      "source_path": "results/v3-single-calibration/measurements-numpy-scalar/group05-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/673295dc07bcd2b633739b9b82c56a091b3ffbd829a434d165b35c282a84c650.json": {
+      "sha256": "673295dc07bcd2b633739b9b82c56a091b3ffbd829a434d165b35c282a84c650",
+      "source_path": "results/v3-single-calibration/measurements-numpy-scalar/group06-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/a11980b58728766807adcc1ec625e8a4f45550ec40065cebe70331f9879e60fd.json": {
+      "sha256": "a11980b58728766807adcc1ec625e8a4f45550ec40065cebe70331f9879e60fd",
+      "source_path": "results/v3-single-calibration/measurements-numpy-scalar/group06-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/c3e1416eb85370ca8b05d060b3ee8d64ac300741b9d78a52aa37e16605ca29b8.json": {
+      "sha256": "c3e1416eb85370ca8b05d060b3ee8d64ac300741b9d78a52aa37e16605ca29b8",
+      "source_path": "results/v3-single-calibration/measurements-numpy-scalar/group07-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/22b1149b48e5aabc3596b1ff3244150c1eb8f387fa7996e8c7c362babdc80cf6.json": {
+      "sha256": "22b1149b48e5aabc3596b1ff3244150c1eb8f387fa7996e8c7c362babdc80cf6",
+      "source_path": "results/v3-single-calibration/measurements-numpy-scalar/group07-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/8ca2eac725daf5d334cf0dae71f940094188c373df0137b1ef6cbc4ab7b11cc9.json": {
+      "sha256": "8ca2eac725daf5d334cf0dae71f940094188c373df0137b1ef6cbc4ab7b11cc9",
+      "source_path": "results/v3-single-calibration/measurements-numpy-scalar/group08-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/301e4fdaf01b64ea1c148715dddbbc741fe3405b3416c2c2c51c0685f4b24b1c.json": {
+      "sha256": "301e4fdaf01b64ea1c148715dddbbc741fe3405b3416c2c2c51c0685f4b24b1c",
+      "source_path": "results/v3-single-calibration/measurements-numpy-scalar/group08-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/f6c30845a485f853ec388c87273d6dc96b04771e0fee951dd3fead1152dafc87.json": {
+      "sha256": "f6c30845a485f853ec388c87273d6dc96b04771e0fee951dd3fead1152dafc87",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes00-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/ac5f3e788c5f444148aab45eafb59be34f757134816e6f3d7b054183f32cede9.json": {
+      "sha256": "ac5f3e788c5f444148aab45eafb59be34f757134816e6f3d7b054183f32cede9",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes00-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/05bd9f9fd782b5fd3450e38241b8eb9851bc133622c40e0d781bc18b56ddbe5d.json": {
+      "sha256": "05bd9f9fd782b5fd3450e38241b8eb9851bc133622c40e0d781bc18b56ddbe5d",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes01-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/ef9c136c24a8a43bef283ada47dc1cb3013ea4a29e8c09e9296c2b55770e5ee9.json": {
+      "sha256": "ef9c136c24a8a43bef283ada47dc1cb3013ea4a29e8c09e9296c2b55770e5ee9",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes01-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/9fb85871afafcf3eaa72fdbb293fc49e82a586a07ffcbe699bbd9ed28ae70592.json": {
+      "sha256": "9fb85871afafcf3eaa72fdbb293fc49e82a586a07ffcbe699bbd9ed28ae70592",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes02-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/487496227d0f20fae1a9fba4bdf16912cd0fea5e39bae12d4696251e6c670dfe.json": {
+      "sha256": "487496227d0f20fae1a9fba4bdf16912cd0fea5e39bae12d4696251e6c670dfe",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes02-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/5a79f21d5ea2953f04d729add4df26cb9100e4bdf021c5b0d7ad08facbfd671d.json": {
+      "sha256": "5a79f21d5ea2953f04d729add4df26cb9100e4bdf021c5b0d7ad08facbfd671d",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes03-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/6ae6c8e38858174fe29e6eeba5d94b0be783b2d473c2b4d3bce9ad08d3057bf0.json": {
+      "sha256": "6ae6c8e38858174fe29e6eeba5d94b0be783b2d473c2b4d3bce9ad08d3057bf0",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes03-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/fbfc87c069c31dc08c93aa619ca35f03a5c7cb42d2c995846580cab34bd09002.json": {
+      "sha256": "fbfc87c069c31dc08c93aa619ca35f03a5c7cb42d2c995846580cab34bd09002",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes04-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/20a4305e52a6e1df65b07a79f94bfe24e8e07b7aa33b0c50f08024884f0e3935.json": {
+      "sha256": "20a4305e52a6e1df65b07a79f94bfe24e8e07b7aa33b0c50f08024884f0e3935",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes04-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/8f1d377d91d077c71afcfac1eeb5751a9b920dbd56234d9e6016c05f6d3766ba.json": {
+      "sha256": "8f1d377d91d077c71afcfac1eeb5751a9b920dbd56234d9e6016c05f6d3766ba",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes05-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/44ad29909e74dd0ac3ab76b065775ffbf10f215de2d0005f68d949346b5b4449.json": {
+      "sha256": "44ad29909e74dd0ac3ab76b065775ffbf10f215de2d0005f68d949346b5b4449",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes05-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/4f31237129cda82c674893e5a6fdac134e470e0a54c4999094c126e318e06e82.json": {
+      "sha256": "4f31237129cda82c674893e5a6fdac134e470e0a54c4999094c126e318e06e82",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes06-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/761f7d5ea10c2b5898599b00c1136923450ea4397a68cffea25249a3272bc31f.json": {
+      "sha256": "761f7d5ea10c2b5898599b00c1136923450ea4397a68cffea25249a3272bc31f",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes06-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/55504b6fc6b1d434596de448bc75f68e37f7c4fd9849d46e7d5383ec0e45a223.json": {
+      "sha256": "55504b6fc6b1d434596de448bc75f68e37f7c4fd9849d46e7d5383ec0e45a223",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes07-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/7fcc3384a1d15a38f1ad622232face7d7b678925785785fe66280252f5655f91.json": {
+      "sha256": "7fcc3384a1d15a38f1ad622232face7d7b678925785785fe66280252f5655f91",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes07-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/b9dace6ea52100dba9ad3a489142a117052a0ed2da9392a0b4bb853a580f1710.json": {
+      "sha256": "b9dace6ea52100dba9ad3a489142a117052a0ed2da9392a0b4bb853a580f1710",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes08-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/696294e5cd407f067c626e56977b30c239f4728e9677c3a3a64844ca970908a4.json": {
+      "sha256": "696294e5cd407f067c626e56977b30c239f4728e9677c3a3a64844ca970908a4",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes08-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/643590d753ab0e3c0c1803e452d864723ca966aab13d29cc7a34f7a5232d02c7.json": {
+      "sha256": "643590d753ab0e3c0c1803e452d864723ca966aab13d29cc7a34f7a5232d02c7",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes09-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/97dd551770683589415b79e676b754ec6978e1ca95f8e07d3b33951e4c728b4b.json": {
+      "sha256": "97dd551770683589415b79e676b754ec6978e1ca95f8e07d3b33951e4c728b4b",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes09-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/36e4c40341c0be0103009ccb30a7f5dbf320fe21f5ad9e37c61c9be5ccc2f165.json": {
+      "sha256": "36e4c40341c0be0103009ccb30a7f5dbf320fe21f5ad9e37c61c9be5ccc2f165",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes10-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/860ce411be8f032516e785fb78e883c7e9071b69505cb8589465ceb2e4482fb4.json": {
+      "sha256": "860ce411be8f032516e785fb78e883c7e9071b69505cb8589465ceb2e4482fb4",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes10-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/4d1bd9ba29c58159c2abdab8a0169e2bad97913f1d30a23e18db5f1b05458138.json": {
+      "sha256": "4d1bd9ba29c58159c2abdab8a0169e2bad97913f1d30a23e18db5f1b05458138",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes11-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/42c2ea9c5a53636c112963279a428877f0fda1e073e9cd80cbda26a2ea94d719.json": {
+      "sha256": "42c2ea9c5a53636c112963279a428877f0fda1e073e9cd80cbda26a2ea94d719",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes11-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/0c23c7eaaccfbd97fe8b9cf0a284cbb2e2ffb61babf766e92dc723bb7461f7d0.json": {
+      "sha256": "0c23c7eaaccfbd97fe8b9cf0a284cbb2e2ffb61babf766e92dc723bb7461f7d0",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes12-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/05589a01a853eafa7ff14b8ce37db1ceb9162c4aa57f8f2c256f6e9c5b238ad5.json": {
+      "sha256": "05589a01a853eafa7ff14b8ce37db1ceb9162c4aa57f8f2c256f6e9c5b238ad5",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes12-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/ea078d4e31db4df793a78258c22a58e839f13b78cb63b199c9806f96e74e0ee5.json": {
+      "sha256": "ea078d4e31db4df793a78258c22a58e839f13b78cb63b199c9806f96e74e0ee5",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes13-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/ec1330872c00185066e0bc007dc99935588e7bc92d5e6d263a69b15907d3b6f2.json": {
+      "sha256": "ec1330872c00185066e0bc007dc99935588e7bc92d5e6d263a69b15907d3b6f2",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes13-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/6fef112f687bcbbf119d6029cc4777d84d1b06e674d2a446f4d8d9b99676ef50.json": {
+      "sha256": "6fef112f687bcbbf119d6029cc4777d84d1b06e674d2a446f4d8d9b99676ef50",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes14-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/707151c17fc13a35df8ca1d65272de984fd66adba49b459666264612015e8edf.json": {
+      "sha256": "707151c17fc13a35df8ca1d65272de984fd66adba49b459666264612015e8edf",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes14-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/608f03fc20ee80be5a9f5a667ba2acb2f5b7a93bd3f36474c66edb09681fb0ba.json": {
+      "sha256": "608f03fc20ee80be5a9f5a667ba2acb2f5b7a93bd3f36474c66edb09681fb0ba",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes15-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/7a3dd07c764b8ecdafc0322594184c00c1ed46e48578cf874889f2f605583cf5.json": {
+      "sha256": "7a3dd07c764b8ecdafc0322594184c00c1ed46e48578cf874889f2f605583cf5",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes15-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/495f84b7b5e0e2a0bb5c1a360f2fbf666770981567362fbdbe92de8416f10331.json": {
+      "sha256": "495f84b7b5e0e2a0bb5c1a360f2fbf666770981567362fbdbe92de8416f10331",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes16-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/4559b03ccd29abd52ccc5548c02e2fdece023b6974ed9d15f249312e11ae7547.json": {
+      "sha256": "4559b03ccd29abd52ccc5548c02e2fdece023b6974ed9d15f249312e11ae7547",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes16-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/189f53a10d9b6581fb0705c312a3418accb9d7756874a3ff21c908424603a3b9.json": {
+      "sha256": "189f53a10d9b6581fb0705c312a3418accb9d7756874a3ff21c908424603a3b9",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes17-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/3f692efabff294096f37131fa57281e7722e79bea9143e2a502ad35c1c68841a.json": {
+      "sha256": "3f692efabff294096f37131fa57281e7722e79bea9143e2a502ad35c1c68841a",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes17-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/a9b98d4c0e18fba50e15abc61c7448a8f52606491fc5120a8cde75b51b2ee0db.json": {
+      "sha256": "a9b98d4c0e18fba50e15abc61c7448a8f52606491fc5120a8cde75b51b2ee0db",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes18-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/e9f224628ef7ea35546f7f0d9e50e6e829c295bbadee3a9891ea46d632f99616.json": {
+      "sha256": "e9f224628ef7ea35546f7f0d9e50e6e829c295bbadee3a9891ea46d632f99616",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes18-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/134141020fa5834fa062fa512cf25475ac96135a9767d905acb39e5f80d23e57.json": {
+      "sha256": "134141020fa5834fa062fa512cf25475ac96135a9767d905acb39e5f80d23e57",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes19-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/003143c2b5deeb8e8d4d45c3670cd84a2b7b82eb023bea12101f89687856a29e.json": {
+      "sha256": "003143c2b5deeb8e8d4d45c3670cd84a2b7b82eb023bea12101f89687856a29e",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes19-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/91dc77efa249765dacb1b010bbbd0aca77bb27bfae19af098212c898fd348a39.json": {
+      "sha256": "91dc77efa249765dacb1b010bbbd0aca77bb27bfae19af098212c898fd348a39",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes20-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/55da9172863f28c17b1ff639ab3ff1fa48c15c70ab9b8811666cca3a9f856f86.json": {
+      "sha256": "55da9172863f28c17b1ff639ab3ff1fa48c15c70ab9b8811666cca3a9f856f86",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes20-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/73ed94f2d1d18b40864b43d84bca761a84a4d74278b32bdc30a709615292224a.json": {
+      "sha256": "73ed94f2d1d18b40864b43d84bca761a84a4d74278b32bdc30a709615292224a",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes21-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/7a1be4bf4a78d171dcef04cbeee5be81e726f3750ad0f0a4b3b2d391d6e07964.json": {
+      "sha256": "7a1be4bf4a78d171dcef04cbeee5be81e726f3750ad0f0a4b3b2d391d6e07964",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes21-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/de3e574669269552f37d96803ebc3e1d42e12fe83f79d490672987692ddf7bbe.json": {
+      "sha256": "de3e574669269552f37d96803ebc3e1d42e12fe83f79d490672987692ddf7bbe",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes22-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/9c9a51d312e939a4b5a0a228517946f2a0ec0cfeab1fae7a887fc8090ac5c02b.json": {
+      "sha256": "9c9a51d312e939a4b5a0a228517946f2a0ec0cfeab1fae7a887fc8090ac5c02b",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes22-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/a48ffc21186afbd48125d335552faf8e95c5788ad9bd3b508fec4e6d91b6b22c.json": {
+      "sha256": "a48ffc21186afbd48125d335552faf8e95c5788ad9bd3b508fec4e6d91b6b22c",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes23-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/bd6e1588781b29fc3fdc3afa73ba11f125d32827d175731ea01e79a9ba378faf.json": {
+      "sha256": "bd6e1588781b29fc3fdc3afa73ba11f125d32827d175731ea01e79a9ba378faf",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes23-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/d69d129e784c1f0ec9781fd02abdfde0472b56736617a1d4652958fa2d85953c.json": {
+      "sha256": "d69d129e784c1f0ec9781fd02abdfde0472b56736617a1d4652958fa2d85953c",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes24-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/fab0b2777ded3383418db81fa8545bf49d77e1d6d997bf247ab4620155617443.json": {
+      "sha256": "fab0b2777ded3383418db81fa8545bf49d77e1d6d997bf247ab4620155617443",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes24-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/2514622241b53c26e3b6181d4f0bf584823e6679fe5a3b86d7fd3bceb34109d0.json": {
+      "sha256": "2514622241b53c26e3b6181d4f0bf584823e6679fe5a3b86d7fd3bceb34109d0",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes25-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/6241838645b99ae47fa79e3da21f7e45a595ab1460ceaa0c53e23487118423ad.json": {
+      "sha256": "6241838645b99ae47fa79e3da21f7e45a595ab1460ceaa0c53e23487118423ad",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes25-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/bee1eadb1a49bd506fa46437cac24ac8b762ce54dad29673071f727b5a8b842c.json": {
+      "sha256": "bee1eadb1a49bd506fa46437cac24ac8b762ce54dad29673071f727b5a8b842c",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes26-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/a62e50a7a16fd6f8be07ceedfd34b60abdbf19b0b9a6605963a2100d0d95a549.json": {
+      "sha256": "a62e50a7a16fd6f8be07ceedfd34b60abdbf19b0b9a6605963a2100d0d95a549",
+      "source_path": "results/v3-provider-first-scalar-matrix/group00-classes26-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/64e86fa6960782af8ce86c18bf5d28b86542446306f427e5929056ec8bf09cf6.json": {
+      "sha256": "64e86fa6960782af8ce86c18bf5d28b86542446306f427e5929056ec8bf09cf6",
+      "source_path": "results/v3-coalesced-scalar-matrix/group00-classes00-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/71666929c4e4fc1ddcfe4226ce3e277ce74fadfcd2e71d660cdfc8e03ba8d294.json": {
+      "sha256": "71666929c4e4fc1ddcfe4226ce3e277ce74fadfcd2e71d660cdfc8e03ba8d294",
+      "source_path": "results/v3-coalesced-scalar-matrix/group00-classes00-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/5db91c452463ae32cbe5457126dfd43a6caa04648b22904bd1e06a9b50bfacbc.json": {
+      "sha256": "5db91c452463ae32cbe5457126dfd43a6caa04648b22904bd1e06a9b50bfacbc",
+      "source_path": "results/v3-coalesced-scalar-matrix/group01-classes00-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/851bd8733fe49597bbb69d83e368b97dda29173259a942f569737f9080dad77a.json": {
+      "sha256": "851bd8733fe49597bbb69d83e368b97dda29173259a942f569737f9080dad77a",
+      "source_path": "results/v3-coalesced-scalar-matrix/group01-classes00-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/0510e805984c14234d8ffca62473b4b4d83b1eda6c5c66a8b08f55119cfe712a.json": {
+      "sha256": "0510e805984c14234d8ffca62473b4b4d83b1eda6c5c66a8b08f55119cfe712a",
+      "source_path": "results/v3-coalesced-scalar-matrix/group02-classes00-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/afd9f7c7257b4842b803da6fa943607fa197b6fe13bc246885e3f0f269893f94.json": {
+      "sha256": "afd9f7c7257b4842b803da6fa943607fa197b6fe13bc246885e3f0f269893f94",
+      "source_path": "results/v3-coalesced-scalar-matrix/group02-classes00-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/a4677ae0fbe52e56c703cc2f048a0bff51c113ac0c9d6f2c610c16782355ee65.json": {
+      "sha256": "a4677ae0fbe52e56c703cc2f048a0bff51c113ac0c9d6f2c610c16782355ee65",
+      "source_path": "results/v3-coalesced-scalar-matrix/group02-classes01-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/0ae9048e15a153977a0f146048b7c30a26d46df87cc23a223f418577035b8731.json": {
+      "sha256": "0ae9048e15a153977a0f146048b7c30a26d46df87cc23a223f418577035b8731",
+      "source_path": "results/v3-coalesced-scalar-matrix/group02-classes01-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/81ffa97560d7e6c24744d827607bdea2452239e4c4a26d2bd235bf000f2b59c1.json": {
+      "sha256": "81ffa97560d7e6c24744d827607bdea2452239e4c4a26d2bd235bf000f2b59c1",
+      "source_path": "results/v3-coalesced-scalar-matrix/group02-classes02-stride2/execution_specialization_tuning.json"
+    },
+    "evidence/3d35eac76b88435920df6cf4b3c20a8c9966eecff89f7d414488857d9d929d80.json": {
+      "sha256": "3d35eac76b88435920df6cf4b3c20a8c9966eecff89f7d414488857d9d929d80",
+      "source_path": "results/v3-coalesced-scalar-matrix/group02-classes02-stride100/execution_specialization_tuning.json"
+    },
+    "evidence/9f85fb3c43e9c97b9fd95666f98a987dea37cc33b22e1b9285a0a478ad05c477.json": {
+      "sha256": "9f85fb3c43e9c97b9fd95666f98a987dea37cc33b22e1b9285a0a478ad05c477",
+      "source_path": "results/v3-coverage-next-20261003/calibration-npbench-observed-v2/05083ff59cdb-1x100000/execution_specialization_tuning.json"
+    },
+    "evidence/b725fb07b6e0e0764c2ff46945f7576f0d3acb91cc0d06eef6973a2f7c796f5c.json": {
+      "sha256": "b725fb07b6e0e0764c2ff46945f7576f0d3acb91cc0d06eef6973a2f7c796f5c",
+      "source_path": "results/v3-coverage-next-20261003/calibration-npbench-observed-v2/0fbf7717cad8-1000x1000/execution_specialization_tuning.json"
+    },
+    "evidence/caecbd8444eb42a4edce1e681c00e9a7e0186242b143ffd2d4a035e8ed89d56e.json": {
+      "sha256": "caecbd8444eb42a4edce1e681c00e9a7e0186242b143ffd2d4a035e8ed89d56e",
+      "source_path": "results/v3-coverage-next-20261003/calibration-npbench-observed-v2/a78f3516b04e-1x500/execution_specialization_tuning.json"
+    },
+    "evidence/b4d977879099bec76fcf5d41bed89aa6e66269f7cdade263626fcaa32fa88eb8.json": {
+      "sha256": "b4d977879099bec76fcf5d41bed89aa6e66269f7cdade263626fcaa32fa88eb8",
+      "source_path": "results/v3-coverage-next-20261003/calibration-npbench-observed-v2/8b547ed66042-1x499/execution_specialization_tuning.json"
+    },
+    "evidence/2e9bb8d806ee431a9f1c0f455bfb7984c91bf1929e287f898396b5659e5421f4.json": {
+      "sha256": "2e9bb8d806ee431a9f1c0f455bfb7984c91bf1929e287f898396b5659e5421f4",
+      "source_path": "results/v3-coverage-next-20261003/calibration-npbench-observed-v2/d1e18012984b-1x6/execution_specialization_tuning.json"
+    },
+    "evidence/d21ac359e46f4dc1ad7ec084451880d56f1531e7e44c82c5ac56e86dbb5a2963.json": {
+      "sha256": "d21ac359e46f4dc1ad7ec084451880d56f1531e7e44c82c5ac56e86dbb5a2963",
+      "source_path": "results/v3-coverage-next-20261003/calibration-npbench-observed-v2/064a26f22ddc-1000x1100/execution_specialization_tuning.json"
+    },
+    "evidence/30a31d369aa2ba8543cfcaeb8c696d2a684fd5d6cedb08c876106fbf25355186.json": {
+      "sha256": "30a31d369aa2ba8543cfcaeb8c696d2a684fd5d6cedb08c876106fbf25355186",
+      "source_path": "results/v3-coverage-next-20261003/calibration-npbench-observed-v2/2f76a9af97df-2000x2000/execution_specialization_tuning.json"
+    },
+    "evidence/0516016c524614b9b379f783baf6c9b98dd007e771bc8b8dfe10996802685a28.json": {
+      "sha256": "0516016c524614b9b379f783baf6c9b98dd007e771bc8b8dfe10996802685a28",
+      "source_path": "results/v3-coverage-next-20261003/calibration-npbench-observed-v2/fc335417a580-2000x2000/execution_specialization_tuning.json"
+    },
+    "evidence/5b54e4c7e31d683f63394a49ec9be4f1ba6fdaa13d5d48b66b3f286a00c0672a.json": {
+      "sha256": "5b54e4c7e31d683f63394a49ec9be4f1ba6fdaa13d5d48b66b3f286a00c0672a",
+      "source_path": "results/v3-coverage-next-20261003/calibration-npbench-observed-v2/889cbc41eabd-1x70/execution_specialization_tuning.json"
+    },
+    "evidence/55c52130b8196a861ff3dedb9f5cb65e9df0fd2acb9ff287c390331728f629e3.json": {
+      "sha256": "55c52130b8196a861ff3dedb9f5cb65e9df0fd2acb9ff287c390331728f629e3",
+      "source_path": "results/v3-coverage-next-20261003/calibration-npbench-observed-v2/2adb9569f51c-1x3198/execution_specialization_tuning.json"
+    },
+    "evidence/37ee6efb14916c932758ab4f9ff645906bd9c1ffae32d7f580931707d26673f2.json": {
+      "sha256": "37ee6efb14916c932758ab4f9ff645906bd9c1ffae32d7f580931707d26673f2",
+      "source_path": "results/v3-coverage-next-20261003/calibration-npbench-observed-v2/4520d699c1da-148x148/execution_specialization_tuning.json"
+    },
+    "evidence/6d96944bd0690909f404a37aeb694ed67c07891c8650c09bc6143d1b4792a6c6.json": {
+      "sha256": "6d96944bd0690909f404a37aeb694ed67c07891c8650c09bc6143d1b4792a6c6",
+      "source_path": "results/v3-coverage-next-20261003/calibration-npbench-observed-v2/064a26f22ddc-800x950/execution_specialization_tuning.json"
+    },
+    "evidence/ebe886fd6d16d54980444bdae8c591d57d3fc74ec104304d043b615a4958bb8f.json": {
+      "sha256": "ebe886fd6d16d54980444bdae8c591d57d3fc74ec104304d043b615a4958bb8f",
+      "source_path": "results/v3-coverage-next-20261003/calibration-npbench-observed-v2/ca7073c2c1aa-1x48/execution_specialization_tuning.json"
+    },
+    "evidence/8ea35c1d046a2acc5be88648e12fb13584c5c88f9a9dac5aca19719e3e5c06bb.json": {
+      "sha256": "8ea35c1d046a2acc5be88648e12fb13584c5c88f9a9dac5aca19719e3e5c06bb",
+      "source_path": "results/v3-coverage-next-20261003/calibration-npbench-observed-v2/d753a638a200-1x50/execution_specialization_tuning.json"
+    },
+    "evidence/3fc1a5f7c4d02ff7e5534ef73b142c919a5b8d327711fddc414ee77321b6d8d7.json": {
+      "sha256": "3fc1a5f7c4d02ff7e5534ef73b142c919a5b8d327711fddc414ee77321b6d8d7",
+      "source_path": "results/v3-coverage-next-20261003/calibration-npbench-observed-v2/74901c171538-1x15/execution_specialization_tuning.json"
+    },
+    "evidence/9528b8f0bba1657d9cd9668933c3d28ed24774063aa0946e790c09577f15beb3.json": {
+      "sha256": "9528b8f0bba1657d9cd9668933c3d28ed24774063aa0946e790c09577f15beb3",
+      "source_path": "results/v3-coverage-next-20261003/calibration-npbench-observed-v2/d1e18012984b-1x11/execution_specialization_tuning.json"
+    },
+    "evidence/b9c6617ef52d9ad64b0a1212d4a54f96ef3fc515e06d9a0fa4c772fe1076a289.json": {
+      "sha256": "243faebd3fed65e07d41382ce0cc889eeaaf831c5ca438c3fab12984cd3705bf",
+      "source_path": "reports/v3-coverage-next-20261003/final-effect-evidence.json"
+    },
+    "evidence/084a9f589369303af8d1079f2c297dad89e2b4deebe029ae0dc7fb8955a0745f.json": {
+      "sha256": "5af4b5365648caebc73a96e422d8d6fcecb6ddf6040f1ce56537b84ed500e245",
+      "source_path": "results/v3-coverage-next-20261003/calibration-npbench-observed-v2/manifest.json"
+    },
+    "evidence/bfe58a9705d8a752d842cc2a8cae96fe8cba35e6ad976830bec78dccbcece9fc.json": {
+      "sha256": "38a0ce3d14498bc110a6dd6e1ed5580c7e38ef81f016d9ada5c54409458fa5f1",
+      "source_path": "results/v3-coverage-next-20261003/correctness-only-selection.json"
+    },
+    "evidence/3031f29cadd97dcc7774b6e3db62a68c8c4c54dda268b1410a742a3d5119028c.py": {
+      "sha256": "3031f29cadd97dcc7774b6e3db62a68c8c4c54dda268b1410a742a3d5119028c",
+      "source_path": "scripts-bak/tools/crossjit_v3_retain_npbench_policy.py"
+    },
+    "evidence/dcf3fdd989186e1267da7bdda958ec26680095317e8b192644e3e054aa58e7ec.json": {
+      "sha256": "bc251af4d03e77d4aebe2ea146bb380470bcb45de0c710e37bd65bc1edf602c2",
+      "source_path": "results/v3-region-native-20261004/plan-comparison-v31/measurements.json"
+    }
+  },
+  "evidence_paths": {
+    "results/v3-single-opportunities/adi.profile.json": "evidence/4c18f1c29e1eaf7b58cdc8998252bbba182c28f359eb6bb54205bb8858989c94.json",
+    "results/v3-single-opportunities/channel_flow.profile.json": "evidence/c4d5b0acae2d1bfa6f296329b7b61817d92caecc30e543202dfcafa39bdc9862.json",
+    "results/v3-single-opportunities/deriche.profile.json": "evidence/1c361f71d6b37b4394ded32c5b23b60a79120286252a5a84af79aa135325c303.json",
+    "results/v3-single-opportunities/gramschmidt.profile.json": "evidence/de6aa4e5a2f48b71f637628b16537ed684c4ded637dbce8c230c9b3f2db9fea0.json",
+    "results/v3-single-opportunities/nbody.profile.json": "evidence/7fe3bcaf7df3c9ff4d74c7d0be890b20d2656eb9abef93f74f9dd299d6a7f0ad.json",
+    "results/v3-single-opportunities/symm.profile.json": "evidence/9494eff8ac0cc0e040adfba210c4917c20622b7e7b3a16e020f3a12b94f88d12.json",
+    "results/v3-single-opportunities/syr2k.profile.json": "evidence/88b1b227e902a23d20a555e2bd22dda2297345e5fced180c93670741c1ebf9c2.json",
+    "results/v3-single-opportunities/syrk.profile.json": "evidence/4a193a95a79728c97496fbfd6304576c01c1ca01307c5b8041b5487f275c26a2.json",
+    "results/v3-single-opportunities/vadv.profile.json": "evidence/5ddaf49d7c010cfbed124f39df74006fa7229dda3a8ff05113f108dde4541633.json",
+    "results/v3-type-guards-opportunities/adi.profile.json": "evidence/1c928c3f3509384ad3a47cf50aae7ca4f16be18da3ed2a4b841a3f6a7d3644b0.json",
+    "results/v3-type-guards-opportunities/deriche.profile.json": "evidence/34d8c394805d72b1cc99569321aed2c567524e8ea8bca54117189b4e4aee7863.json",
+    "results/v3-type-guards-opportunities/vadv.profile.json": "evidence/28863d11c06e3e32bfbbcf2700b00f1fc442d9f40df8bce61cb5d5c1bc1d0b3f.json",
+    "results/v3-type-guards-opportunities/nbody.profile.json": "evidence/947aea14beb7b5d3112a0b1d59d3ad27b644e44191e5199c6edde16e7e1a44a2.json",
+    "results/v3-affine-gate-cells-stride2/execution_specialization_tuning.json": "evidence/cc66326358b6428d5262356623e76ef732590ece411e8932b921ae356770aa36.json",
+    "results/v3-affine-gate-cells-stride100/execution_specialization_tuning.json": "evidence/7197313b7fcf8900848d232492175d823be0f8af313c1b21a0f00385977b9735.json",
+    "numpy/numpy/_core/code_generators/crossjit_v3_long/execution_specialization_tuning.json": "evidence/3fa16fc68a7c6f6e65a2f5f4a1636c4168bb62d7320363a01c5c070d34911f97.json",
+    "results/v3-single-calibration/measurements-numpy-scalar/group00-stride2/execution_specialization_tuning.json": "evidence/20ae4b290061b82bffe2bb3a9bb023128e0b3ba9e9febcd01851416812ef6a3e.json",
+    "results/v3-single-calibration/measurements-numpy-scalar/group00-stride100/execution_specialization_tuning.json": "evidence/19c0a1ff71594d3c85b7ccba500c2dba962da72cde4c9e5700003f86d5513aa1.json",
+    "results/v3-single-calibration/measurements-numpy-scalar/group01-stride2/execution_specialization_tuning.json": "evidence/20116d250ca1bbf5b1742ed4aedd89e1e90b470806a79d9ca323e84f6cbbc2ba.json",
+    "results/v3-single-calibration/measurements-numpy-scalar/group01-stride100/execution_specialization_tuning.json": "evidence/302848f0919f2259db65bb7b39e30d201545224fc15e6644e0d6a46d78f4cad7.json",
+    "results/v3-single-calibration/measurements-numpy-scalar/group02-stride2/execution_specialization_tuning.json": "evidence/0db27e3109a4bd6aa1c1b50638e460c617d0525250a1b6178b95c99cbf166560.json",
+    "results/v3-single-calibration/measurements-numpy-scalar/group02-stride100/execution_specialization_tuning.json": "evidence/6aff749c26dd092b19a015e5454e3e1be27d4770aef3c969fbb7437416929199.json",
+    "results/v3-single-calibration/measurements-numpy-scalar/group03-stride2/execution_specialization_tuning.json": "evidence/954da510546a2a9ef6e544470e4ee11ecc0363e21000d7e6f17f409ff00bed8d.json",
+    "results/v3-single-calibration/measurements-numpy-scalar/group03-stride100/execution_specialization_tuning.json": "evidence/9628331c3aefc3eb8c113d39ea1b2064bf1993771a4bca21702e48f56b239ad2.json",
+    "results/v3-single-calibration/measurements-numpy-scalar/group04-stride2/execution_specialization_tuning.json": "evidence/05b21b4c832b898919d320c32ef9c865999d820ff321dcf3b3c777d095c54be3.json",
+    "results/v3-single-calibration/measurements-numpy-scalar/group04-stride100/execution_specialization_tuning.json": "evidence/3091f69f3e6c6d6db1f4016ac9ecfbc3fd98edeb76cc090cd966f2b413442589.json",
+    "results/v3-single-calibration/measurements-numpy-scalar/group05-stride2/execution_specialization_tuning.json": "evidence/1ec4b3b51592bf657cf3c51ef1d09b9d8e96ff3eba114e4ff1a5d44c7832a047.json",
+    "results/v3-single-calibration/measurements-numpy-scalar/group05-stride100/execution_specialization_tuning.json": "evidence/2cfc87e63a5a6df258652cff8555900a2a5b1918ed49b4a02ac29dd048dac7a5.json",
+    "results/v3-single-calibration/measurements-numpy-scalar/group06-stride2/execution_specialization_tuning.json": "evidence/673295dc07bcd2b633739b9b82c56a091b3ffbd829a434d165b35c282a84c650.json",
+    "results/v3-single-calibration/measurements-numpy-scalar/group06-stride100/execution_specialization_tuning.json": "evidence/a11980b58728766807adcc1ec625e8a4f45550ec40065cebe70331f9879e60fd.json",
+    "results/v3-single-calibration/measurements-numpy-scalar/group07-stride2/execution_specialization_tuning.json": "evidence/c3e1416eb85370ca8b05d060b3ee8d64ac300741b9d78a52aa37e16605ca29b8.json",
+    "results/v3-single-calibration/measurements-numpy-scalar/group07-stride100/execution_specialization_tuning.json": "evidence/22b1149b48e5aabc3596b1ff3244150c1eb8f387fa7996e8c7c362babdc80cf6.json",
+    "results/v3-single-calibration/measurements-numpy-scalar/group08-stride2/execution_specialization_tuning.json": "evidence/8ca2eac725daf5d334cf0dae71f940094188c373df0137b1ef6cbc4ab7b11cc9.json",
+    "results/v3-single-calibration/measurements-numpy-scalar/group08-stride100/execution_specialization_tuning.json": "evidence/301e4fdaf01b64ea1c148715dddbbc741fe3405b3416c2c2c51c0685f4b24b1c.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes00-stride2/execution_specialization_tuning.json": "evidence/f6c30845a485f853ec388c87273d6dc96b04771e0fee951dd3fead1152dafc87.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes00-stride100/execution_specialization_tuning.json": "evidence/ac5f3e788c5f444148aab45eafb59be34f757134816e6f3d7b054183f32cede9.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes01-stride2/execution_specialization_tuning.json": "evidence/05bd9f9fd782b5fd3450e38241b8eb9851bc133622c40e0d781bc18b56ddbe5d.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes01-stride100/execution_specialization_tuning.json": "evidence/ef9c136c24a8a43bef283ada47dc1cb3013ea4a29e8c09e9296c2b55770e5ee9.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes02-stride2/execution_specialization_tuning.json": "evidence/9fb85871afafcf3eaa72fdbb293fc49e82a586a07ffcbe699bbd9ed28ae70592.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes02-stride100/execution_specialization_tuning.json": "evidence/487496227d0f20fae1a9fba4bdf16912cd0fea5e39bae12d4696251e6c670dfe.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes03-stride2/execution_specialization_tuning.json": "evidence/5a79f21d5ea2953f04d729add4df26cb9100e4bdf021c5b0d7ad08facbfd671d.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes03-stride100/execution_specialization_tuning.json": "evidence/6ae6c8e38858174fe29e6eeba5d94b0be783b2d473c2b4d3bce9ad08d3057bf0.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes04-stride2/execution_specialization_tuning.json": "evidence/fbfc87c069c31dc08c93aa619ca35f03a5c7cb42d2c995846580cab34bd09002.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes04-stride100/execution_specialization_tuning.json": "evidence/20a4305e52a6e1df65b07a79f94bfe24e8e07b7aa33b0c50f08024884f0e3935.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes05-stride2/execution_specialization_tuning.json": "evidence/8f1d377d91d077c71afcfac1eeb5751a9b920dbd56234d9e6016c05f6d3766ba.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes05-stride100/execution_specialization_tuning.json": "evidence/44ad29909e74dd0ac3ab76b065775ffbf10f215de2d0005f68d949346b5b4449.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes06-stride2/execution_specialization_tuning.json": "evidence/4f31237129cda82c674893e5a6fdac134e470e0a54c4999094c126e318e06e82.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes06-stride100/execution_specialization_tuning.json": "evidence/761f7d5ea10c2b5898599b00c1136923450ea4397a68cffea25249a3272bc31f.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes07-stride2/execution_specialization_tuning.json": "evidence/55504b6fc6b1d434596de448bc75f68e37f7c4fd9849d46e7d5383ec0e45a223.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes07-stride100/execution_specialization_tuning.json": "evidence/7fcc3384a1d15a38f1ad622232face7d7b678925785785fe66280252f5655f91.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes08-stride2/execution_specialization_tuning.json": "evidence/b9dace6ea52100dba9ad3a489142a117052a0ed2da9392a0b4bb853a580f1710.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes08-stride100/execution_specialization_tuning.json": "evidence/696294e5cd407f067c626e56977b30c239f4728e9677c3a3a64844ca970908a4.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes09-stride2/execution_specialization_tuning.json": "evidence/643590d753ab0e3c0c1803e452d864723ca966aab13d29cc7a34f7a5232d02c7.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes09-stride100/execution_specialization_tuning.json": "evidence/97dd551770683589415b79e676b754ec6978e1ca95f8e07d3b33951e4c728b4b.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes10-stride2/execution_specialization_tuning.json": "evidence/36e4c40341c0be0103009ccb30a7f5dbf320fe21f5ad9e37c61c9be5ccc2f165.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes10-stride100/execution_specialization_tuning.json": "evidence/860ce411be8f032516e785fb78e883c7e9071b69505cb8589465ceb2e4482fb4.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes11-stride2/execution_specialization_tuning.json": "evidence/4d1bd9ba29c58159c2abdab8a0169e2bad97913f1d30a23e18db5f1b05458138.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes11-stride100/execution_specialization_tuning.json": "evidence/42c2ea9c5a53636c112963279a428877f0fda1e073e9cd80cbda26a2ea94d719.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes12-stride2/execution_specialization_tuning.json": "evidence/0c23c7eaaccfbd97fe8b9cf0a284cbb2e2ffb61babf766e92dc723bb7461f7d0.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes12-stride100/execution_specialization_tuning.json": "evidence/05589a01a853eafa7ff14b8ce37db1ceb9162c4aa57f8f2c256f6e9c5b238ad5.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes13-stride2/execution_specialization_tuning.json": "evidence/ea078d4e31db4df793a78258c22a58e839f13b78cb63b199c9806f96e74e0ee5.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes13-stride100/execution_specialization_tuning.json": "evidence/ec1330872c00185066e0bc007dc99935588e7bc92d5e6d263a69b15907d3b6f2.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes14-stride2/execution_specialization_tuning.json": "evidence/6fef112f687bcbbf119d6029cc4777d84d1b06e674d2a446f4d8d9b99676ef50.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes14-stride100/execution_specialization_tuning.json": "evidence/707151c17fc13a35df8ca1d65272de984fd66adba49b459666264612015e8edf.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes15-stride2/execution_specialization_tuning.json": "evidence/608f03fc20ee80be5a9f5a667ba2acb2f5b7a93bd3f36474c66edb09681fb0ba.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes15-stride100/execution_specialization_tuning.json": "evidence/7a3dd07c764b8ecdafc0322594184c00c1ed46e48578cf874889f2f605583cf5.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes16-stride2/execution_specialization_tuning.json": "evidence/495f84b7b5e0e2a0bb5c1a360f2fbf666770981567362fbdbe92de8416f10331.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes16-stride100/execution_specialization_tuning.json": "evidence/4559b03ccd29abd52ccc5548c02e2fdece023b6974ed9d15f249312e11ae7547.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes17-stride2/execution_specialization_tuning.json": "evidence/189f53a10d9b6581fb0705c312a3418accb9d7756874a3ff21c908424603a3b9.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes17-stride100/execution_specialization_tuning.json": "evidence/3f692efabff294096f37131fa57281e7722e79bea9143e2a502ad35c1c68841a.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes18-stride2/execution_specialization_tuning.json": "evidence/a9b98d4c0e18fba50e15abc61c7448a8f52606491fc5120a8cde75b51b2ee0db.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes18-stride100/execution_specialization_tuning.json": "evidence/e9f224628ef7ea35546f7f0d9e50e6e829c295bbadee3a9891ea46d632f99616.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes19-stride2/execution_specialization_tuning.json": "evidence/134141020fa5834fa062fa512cf25475ac96135a9767d905acb39e5f80d23e57.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes19-stride100/execution_specialization_tuning.json": "evidence/003143c2b5deeb8e8d4d45c3670cd84a2b7b82eb023bea12101f89687856a29e.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes20-stride2/execution_specialization_tuning.json": "evidence/91dc77efa249765dacb1b010bbbd0aca77bb27bfae19af098212c898fd348a39.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes20-stride100/execution_specialization_tuning.json": "evidence/55da9172863f28c17b1ff639ab3ff1fa48c15c70ab9b8811666cca3a9f856f86.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes21-stride2/execution_specialization_tuning.json": "evidence/73ed94f2d1d18b40864b43d84bca761a84a4d74278b32bdc30a709615292224a.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes21-stride100/execution_specialization_tuning.json": "evidence/7a1be4bf4a78d171dcef04cbeee5be81e726f3750ad0f0a4b3b2d391d6e07964.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes22-stride2/execution_specialization_tuning.json": "evidence/de3e574669269552f37d96803ebc3e1d42e12fe83f79d490672987692ddf7bbe.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes22-stride100/execution_specialization_tuning.json": "evidence/9c9a51d312e939a4b5a0a228517946f2a0ec0cfeab1fae7a887fc8090ac5c02b.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes23-stride2/execution_specialization_tuning.json": "evidence/a48ffc21186afbd48125d335552faf8e95c5788ad9bd3b508fec4e6d91b6b22c.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes23-stride100/execution_specialization_tuning.json": "evidence/bd6e1588781b29fc3fdc3afa73ba11f125d32827d175731ea01e79a9ba378faf.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes24-stride2/execution_specialization_tuning.json": "evidence/d69d129e784c1f0ec9781fd02abdfde0472b56736617a1d4652958fa2d85953c.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes24-stride100/execution_specialization_tuning.json": "evidence/fab0b2777ded3383418db81fa8545bf49d77e1d6d997bf247ab4620155617443.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes25-stride2/execution_specialization_tuning.json": "evidence/2514622241b53c26e3b6181d4f0bf584823e6679fe5a3b86d7fd3bceb34109d0.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes25-stride100/execution_specialization_tuning.json": "evidence/6241838645b99ae47fa79e3da21f7e45a595ab1460ceaa0c53e23487118423ad.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes26-stride2/execution_specialization_tuning.json": "evidence/bee1eadb1a49bd506fa46437cac24ac8b762ce54dad29673071f727b5a8b842c.json",
+    "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes26-stride100/execution_specialization_tuning.json": "evidence/a62e50a7a16fd6f8be07ceedfd34b60abdbf19b0b9a6605963a2100d0d95a549.json",
+    "/workspace/crossjit-workspace/results/v3-coalesced-scalar-matrix/group00-classes00-stride2/execution_specialization_tuning.json": "evidence/64e86fa6960782af8ce86c18bf5d28b86542446306f427e5929056ec8bf09cf6.json",
+    "/workspace/crossjit-workspace/results/v3-coalesced-scalar-matrix/group00-classes00-stride100/execution_specialization_tuning.json": "evidence/71666929c4e4fc1ddcfe4226ce3e277ce74fadfcd2e71d660cdfc8e03ba8d294.json",
+    "/workspace/crossjit-workspace/results/v3-coalesced-scalar-matrix/group01-classes00-stride2/execution_specialization_tuning.json": "evidence/5db91c452463ae32cbe5457126dfd43a6caa04648b22904bd1e06a9b50bfacbc.json",
+    "/workspace/crossjit-workspace/results/v3-coalesced-scalar-matrix/group01-classes00-stride100/execution_specialization_tuning.json": "evidence/851bd8733fe49597bbb69d83e368b97dda29173259a942f569737f9080dad77a.json",
+    "/workspace/crossjit-workspace/results/v3-coalesced-scalar-matrix/group02-classes00-stride2/execution_specialization_tuning.json": "evidence/0510e805984c14234d8ffca62473b4b4d83b1eda6c5c66a8b08f55119cfe712a.json",
+    "/workspace/crossjit-workspace/results/v3-coalesced-scalar-matrix/group02-classes00-stride100/execution_specialization_tuning.json": "evidence/afd9f7c7257b4842b803da6fa943607fa197b6fe13bc246885e3f0f269893f94.json",
+    "/workspace/crossjit-workspace/results/v3-coalesced-scalar-matrix/group02-classes01-stride2/execution_specialization_tuning.json": "evidence/a4677ae0fbe52e56c703cc2f048a0bff51c113ac0c9d6f2c610c16782355ee65.json",
+    "/workspace/crossjit-workspace/results/v3-coalesced-scalar-matrix/group02-classes01-stride100/execution_specialization_tuning.json": "evidence/0ae9048e15a153977a0f146048b7c30a26d46df87cc23a223f418577035b8731.json",
+    "/workspace/crossjit-workspace/results/v3-coalesced-scalar-matrix/group02-classes02-stride2/execution_specialization_tuning.json": "evidence/81ffa97560d7e6c24744d827607bdea2452239e4c4a26d2bd235bf000f2b59c1.json",
+    "/workspace/crossjit-workspace/results/v3-coalesced-scalar-matrix/group02-classes02-stride100/execution_specialization_tuning.json": "evidence/3d35eac76b88435920df6cf4b3c20a8c9966eecff89f7d414488857d9d929d80.json",
+    "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/05083ff59cdb-1x100000/execution_specialization_tuning.json": "evidence/9f85fb3c43e9c97b9fd95666f98a987dea37cc33b22e1b9285a0a478ad05c477.json",
+    "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/0fbf7717cad8-1000x1000/execution_specialization_tuning.json": "evidence/b725fb07b6e0e0764c2ff46945f7576f0d3acb91cc0d06eef6973a2f7c796f5c.json",
+    "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/a78f3516b04e-1x500/execution_specialization_tuning.json": "evidence/caecbd8444eb42a4edce1e681c00e9a7e0186242b143ffd2d4a035e8ed89d56e.json",
+    "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/8b547ed66042-1x499/execution_specialization_tuning.json": "evidence/b4d977879099bec76fcf5d41bed89aa6e66269f7cdade263626fcaa32fa88eb8.json",
+    "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/d1e18012984b-1x6/execution_specialization_tuning.json": "evidence/2e9bb8d806ee431a9f1c0f455bfb7984c91bf1929e287f898396b5659e5421f4.json",
+    "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/064a26f22ddc-1000x1100/execution_specialization_tuning.json": "evidence/d21ac359e46f4dc1ad7ec084451880d56f1531e7e44c82c5ac56e86dbb5a2963.json",
+    "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/2f76a9af97df-2000x2000/execution_specialization_tuning.json": "evidence/30a31d369aa2ba8543cfcaeb8c696d2a684fd5d6cedb08c876106fbf25355186.json",
+    "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/fc335417a580-2000x2000/execution_specialization_tuning.json": "evidence/0516016c524614b9b379f783baf6c9b98dd007e771bc8b8dfe10996802685a28.json",
+    "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/889cbc41eabd-1x70/execution_specialization_tuning.json": "evidence/5b54e4c7e31d683f63394a49ec9be4f1ba6fdaa13d5d48b66b3f286a00c0672a.json",
+    "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/2adb9569f51c-1x3198/execution_specialization_tuning.json": "evidence/55c52130b8196a861ff3dedb9f5cb65e9df0fd2acb9ff287c390331728f629e3.json",
+    "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/4520d699c1da-148x148/execution_specialization_tuning.json": "evidence/37ee6efb14916c932758ab4f9ff645906bd9c1ffae32d7f580931707d26673f2.json",
+    "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/064a26f22ddc-800x950/execution_specialization_tuning.json": "evidence/6d96944bd0690909f404a37aeb694ed67c07891c8650c09bc6143d1b4792a6c6.json",
+    "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/ca7073c2c1aa-1x48/execution_specialization_tuning.json": "evidence/ebe886fd6d16d54980444bdae8c591d57d3fc74ec104304d043b615a4958bb8f.json",
+    "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/d753a638a200-1x50/execution_specialization_tuning.json": "evidence/8ea35c1d046a2acc5be88648e12fb13584c5c88f9a9dac5aca19719e3e5c06bb.json",
+    "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/74901c171538-1x15/execution_specialization_tuning.json": "evidence/3fc1a5f7c4d02ff7e5534ef73b142c919a5b8d327711fddc414ee77321b6d8d7.json",
+    "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/d1e18012984b-1x11/execution_specialization_tuning.json": "evidence/9528b8f0bba1657d9cd9668933c3d28ed24774063aa0946e790c09577f15beb3.json",
+    "/workspace/crossjit-workspace/reports/v3-coverage-next-20261003/final-effect-evidence.json": "evidence/b9c6617ef52d9ad64b0a1212d4a54f96ef3fc515e06d9a0fa4c772fe1076a289.json",
+    "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/manifest.json": "evidence/084a9f589369303af8d1079f2c297dad89e2b4deebe029ae0dc7fb8955a0745f.json",
+    "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/correctness-only-selection.json": "evidence/bfe58a9705d8a752d842cc2a8cae96fe8cba35e6ad976830bec78dccbcece9fc.json",
+    "/workspace/crossjit-workspace/tools/crossjit_v3_retain_npbench_policy.py": "evidence/3031f29cadd97dcc7774b6e3db62a68c8c4c54dda268b1410a742a3d5119028c.py",
+    "/workspace/crossjit-workspace/results/v3-region-native-20261004/plan-comparison-v31/measurements.json": "evidence/dcf3fdd989186e1267da7bdda958ec26680095317e8b192644e3e054aa58e7ec.json"
+  },
+  "native_accepted_plan_count": 156,
+  "expected_S_stress1_activity": {
+    "total": 36,
+    "generated": 10,
+    "native": 34,
+    "mixed": 0,
+    "workloads": {
+      "active": [
+        "adi",
+        "arc_distance",
+        "cavity_flow",
+        "channel_flow",
+        "cholesky",
+        "compute",
+        "conv2d_bias",
+        "correlation",
+        "covariance",
+        "deriche",
+        "durbin",
+        "fdtd_2d",
+        "floyd_warshall",
+        "gemm",
+        "gemver",
+        "gesummv",
+        "gramschmidt",
+        "hdiff",
+        "heat_3d",
+        "jacobi_1d",
+        "jacobi_2d",
+        "k2mm",
+        "lenet",
+        "lu",
+        "ludcmp",
+        "mlp",
+        "nbody",
+        "resnet",
+        "seidel_2d",
+        "softmax",
+        "symm",
+        "syr2k",
+        "syrk",
+        "trisolv",
+        "trmm",
+        "vadv"
+      ],
+      "generated": [
+        "adi",
+        "cavity_flow",
+        "channel_flow",
+        "deriche",
+        "fdtd_2d",
+        "gemm",
+        "gramschmidt",
+        "hdiff",
+        "k2mm",
+        "vadv"
+      ],
+      "native": [
+        "adi",
+        "arc_distance",
+        "cavity_flow",
+        "channel_flow",
+        "cholesky",
+        "compute",
+        "conv2d_bias",
+        "correlation",
+        "covariance",
+        "deriche",
+        "durbin",
+        "fdtd_2d",
+        "floyd_warshall",
+        "gemver",
+        "gesummv",
+        "gramschmidt",
+        "hdiff",
+        "heat_3d",
+        "jacobi_1d",
+        "jacobi_2d",
+        "lenet",
+        "lu",
+        "ludcmp",
+        "mlp",
+        "nbody",
+        "resnet",
+        "seidel_2d",
+        "softmax",
+        "symm",
+        "syr2k",
+        "syrk",
+        "trisolv",
+        "trmm",
+        "vadv"
+      ],
+      "mixed": []
+    }
+  },
+  "expected_generated_hashes": {
+    "generated_crossjit_kernels.c": "2c3545c9b354ab50872efce2922a6eb938af68bc3308226063645f6bd2d68732",
+    "generated_crossjit_kernels.h": "488954bd04b0fcb19da9a92609bf5b36cad9ab3287884d3cdf8d5deda1824678",
+    "generated_crossjit_native_policy.h": "09cf7aab1a9dd1811b0fbfede542b524bf86389ba7d43fd952b74bb33e4fbf20"
+  }
+}

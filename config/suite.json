@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "benchmarks": [
+    {
+      "name": "adi",
+      "description": "Alternating Direction Implicit solver",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "arc_distance",
+      "description": "Arc distance computation",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "atax",
+      "description": "Matrix Transpose and Vector Multiplication",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "azimint_hist",
+      "description": "Azimuthal integration (histogram method)",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "azimint_naive",
+      "description": "Azimuthal integration (naive method)",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "bicg",
+      "description": "BiCG Sub Kernel",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "cavity_flow",
+      "description": "Cavity flow (Navier-Stokes)",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "channel_flow",
+      "description": "Channel flow (Navier-Stokes)",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "cholesky",
+      "description": "Cholesky Decomposition",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "cholesky2",
+      "description": "Cholesky Decomposition (variant 2)",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "compute",
+      "description": "Quantum transport compute kernel",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "contour_integral",
+      "description": "Contour integral computation",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "conv2d_bias",
+      "description": "2D Convolution with Bias (deep_learning)",
+      "compare_jit": true,
+      "timeout_seconds": 900
+    },
+    {
+      "name": "correlation",
+      "description": "Correlation Computation",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "covariance",
+      "description": "Covariance Computation",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "covariance2",
+      "description": "Covariance Computation (variant 2)",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "crc16",
+      "description": "16-bit CRC checksum",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "deriche",
+      "description": "Deriche recursive filter",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "doitgen",
+      "description": "Multi-resolution analysis kernel (MADNESS)",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "durbin",
+      "description": "Toeplitz system solver",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "fdtd_2d",
+      "description": "2-D Finite Difference Time Domain",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "floyd_warshall",
+      "description": "Floyd-Warshall APSP",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "gemm",
+      "description": "Matrix-multiply C=alpha.A.B+beta.C",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "gemver",
+      "description": "Vector Multiplication and Matrix Addition",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "gesummv",
+      "description": "Scalar, Vector and Matrix Multiplication",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "go_fast",
+      "description": "Numba go_fast tutorial benchmark",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "gramschmidt",
+      "description": "Gram-Schmidt QR decomposition",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "hdiff",
+      "description": "HDiff horizontal diffusion kernel",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "heat_3d",
+      "description": "3-D Heat Equation (stencil)",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "jacobi_1d",
+      "description": "1-D Jacobi stencil",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "jacobi_2d",
+      "description": "2-D Jacobi stencil",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "k2mm",
+      "description": "Kernel 2 Matrix Multiply",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "k3mm",
+      "description": "Kernel 3 Matrix Multiply",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "lenet",
+      "description": "LeNet-5 CNN (deep_learning)",
+      "compare_jit": true,
+      "timeout_seconds": 900
+    },
+    {
+      "name": "lu",
+      "description": "LU decomposition",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "ludcmp",
+      "description": "LU decomposition (larger variant)",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "mandelbrot1",
+      "description": "Mandelbrot set (variant 1)",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "mandelbrot2",
+      "description": "Mandelbrot set (variant 2)",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "mlp",
+      "description": "Multi-Layer Perceptron (deep_learning)",
+      "compare_jit": true,
+      "timeout_seconds": 900
+    },
+    {
+      "name": "mvt",
+      "description": "Matrix Vector Product and Transpose",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "nbody",
+      "description": "N-body simulation",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "nussinov",
+      "description": "Nussinov RNA folding",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "resnet",
+      "description": "ResNet block (deep_learning)",
+      "compare_jit": true,
+      "timeout_seconds": 900
+    },
+    {
+      "name": "scattering_self_energies",
+      "description": "Scattering self-energies computation",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "seidel_2d",
+      "description": "2-D Seidel stencil",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "softmax",
+      "description": "Softmax kernel (deep_learning)",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "stockham_fft",
+      "description": "Stockham FFT",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "symm",
+      "description": "Symmetric matrix-multiply",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "syr2k",
+      "description": "Symmetric rank-2k update",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "syrk",
+      "description": "Symmetric rank-k update",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "trisolv",
+      "description": "Triangular solver",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "trmm",
+      "description": "Triangular matrix-multiply",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    },
+    {
+      "name": "vadv",
+      "description": "VADV vertical advection kernel",
+      "compare_jit": true,
+      "timeout_seconds": 600
+    }
+  ],
+  "historical_stability": {
+    "adi": "stable",
+    "arc_distance": "unstable",
+    "atax": "stable",
+    "azimint_hist": "stable",
+    "bicg": "stable",
+    "cholesky": "stable",
+    "cholesky2": "warning",
+    "correlation": "stable",
+    "covariance": "stable",
+    "covariance2": "unstable",
+    "deriche": "stable",
+    "doitgen": "unstable",
+    "durbin": "stable",
+    "gemm": "stable",
+    "gemver": "stable",
+    "gesummv": "stable",
+    "go_fast": "unstable",
+    "gramschmidt": "stable",
+    "hdiff": "stable",
+    "jacobi_1d": "unstable",
+    "jacobi_2d": "unstable",
+    "k2mm": "warning",
+    "k3mm": "warning",
+    "lu": "stable",
+    "ludcmp": "stable",
+    "mlp": "stable",
+    "mvt": "stable",
+    "nbody": "stable",
+    "nussinov": "stable",
+    "scattering_self_energies": "stable",
+    "seidel_2d": "stable",
+    "softmax": "unstable",
+    "symm": "stable",
+    "syr2k": "stable",
+    "syrk": "stable",
+    "trisolv": "stable",
+    "trmm": "stable",
+    "vadv": "stable",
+    "azimint_naive": "stable",
+    "cavity_flow": "unstable",
+    "channel_flow": "stable",
+    "compute": "stable",
+    "contour_integral": "stable",
+    "conv2d_bias": "stable",
+    "crc16": "stable",
+    "fdtd_2d": "unstable",
+    "floyd_warshall": "stable",
+    "heat_3d": "unstable",
+    "lenet": "stable",
+    "mandelbrot1": "unstable",
+    "mandelbrot2": "stable",
+    "resnet": "unstable",
+    "stockham_fft": "stable"
+  },
+  "historical_stability_provenance": {
+    "source_snapshot": "v3-coalesced-checkpoint-evaluation-20261002/summary.json",
+    "sha256": "ca60071869fb1a609d586dadbcde7c8415c9a72379257d626e9a4911028a47af",
+    "labels_only": true,
+    "confirms_current_protocol": false
+  }
+}

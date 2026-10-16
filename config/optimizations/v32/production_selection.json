@@ -1,0 +1,1409 @@
+{
+  "candidate_universe_hash": "d6b829c227827fd2315cf37f67e3f4df18df114392bccd321e3a0dd12752d74d",
+  "measurement_inputs": [
+    {
+      "path": "results/v3-affine-gate-cells-stride2/execution_specialization_tuning.json",
+      "sha256": "cc66326358b6428d5262356623e76ef732590ece411e8932b921ae356770aa36"
+    },
+    {
+      "path": "results/v3-affine-gate-cells-stride100/execution_specialization_tuning.json",
+      "sha256": "7197313b7fcf8900848d232492175d823be0f8af313c1b21a0f00385977b9735"
+    },
+    {
+      "path": "numpy/numpy/_core/code_generators/crossjit_v3_long/execution_specialization_tuning.json",
+      "sha256": "3fa16fc68a7c6f6e65a2f5f4a1636c4168bb62d7320363a01c5c070d34911f97"
+    },
+    {
+      "path": "results/v3-single-calibration/measurements-numpy-scalar/group00-stride2/execution_specialization_tuning.json",
+      "sha256": "20ae4b290061b82bffe2bb3a9bb023128e0b3ba9e9febcd01851416812ef6a3e"
+    },
+    {
+      "path": "results/v3-single-calibration/measurements-numpy-scalar/group00-stride100/execution_specialization_tuning.json",
+      "sha256": "19c0a1ff71594d3c85b7ccba500c2dba962da72cde4c9e5700003f86d5513aa1"
+    },
+    {
+      "path": "results/v3-single-calibration/measurements-numpy-scalar/group01-stride2/execution_specialization_tuning.json",
+      "sha256": "20116d250ca1bbf5b1742ed4aedd89e1e90b470806a79d9ca323e84f6cbbc2ba"
+    },
+    {
+      "path": "results/v3-single-calibration/measurements-numpy-scalar/group01-stride100/execution_specialization_tuning.json",
+      "sha256": "302848f0919f2259db65bb7b39e30d201545224fc15e6644e0d6a46d78f4cad7"
+    },
+    {
+      "path": "results/v3-single-calibration/measurements-numpy-scalar/group02-stride2/execution_specialization_tuning.json",
+      "sha256": "0db27e3109a4bd6aa1c1b50638e460c617d0525250a1b6178b95c99cbf166560"
+    },
+    {
+      "path": "results/v3-single-calibration/measurements-numpy-scalar/group02-stride100/execution_specialization_tuning.json",
+      "sha256": "6aff749c26dd092b19a015e5454e3e1be27d4770aef3c969fbb7437416929199"
+    },
+    {
+      "path": "results/v3-single-calibration/measurements-numpy-scalar/group03-stride2/execution_specialization_tuning.json",
+      "sha256": "954da510546a2a9ef6e544470e4ee11ecc0363e21000d7e6f17f409ff00bed8d"
+    },
+    {
+      "path": "results/v3-single-calibration/measurements-numpy-scalar/group03-stride100/execution_specialization_tuning.json",
+      "sha256": "9628331c3aefc3eb8c113d39ea1b2064bf1993771a4bca21702e48f56b239ad2"
+    },
+    {
+      "path": "results/v3-single-calibration/measurements-numpy-scalar/group04-stride2/execution_specialization_tuning.json",
+      "sha256": "05b21b4c832b898919d320c32ef9c865999d820ff321dcf3b3c777d095c54be3"
+    },
+    {
+      "path": "results/v3-single-calibration/measurements-numpy-scalar/group04-stride100/execution_specialization_tuning.json",
+      "sha256": "3091f69f3e6c6d6db1f4016ac9ecfbc3fd98edeb76cc090cd966f2b413442589"
+    },
+    {
+      "path": "results/v3-single-calibration/measurements-numpy-scalar/group05-stride2/execution_specialization_tuning.json",
+      "sha256": "1ec4b3b51592bf657cf3c51ef1d09b9d8e96ff3eba114e4ff1a5d44c7832a047"
+    },
+    {
+      "path": "results/v3-single-calibration/measurements-numpy-scalar/group05-stride100/execution_specialization_tuning.json",
+      "sha256": "2cfc87e63a5a6df258652cff8555900a2a5b1918ed49b4a02ac29dd048dac7a5"
+    },
+    {
+      "path": "results/v3-single-calibration/measurements-numpy-scalar/group06-stride2/execution_specialization_tuning.json",
+      "sha256": "673295dc07bcd2b633739b9b82c56a091b3ffbd829a434d165b35c282a84c650"
+    },
+    {
+      "path": "results/v3-single-calibration/measurements-numpy-scalar/group06-stride100/execution_specialization_tuning.json",
+      "sha256": "a11980b58728766807adcc1ec625e8a4f45550ec40065cebe70331f9879e60fd"
+    },
+    {
+      "path": "results/v3-single-calibration/measurements-numpy-scalar/group07-stride2/execution_specialization_tuning.json",
+      "sha256": "c3e1416eb85370ca8b05d060b3ee8d64ac300741b9d78a52aa37e16605ca29b8"
+    },
+    {
+      "path": "results/v3-single-calibration/measurements-numpy-scalar/group07-stride100/execution_specialization_tuning.json",
+      "sha256": "22b1149b48e5aabc3596b1ff3244150c1eb8f387fa7996e8c7c362babdc80cf6"
+    },
+    {
+      "path": "results/v3-single-calibration/measurements-numpy-scalar/group08-stride2/execution_specialization_tuning.json",
+      "sha256": "8ca2eac725daf5d334cf0dae71f940094188c373df0137b1ef6cbc4ab7b11cc9"
+    },
+    {
+      "path": "results/v3-single-calibration/measurements-numpy-scalar/group08-stride100/execution_specialization_tuning.json",
+      "sha256": "301e4fdaf01b64ea1c148715dddbbc741fe3405b3416c2c2c51c0685f4b24b1c"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes00-stride2/execution_specialization_tuning.json",
+      "sha256": "f6c30845a485f853ec388c87273d6dc96b04771e0fee951dd3fead1152dafc87"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes00-stride100/execution_specialization_tuning.json",
+      "sha256": "ac5f3e788c5f444148aab45eafb59be34f757134816e6f3d7b054183f32cede9"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes01-stride2/execution_specialization_tuning.json",
+      "sha256": "05bd9f9fd782b5fd3450e38241b8eb9851bc133622c40e0d781bc18b56ddbe5d"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes01-stride100/execution_specialization_tuning.json",
+      "sha256": "ef9c136c24a8a43bef283ada47dc1cb3013ea4a29e8c09e9296c2b55770e5ee9"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes02-stride2/execution_specialization_tuning.json",
+      "sha256": "9fb85871afafcf3eaa72fdbb293fc49e82a586a07ffcbe699bbd9ed28ae70592"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes02-stride100/execution_specialization_tuning.json",
+      "sha256": "487496227d0f20fae1a9fba4bdf16912cd0fea5e39bae12d4696251e6c670dfe"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes03-stride2/execution_specialization_tuning.json",
+      "sha256": "5a79f21d5ea2953f04d729add4df26cb9100e4bdf021c5b0d7ad08facbfd671d"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes03-stride100/execution_specialization_tuning.json",
+      "sha256": "6ae6c8e38858174fe29e6eeba5d94b0be783b2d473c2b4d3bce9ad08d3057bf0"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes04-stride2/execution_specialization_tuning.json",
+      "sha256": "fbfc87c069c31dc08c93aa619ca35f03a5c7cb42d2c995846580cab34bd09002"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes04-stride100/execution_specialization_tuning.json",
+      "sha256": "20a4305e52a6e1df65b07a79f94bfe24e8e07b7aa33b0c50f08024884f0e3935"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes05-stride2/execution_specialization_tuning.json",
+      "sha256": "8f1d377d91d077c71afcfac1eeb5751a9b920dbd56234d9e6016c05f6d3766ba"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes05-stride100/execution_specialization_tuning.json",
+      "sha256": "44ad29909e74dd0ac3ab76b065775ffbf10f215de2d0005f68d949346b5b4449"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes06-stride2/execution_specialization_tuning.json",
+      "sha256": "4f31237129cda82c674893e5a6fdac134e470e0a54c4999094c126e318e06e82"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes06-stride100/execution_specialization_tuning.json",
+      "sha256": "761f7d5ea10c2b5898599b00c1136923450ea4397a68cffea25249a3272bc31f"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes07-stride2/execution_specialization_tuning.json",
+      "sha256": "55504b6fc6b1d434596de448bc75f68e37f7c4fd9849d46e7d5383ec0e45a223"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes07-stride100/execution_specialization_tuning.json",
+      "sha256": "7fcc3384a1d15a38f1ad622232face7d7b678925785785fe66280252f5655f91"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes08-stride2/execution_specialization_tuning.json",
+      "sha256": "b9dace6ea52100dba9ad3a489142a117052a0ed2da9392a0b4bb853a580f1710"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes08-stride100/execution_specialization_tuning.json",
+      "sha256": "696294e5cd407f067c626e56977b30c239f4728e9677c3a3a64844ca970908a4"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes09-stride2/execution_specialization_tuning.json",
+      "sha256": "643590d753ab0e3c0c1803e452d864723ca966aab13d29cc7a34f7a5232d02c7"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes09-stride100/execution_specialization_tuning.json",
+      "sha256": "97dd551770683589415b79e676b754ec6978e1ca95f8e07d3b33951e4c728b4b"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes10-stride2/execution_specialization_tuning.json",
+      "sha256": "36e4c40341c0be0103009ccb30a7f5dbf320fe21f5ad9e37c61c9be5ccc2f165"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes10-stride100/execution_specialization_tuning.json",
+      "sha256": "860ce411be8f032516e785fb78e883c7e9071b69505cb8589465ceb2e4482fb4"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes11-stride2/execution_specialization_tuning.json",
+      "sha256": "4d1bd9ba29c58159c2abdab8a0169e2bad97913f1d30a23e18db5f1b05458138"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes11-stride100/execution_specialization_tuning.json",
+      "sha256": "42c2ea9c5a53636c112963279a428877f0fda1e073e9cd80cbda26a2ea94d719"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes12-stride2/execution_specialization_tuning.json",
+      "sha256": "0c23c7eaaccfbd97fe8b9cf0a284cbb2e2ffb61babf766e92dc723bb7461f7d0"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes12-stride100/execution_specialization_tuning.json",
+      "sha256": "05589a01a853eafa7ff14b8ce37db1ceb9162c4aa57f8f2c256f6e9c5b238ad5"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes13-stride2/execution_specialization_tuning.json",
+      "sha256": "ea078d4e31db4df793a78258c22a58e839f13b78cb63b199c9806f96e74e0ee5"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes13-stride100/execution_specialization_tuning.json",
+      "sha256": "ec1330872c00185066e0bc007dc99935588e7bc92d5e6d263a69b15907d3b6f2"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes14-stride2/execution_specialization_tuning.json",
+      "sha256": "6fef112f687bcbbf119d6029cc4777d84d1b06e674d2a446f4d8d9b99676ef50"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes14-stride100/execution_specialization_tuning.json",
+      "sha256": "707151c17fc13a35df8ca1d65272de984fd66adba49b459666264612015e8edf"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes15-stride2/execution_specialization_tuning.json",
+      "sha256": "608f03fc20ee80be5a9f5a667ba2acb2f5b7a93bd3f36474c66edb09681fb0ba"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes15-stride100/execution_specialization_tuning.json",
+      "sha256": "7a3dd07c764b8ecdafc0322594184c00c1ed46e48578cf874889f2f605583cf5"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes16-stride2/execution_specialization_tuning.json",
+      "sha256": "495f84b7b5e0e2a0bb5c1a360f2fbf666770981567362fbdbe92de8416f10331"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes16-stride100/execution_specialization_tuning.json",
+      "sha256": "4559b03ccd29abd52ccc5548c02e2fdece023b6974ed9d15f249312e11ae7547"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes17-stride2/execution_specialization_tuning.json",
+      "sha256": "189f53a10d9b6581fb0705c312a3418accb9d7756874a3ff21c908424603a3b9"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes17-stride100/execution_specialization_tuning.json",
+      "sha256": "3f692efabff294096f37131fa57281e7722e79bea9143e2a502ad35c1c68841a"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes18-stride2/execution_specialization_tuning.json",
+      "sha256": "a9b98d4c0e18fba50e15abc61c7448a8f52606491fc5120a8cde75b51b2ee0db"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes18-stride100/execution_specialization_tuning.json",
+      "sha256": "e9f224628ef7ea35546f7f0d9e50e6e829c295bbadee3a9891ea46d632f99616"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes19-stride2/execution_specialization_tuning.json",
+      "sha256": "134141020fa5834fa062fa512cf25475ac96135a9767d905acb39e5f80d23e57"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes19-stride100/execution_specialization_tuning.json",
+      "sha256": "003143c2b5deeb8e8d4d45c3670cd84a2b7b82eb023bea12101f89687856a29e"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes20-stride2/execution_specialization_tuning.json",
+      "sha256": "91dc77efa249765dacb1b010bbbd0aca77bb27bfae19af098212c898fd348a39"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes20-stride100/execution_specialization_tuning.json",
+      "sha256": "55da9172863f28c17b1ff639ab3ff1fa48c15c70ab9b8811666cca3a9f856f86"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes21-stride2/execution_specialization_tuning.json",
+      "sha256": "73ed94f2d1d18b40864b43d84bca761a84a4d74278b32bdc30a709615292224a"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes21-stride100/execution_specialization_tuning.json",
+      "sha256": "7a1be4bf4a78d171dcef04cbeee5be81e726f3750ad0f0a4b3b2d391d6e07964"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes22-stride2/execution_specialization_tuning.json",
+      "sha256": "de3e574669269552f37d96803ebc3e1d42e12fe83f79d490672987692ddf7bbe"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes22-stride100/execution_specialization_tuning.json",
+      "sha256": "9c9a51d312e939a4b5a0a228517946f2a0ec0cfeab1fae7a887fc8090ac5c02b"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes23-stride2/execution_specialization_tuning.json",
+      "sha256": "a48ffc21186afbd48125d335552faf8e95c5788ad9bd3b508fec4e6d91b6b22c"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes23-stride100/execution_specialization_tuning.json",
+      "sha256": "bd6e1588781b29fc3fdc3afa73ba11f125d32827d175731ea01e79a9ba378faf"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes24-stride2/execution_specialization_tuning.json",
+      "sha256": "d69d129e784c1f0ec9781fd02abdfde0472b56736617a1d4652958fa2d85953c"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes24-stride100/execution_specialization_tuning.json",
+      "sha256": "fab0b2777ded3383418db81fa8545bf49d77e1d6d997bf247ab4620155617443"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes25-stride2/execution_specialization_tuning.json",
+      "sha256": "2514622241b53c26e3b6181d4f0bf584823e6679fe5a3b86d7fd3bceb34109d0"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes25-stride100/execution_specialization_tuning.json",
+      "sha256": "6241838645b99ae47fa79e3da21f7e45a595ab1460ceaa0c53e23487118423ad"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes26-stride2/execution_specialization_tuning.json",
+      "sha256": "bee1eadb1a49bd506fa46437cac24ac8b762ce54dad29673071f727b5a8b842c"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-provider-first-scalar-matrix/group00-classes26-stride100/execution_specialization_tuning.json",
+      "sha256": "a62e50a7a16fd6f8be07ceedfd34b60abdbf19b0b9a6605963a2100d0d95a549"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coalesced-scalar-matrix/group00-classes00-stride2/execution_specialization_tuning.json",
+      "sha256": "64e86fa6960782af8ce86c18bf5d28b86542446306f427e5929056ec8bf09cf6"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coalesced-scalar-matrix/group00-classes00-stride100/execution_specialization_tuning.json",
+      "sha256": "71666929c4e4fc1ddcfe4226ce3e277ce74fadfcd2e71d660cdfc8e03ba8d294"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coalesced-scalar-matrix/group01-classes00-stride2/execution_specialization_tuning.json",
+      "sha256": "5db91c452463ae32cbe5457126dfd43a6caa04648b22904bd1e06a9b50bfacbc"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coalesced-scalar-matrix/group01-classes00-stride100/execution_specialization_tuning.json",
+      "sha256": "851bd8733fe49597bbb69d83e368b97dda29173259a942f569737f9080dad77a"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coalesced-scalar-matrix/group02-classes00-stride2/execution_specialization_tuning.json",
+      "sha256": "0510e805984c14234d8ffca62473b4b4d83b1eda6c5c66a8b08f55119cfe712a"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coalesced-scalar-matrix/group02-classes00-stride100/execution_specialization_tuning.json",
+      "sha256": "afd9f7c7257b4842b803da6fa943607fa197b6fe13bc246885e3f0f269893f94"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coalesced-scalar-matrix/group02-classes01-stride2/execution_specialization_tuning.json",
+      "sha256": "a4677ae0fbe52e56c703cc2f048a0bff51c113ac0c9d6f2c610c16782355ee65"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coalesced-scalar-matrix/group02-classes01-stride100/execution_specialization_tuning.json",
+      "sha256": "0ae9048e15a153977a0f146048b7c30a26d46df87cc23a223f418577035b8731"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coalesced-scalar-matrix/group02-classes02-stride2/execution_specialization_tuning.json",
+      "sha256": "81ffa97560d7e6c24744d827607bdea2452239e4c4a26d2bd235bf000f2b59c1"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coalesced-scalar-matrix/group02-classes02-stride100/execution_specialization_tuning.json",
+      "sha256": "3d35eac76b88435920df6cf4b3c20a8c9966eecff89f7d414488857d9d929d80"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/05083ff59cdb-1x100000/execution_specialization_tuning.json",
+      "sha256": "9f85fb3c43e9c97b9fd95666f98a987dea37cc33b22e1b9285a0a478ad05c477"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/0fbf7717cad8-1000x1000/execution_specialization_tuning.json",
+      "sha256": "b725fb07b6e0e0764c2ff46945f7576f0d3acb91cc0d06eef6973a2f7c796f5c"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/a78f3516b04e-1x500/execution_specialization_tuning.json",
+      "sha256": "caecbd8444eb42a4edce1e681c00e9a7e0186242b143ffd2d4a035e8ed89d56e"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/8b547ed66042-1x499/execution_specialization_tuning.json",
+      "sha256": "b4d977879099bec76fcf5d41bed89aa6e66269f7cdade263626fcaa32fa88eb8"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/d1e18012984b-1x6/execution_specialization_tuning.json",
+      "sha256": "2e9bb8d806ee431a9f1c0f455bfb7984c91bf1929e287f898396b5659e5421f4"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/064a26f22ddc-1000x1100/execution_specialization_tuning.json",
+      "sha256": "d21ac359e46f4dc1ad7ec084451880d56f1531e7e44c82c5ac56e86dbb5a2963"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/2f76a9af97df-2000x2000/execution_specialization_tuning.json",
+      "sha256": "30a31d369aa2ba8543cfcaeb8c696d2a684fd5d6cedb08c876106fbf25355186"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/fc335417a580-2000x2000/execution_specialization_tuning.json",
+      "sha256": "0516016c524614b9b379f783baf6c9b98dd007e771bc8b8dfe10996802685a28"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/889cbc41eabd-1x70/execution_specialization_tuning.json",
+      "sha256": "5b54e4c7e31d683f63394a49ec9be4f1ba6fdaa13d5d48b66b3f286a00c0672a"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/2adb9569f51c-1x3198/execution_specialization_tuning.json",
+      "sha256": "55c52130b8196a861ff3dedb9f5cb65e9df0fd2acb9ff287c390331728f629e3"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/4520d699c1da-148x148/execution_specialization_tuning.json",
+      "sha256": "37ee6efb14916c932758ab4f9ff645906bd9c1ffae32d7f580931707d26673f2"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/064a26f22ddc-800x950/execution_specialization_tuning.json",
+      "sha256": "6d96944bd0690909f404a37aeb694ed67c07891c8650c09bc6143d1b4792a6c6"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/ca7073c2c1aa-1x48/execution_specialization_tuning.json",
+      "sha256": "ebe886fd6d16d54980444bdae8c591d57d3fc74ec104304d043b615a4958bb8f"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/d753a638a200-1x50/execution_specialization_tuning.json",
+      "sha256": "8ea35c1d046a2acc5be88648e12fb13584c5c88f9a9dac5aca19719e3e5c06bb"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/74901c171538-1x15/execution_specialization_tuning.json",
+      "sha256": "3fc1a5f7c4d02ff7e5534ef73b142c919a5b8d327711fddc414ee77321b6d8d7"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/d1e18012984b-1x11/execution_specialization_tuning.json",
+      "sha256": "9528b8f0bba1657d9cd9668933c3d28ed24774063aa0946e790c09577f15beb3"
+    },
+    {
+      "kind": "development-workload-selection",
+      "path": "/workspace/crossjit-workspace/reports/v3-coverage-next-20261003/final-effect-evidence.json",
+      "sha256": "243faebd3fed65e07d41382ce0cc889eeaaf831c5ca438c3fab12984cd3705bf"
+    },
+    {
+      "kind": "development-workload-selection",
+      "path": "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/calibration-npbench-observed-v2/manifest.json",
+      "sha256": "5af4b5365648caebc73a96e422d8d6fcecb6ddf6040f1ce56537b84ed500e245"
+    },
+    {
+      "kind": "development-workload-selection",
+      "path": "/workspace/crossjit-workspace/results/v3-coverage-next-20261003/correctness-only-selection.json",
+      "sha256": "38a0ce3d14498bc110a6dd6e1ed5580c7e38ef81f016d9ada5c54409458fa5f1"
+    },
+    {
+      "kind": "development-workload-selection",
+      "path": "/workspace/crossjit-workspace/tools/crossjit_v3_retain_npbench_policy.py",
+      "sha256": "3031f29cadd97dcc7774b6e3db62a68c8c4c54dda268b1410a742a3d5119028c"
+    }
+  ],
+  "policy_name": "CROSSJIT-V3-SINGLE-NODE",
+  "preserved_legacy_selection_sha256": "0c47c85fd321e6bed46dcf8551c97f78f2fd6ed8d3b2b7423b8ba3e0998a85c7",
+  "preserved_prior_execution_dbs": [
+    {
+      "path": "/workspace/crossjit-workspace/results/v3-coalesced-class-policy/execution_decision_db.json",
+      "sha256": "f4203fbd48224aa946ed12665e8ef71ac3d5a880d0ab869d61bead11b1872e9f"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/numpy/benchmarks/benchmarks/crossjit/results/profiled/pf4_inner_contiguous/execution_decision_db.json",
+      "sha256": "09a516bc3b87965debea5d859fff929ca0b2d2d448c6191e458def01f1e160aa"
+    },
+    {
+      "path": "/workspace/crossjit-workspace/numpy/benchmarks/benchmarks/crossjit/results/profiled/pf5_scalar_zero_stride/execution_decision_db.json",
+      "sha256": "0ffbe9f093fb08c722a64fd7fe79fdda441bae7f5867a43e5ec331e576b41176"
+    }
+  ],
+  "preserved_prior_selection_sha256": "6d4299cd409335b8e9dd801b3f12ee831ce3bdfcfd09d2f8edd6ef4aa749a5ac",
+  "records": [
+    {
+      "candidate_hash": "00b95b8ea902bf834c62861c7630b7aab6035ab7d99c3d3e130b30977d1182f0",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 3960,
+          "outer_count": 66,
+          "scalar_class_mask": 1
+        },
+        {
+          "inner_extent": 3960,
+          "outer_count": 66,
+          "scalar_class_mask": 2
+        },
+        {
+          "inner_extent": 3960,
+          "outer_count": 66,
+          "scalar_class_mask": 3
+        }
+      ],
+      "production_artifact_decision": "SELECT",
+      "value_class_policy_version": 1
+    },
+    {
+      "candidate_hash": "0d623899c5b7d6d1c59c38365b623a6c747dcbac3e5b287ff4bdaae04f8e3c7e",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "0e1896b0aa13f828ed82dcd4e15a9f4f49aab3f99c731236c1d18d474c1d3e26",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 60,
+          "outer_count": 60
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "106b926c3235fd5a624aa1bcf9577e3acb0869b94bcbc92967c744bbd502a25b",
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "177a0b29d7911a96884dd4b8c5844a8a249299c4869596f0cc06c8fe57a7526d",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "229b6ec6b8fa69bd1db832b09f14e39d5c8d974ed54290a26c5e22aa3973abb8",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 59,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 200,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 400,
+          "outer_count": 1
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "22e41f20eca704ae3d4cbb91e3a8d4007001fd3b7f78d91ca4710f0fdb6041e9",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "243463125efe5739dfd23de3f9644ba6ac7d015ff6687a34b0d130e32aa200e5",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "26884510b22fd5e64160daaa8ca19f90e45ce9a42cdaa233f7c3a2b5ea96404c",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 59,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 200,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 400,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 60,
+          "outer_count": 60
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "26bb9778d1288654b71a351490c740c1018ed8b461608d7ac4776612908e1606",
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "2ac1f304bbd6fb35f4f07210cd7006bb2b8421b7909f9bd081d286ce5efc0b3d",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "2cdeb2aa06ebcd8b5e0e62561547d50dbc81de9be67ca93c6a4abe5a2c21c0d5",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "3236896b62eabf58721aef4ccc1fe508c6ea7d606239dc526a5cb07112ba81e2",
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "33447424dab06317432403a55bf2059eae09a1fd6d9a894415455823093791fe",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 59,
+          "outer_count": 59
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "36b680597b4756a461551a28321dec04011057c7513cb0fee18e6266373301de",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "373cdc061ab53a834a7705fc8c0a92c757ccd47ff857f29288366de0ad29285b",
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "382f9b85b79af2e8b80a4e9cabe2b60aa70123d44ddf009ecdad139578e771e7",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 59,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 200,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 400,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 60,
+          "outer_count": 60
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "3ece78f7c49506fbe955dcbd9aea2fb52d2e49a9d9a3fdc9e10b2ead4aa4bfde",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 3840,
+          "outer_count": 64,
+          "scalar_class_mask": 0
+        }
+      ],
+      "production_artifact_decision": "SELECT",
+      "value_class_policy_version": 1
+    },
+    {
+      "candidate_hash": "411a936a680b48a174e16d534c8d508c9a0f99a66a93806edd09b8a9a41eccec",
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "4203d7ed1e3861f12560dc788fb7d0755b70bf6ba3b06723673802a4b666a51f",
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "424796b7421f113e2595ff8f5f026ea35f0b1613be81f3d1155c7664cb4b1593",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT",
+      "value_class_policy_version": 1
+    },
+    {
+      "candidate_hash": "4360377e28635931e2f7866499ba0b9c4df4c42df6823e0553f42a83056a1f4a",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 59,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 200,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 400,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 60,
+          "outer_count": 60
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "4372bdd30fdc84da933a1e63f9408ce4c32ceb313f0fa567d90d0e90474440ec",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT",
+      "value_class_policy_version": 1
+    },
+    {
+      "candidate_hash": "46e8dd0b2ddb8cc18d0503566b555afa1be54cbeef7eac5d285d9f00e442f6e4",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 59,
+          "outer_count": 59
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "47e306cb193d45f327810c8ab3040fd27a6657cee5d4768f94a775bf4e88bf33",
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "4b831e20c828c249cba385527382fd9d13d11a2cfe9551a240533297347a667a",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "53ed9592b1c2325ba08c407141ba55d83d187833c1c3f2fc308b6227faf5474c",
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "55fd552621b6f1894915e11b5cea5d91c598c3bdb32b76cd09c4b2f04c81716a",
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "5655bfd852369c02920872970c31c75128ff4650cd86cd1ffefb7e3148be00f5",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 16,
+          "outer_count": 4
+        },
+        {
+          "inner_extent": 64,
+          "outer_count": 4
+        },
+        {
+          "inner_extent": 256,
+          "outer_count": 4
+        },
+        {
+          "inner_extent": 1024,
+          "outer_count": 4
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "56838e3cc11845bb8b8bd63d2952d8b82f8959cc2367de0c41a24d07ac399593",
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "581f9f7655198d9b7cb2b9b3f998fa2ded8a9765e92b5f483dba424c85f2a019",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 59,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 200,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 400,
+          "outer_count": 1
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "62f13e00cbe94df7ee07d3386a767dbab1eaf8af79b64168b7c6d27d31cf7e33",
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "6512178fd6b8105e6d40590af6f1e5c595fe060c0f49d7135831d1c92f430e1d",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "66c77782a7d4c20d83f16ec7ccb6cc17cda037dbb9985c3ebedf703a49547d9c",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 59,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 200,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 400,
+          "outer_count": 1
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "686e789df267a3671d1e667d9424a088ef5c9dc4b5d76214dd6cf6d0898a72e2",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 59,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 200,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 400,
+          "outer_count": 1
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "6d0925e849ad432b9d5b154b4db93e95ad54fe04f0d9b7ebbce955d5bd231060",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 3960,
+          "outer_count": 66,
+          "scalar_class_mask": 0
+        }
+      ],
+      "production_artifact_decision": "SELECT",
+      "value_class_policy_version": 1
+    },
+    {
+      "candidate_hash": "70af12a3f0b5d4e343326ea2ce72b084f2838baf0041bcccd6c2e73a126f5f93",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT",
+      "value_class_policy_version": 1
+    },
+    {
+      "candidate_hash": "7459fa72b53d1702a590014a57545a6d63da79e71c8203abbc1faa69d8842e26",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 59,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 200,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 400,
+          "outer_count": 1
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "752424a144a5f8a5275a049952fd5210bc247de4571fb98ae49c469c12c1b075",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 60,
+          "outer_count": 60
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "7b75eb2848d39a9fcd64821aedcd092d231f71a72f3735fefc754b6b8f729d28",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "7c5a37570f6940a8cc9eb103e77a703620c241e7a92d473de1ea46135e393caa",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT",
+      "value_class_policy_version": 1
+    },
+    {
+      "candidate_hash": "7fa371fc38a98de5d4202dc6ce4e0d0aad32f323f779aab1d66ceb3f89751653",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "8476842b9409d298fee0afb90086adeeb15383b6580d21cd5b0c7099009477a5",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "88f121fe93db193be625b885eede4fe1d55defc331bc80248c48222deb38a49c",
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "898fa1a8409a7c851e7d2465fe9d0288ab3f4eebbf6311c047dcb033db00e335",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 59,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 200,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 400,
+          "outer_count": 1
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "8b4b4a6447844674c7d85e96845431bf3357cb88eb4d4c65bb4c015077483e5d",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 4353
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 8449
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 12545
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 4609
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 8705
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 12801
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 4865
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 8961
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 13057
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 4354
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 8450
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 12546
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 4610
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 8706
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 12802
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 4866
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 8962
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 13058
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 4355
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 8451
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 12547
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 4611
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 8707
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 12803
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 4867
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 8963
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1,
+          "scalar_class_mask": 13059
+        }
+      ],
+      "production_artifact_decision": "SELECT",
+      "value_class_policy_version": 1
+    },
+    {
+      "candidate_hash": "8cdcfd610abd11dda22cba500205af1b6608a490eb2e24dd9df91ae522f719b9",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "94a8af0280e6a10826b2174587457d7f737558c5a49880cdc78dc486808d14cb",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 59,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 200,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 400,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 60,
+          "outer_count": 60
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "95d5c193ff0708db40bfee899d3ce79f9de9dd0290e30632957d6597ba73d5d1",
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "a00c9a1661bc1f2882c9c7780c58b3727130ae83804f712e7645418ce94b5f8c",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 59,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 200,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 400,
+          "outer_count": 1
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "a0944eff904bc3f5a4da482b762b860e186bb1437c4593eb59e7dc30fc421f0a",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "a22e835d75c785fbd859eb3b8f4b5b4937e1494b32f910460ffb4e60d42a12fd",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT",
+      "value_class_policy_version": 1
+    },
+    {
+      "candidate_hash": "a4b3d38d79928d214f03feeb98f1e0b19b4b2936c571261ed3a70552ff27166e",
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "a62f5769ec2e587ee8daacc2529f584dc1a4b5eca3816e637f96ba76b526c85f",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 70,
+          "outer_count": 1,
+          "scalar_class_mask": 32
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "ad1f0c9833791f666b537b0bc223a27fb680e73af6f58b13442dda5feda3e02b",
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "adfbfa2dc8c5059c349eec7a80355ca018911b3de408bdb5ba30747bd84eb4ea",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 59,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 200,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 400,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 60,
+          "outer_count": 60
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "b0adc4bb8d87bef570eeee91d5db583662358313cb470fa4caa269099e57fe8a",
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "b1ba87ed0c69b95fbbad2aa367306adae15ef1dc65ddca5de96402ca321db1b5",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT",
+      "value_class_policy_version": 1
+    },
+    {
+      "candidate_hash": "b52bd1735a6760624476bafe6b1124f5c2efb73d51bed71465cef9533173ec8c",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "b86349afc39e6269b56c2c7051286e87fcda1762acd13f3c3867942e3b218705",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 59,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 200,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 400,
+          "outer_count": 1
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "ba1e01e61b7deb3e7f4647574fb06ebf7de601cd6ca9af0e679245461e813cd6",
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "bf7012ba328264595017aa936729eb2a16ab6d50cc090836f6de9c861e608974",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "c528a206cfca3416a3ff7ed1d4dc9b61fe37aa21e47bd4ee3e2bc0ece5dc53ec",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 950,
+          "outer_count": 800,
+          "scalar_class_mask": 2
+        },
+        {
+          "inner_extent": 1100,
+          "outer_count": 1000,
+          "scalar_class_mask": 2
+        }
+      ],
+      "production_artifact_decision": "SELECT",
+      "value_class_policy_version": 1
+    },
+    {
+      "candidate_hash": "c6352cf09ae97c2d7423799c963e95b64c716390063b7ffd8d5ce556fe1dd6e1",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "c914b7b18ba9e6dd678b2bc89c151d2f964688ffa4b066e03a531e5a866b9043",
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "cc5de0f915e43cd10aa0b8b166818fb189002bd3cd8bc291ab2a3d08c28b5ec9",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 60,
+          "outer_count": 60
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "d2b7cfa13a016c4dcdffc25287d9156745bc27a200dba4d2a256d3a7b0a97a4f",
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "d2e22049f6a6fc7224b3a50e96ed46141917957c0cb9cedfb8b5af91c50bf396",
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "da040c57ab68ab5e018840c2f54c9d115453c31d74d778ffbbadcd082b7849af",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 59,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 200,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 400,
+          "outer_count": 1
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "df62db14d00afb656044c15d88be7399c668b0689da4cb9f419d359b7cdbbdd9",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "e25f2c39a3844d6e450ff226badec35a45e60c7b17097c6c0e9b69234c2d858e",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 59,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 200,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 400,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 60,
+          "outer_count": 60
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "e3816dc84a419184ff92e4c1b318c45895e683a7d7d8ddae006cfc43edfbd09d",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT",
+      "value_class_policy_version": 1
+    },
+    {
+      "candidate_hash": "e7cfcbb356d96973a1725476c1757afdfea446f0f57bb46b52fb253bccf211b2",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "eb512934691f515b202cf135366cfd38692d848105f26023f44798ae323107dc",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "eec520f3d39a047433b0e26cdd8b3a5293511edb4e870d955d42e6c793d95c89",
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "ef634706a1820bf8672f85ef66b0b28d4abf0123166561ba6c8b8ff10092c30c",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 16,
+          "outer_count": 4
+        },
+        {
+          "inner_extent": 64,
+          "outer_count": 4
+        },
+        {
+          "inner_extent": 256,
+          "outer_count": 4
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "f15429a01048d9885d1e33c64626df237d40fc7b830bd9f44a2ddd67d5502503",
+      "measured_iteration_cells": [],
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "f38779fb5ae76533c79dcbe6e5dfc8240700180d30ab1f5a627cb8c1ddaa9f7f",
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "f5fde18410c60e441a4c704ff5e16cae8caeae4169dfaa9f4b21d02fd94fcbf0",
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "f8c7e4a63fb3dda86767483a10d529cd2fb81aeb4e3e8c57dbe62507b39e11dd",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 59,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 200,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 400,
+          "outer_count": 1
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "f9207fc71894f3d1d04f3b5634578de3987cccf33905c6c185106c4cb9161676",
+      "production_artifact_decision": "REJECT"
+    },
+    {
+      "candidate_hash": "fa66c8715ba1e01e111f9156dfda3a0310bb582b2b256f34a749622f21df3314",
+      "measured_iteration_cells": [
+        {
+          "inner_extent": 59,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 98,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 200,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 400,
+          "outer_count": 1
+        },
+        {
+          "inner_extent": 60,
+          "outer_count": 60
+        }
+      ],
+      "production_artifact_decision": "SELECT"
+    },
+    {
+      "candidate_hash": "fe184d62e570bdee25f352d7562320d35f165a764d1b65547ac9f7c2cc80f9df",
+      "production_artifact_decision": "REJECT"
+    }
+  ],
+  "runtime_profitability_retuned": true,
+  "schema_version": 2,
+  "summary": {
+    "production_rejected_artifact_count": 44,
+    "production_selected_artifact_count": 39
+  }
+}
